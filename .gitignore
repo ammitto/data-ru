@@ -1,0 +1,6 @@
+*.swp
+*.tmp
+*.log
+.DS_Store
+downloaded/*
+!downloaded/.gitkeep
