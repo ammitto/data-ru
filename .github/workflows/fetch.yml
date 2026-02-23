@@ -5,8 +5,9 @@ on:
     # Run daily at 8:15 AM UTC
     - cron: '15 8 * * *'
   workflow_dispatch:
+  pull_request:
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - '.github/workflows/fetch.yml'
 
@@ -27,12 +28,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: false
-
-      - name: Install ammitto gem from GitHub
-        run: |
-          gem install specific_install
-          gem specific_install https://github.com/ammitto/ammitto.git -b main
+          bundler-cache: true
 
       - name: Fetch data
         run: |
