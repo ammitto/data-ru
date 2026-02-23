@@ -1,0 +1,131 @@
+= Ammitto Russia Sanctions Data Repository
+
+== Purpose
+
+This repository stores downloaded and processed sanctions data from the
+Russian Federation government sanctions announcements.
+
+The data is maintained by the Ammitto project and used by the `ammitto` Ruby
+gem for querying international sanctions information.
+
+== Legal Basis
+
+Russia maintains sanctions and restrictive measures lists through:
+
+* **Стоп-лист (Stop-list)** - Ministry of Foreign Affairs (MID)
+* **Central Bank Sanctions** - Central Bank of Russia (CBR)
+* **Government Decrees** - Постановления
+
+These are implemented through federal laws and government decrees
+authorizing reciprocal sanctions against foreign persons and entities.
+
+== Data Source
+
+Russia maintains sanctions lists through:
+
+.Stop-list (Стоп-лист)
+* **Authority**: Ministry of Foreign Affairs (МИД России)
+* **URL**: https://mid.ru
+* **Effects**: Entry bans on foreign persons
+
+.Central Bank Sanctions
+* **Authority**: Central Bank of Russia (ЦБ РФ)
+* **Effects**: Financial sanctions
+
+.Government Decrees
+* **Authority**: Government of Russia
+* **Effects**: Various economic restrictions
+
+== Directory Structure
+
+```
+.
+├── downloaded/           # Raw HTML pages from Russian government websites
+│   └── *.html
+├── processed/            # Individual YAML files per sanction entity
+│   └── {name}-{index}.yaml
+├── reference-docs/       # Reference documentation
+├── .github/workflows/    # GitHub Actions for automated updates
+├── README.adoc           # This file
+├── CLAUDE.md             # Guidance for Claude Code
+└── update.log            # Timestamps of data updates
+```
+
+== Special Considerations
+
+* **Format**: HTML announcements (not structured XML/JSON)
+* **Language**: Russian with English transliterations
+* **Parsing**: Requires HTML extraction from official announcements
+* **Encoding**: UTF-8 with Cyrillic characters
+
+== Directory Descriptions
+
+downloaded/:: Contains raw HTML pages downloaded from Russian government
+websites. Data must be parsed from official announcements.
+
+processed/:: Contains individual YAML files, one per sanction entity.
+Files are named using the pattern `{primary-name}-{index}.yaml` where
+index ensures uniqueness for entities with similar names.
+
+reference-docs/:: Contains reference documentation and translations.
+
+update.log:: Log file tracking when data was last updated with timestamps.
+
+== Updating Data
+
+Data is automatically updated daily via GitHub Actions.
+
+To manually update using the ammitto gem:
+
+[source,shell]
+----
+# From the ammitto gem directory
+bundle exec ruby exe/ammitto fetch ru --format yaml --output-dir ./processed
+----
+
+Or via the adapters repository:
+
+[source,shell]
+----
+# From the adapters/ directory
+ruby adapter.rb
+----
+
+== YAML Schema
+
+Each processed YAML file follows the schema defined in
+`ammitto/lib/ammitto/sources/ru/` using Lutaml::Model.
+
+.Example YAML structure
+[source,yaml]
+----
+names:
+  - "PRIMARY NAME (Кириллица)"
+  - "PRIMARY NAME (Latin)"
+entity_type: person  # or "organization"
+source: ru
+country: Country Name
+list_type: "stop-list"  # or "central-bank", "government"
+sanction_measures:
+  - "Entry ban"
+----
+
+== Entity Types
+
+The Russian sanctions lists contain the following entity types:
+
+Person:: Individual persons subject to sanctions
+Organization:: Legal entities, companies, and organizations
+
+== Related Repositories
+
+* https://github.com/ammitto/ammitto[ammitto] - Main Ruby gem
+* https://github.com/ammitto/adapters[adapters] - Data fetching adapters
+* https://github.com/ammitto/data-eu[data-eu] - EU sanctions data
+* https://github.com/ammitto/data-un[data-un] - UN sanctions data
+* https://github.com/ammitto/data-us[data-us] - US OFAC sanctions data
+
+== License
+
+Data in this repository is sourced from official Russian government
+announcements. The data processing code is part of the Ammitto project.
