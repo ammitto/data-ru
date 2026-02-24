@@ -1,6 +1,31 @@
-*.swp
+# Temporary files
 *.tmp
-*.log
+*.swp
+*~
+
+# OS files
 .DS_Store
+
+# Logs
+*.log
+update.log
+
+# Ruby
+.vendor/
+.bundle/
+vendor/
+Gemfile.lock
+
+# IDE
+.idea/
+
+# Local development
+CLAUDE.md
+
+# Downloaded data (keep directory)
 downloaded/*
 !downloaded/.gitkeep
+
+# Processed data (keep directory)
+processed/*
+!processed/.gitkeep
