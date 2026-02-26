@@ -117,13 +117,30 @@ The Russian sanctions lists contain the following entity types:
 Person:: Individual persons subject to sanctions
 Organization:: Legal entities, companies, and organizations
 
+== Knowledge Graph Integration
+
+This repository's processed YAML data feeds into the Ammitto knowledge graph.
+
+When the harmonization process runs:
+
+[source,shell]
+----
+# Auto-detect all data-* repos and harmonize
+ammitto harmonize --scan --sources-dir /path/to/repos --output-dir ./api/v1
+----
+
+The ru data is transformed into:
+
+* Individual JSON-LD nodes in `api/v1/node/entity/ru/{id}.jsonld`
+* Sanction entries in `api/v1/node/entry/ru/{id}.jsonld`
+* Lightweight search index entries
+* Facet counts for filtering
+
 == Related Repositories
 
-* https://github.com/ammitto/ammitto[ammitto] - Main Ruby gem
-* https://github.com/ammitto/adapters[adapters] - Data fetching adapters
-* https://github.com/ammitto/data-eu[data-eu] - EU sanctions data
-* https://github.com/ammitto/data-un[data-un] - UN sanctions data
-* https://github.com/ammitto/data-us[data-us] - US OFAC sanctions data
+* https://github.com/ammitto/ammitto[ammitto] - Main Ruby gem with harmonization
+* https://github.com/ammitto/data[data] - Harmonized knowledge graph output
+* https://github.com/ammitto/ammitto.github.io[ammitto.github.io] - Website with search
 
 == License
 
