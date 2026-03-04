@@ -1,0 +1,254 @@
+---
+# JSON Schema Draft-07 for Russian Sanctions Announcement format
+# Russian Ministry of Foreign Affairs sanctions announcements
+#
+# Changes from v0.1.0:
+# - Made title.en required non-empty
+# - Added version field
+# - Added country_code to entities
+
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "Russian Sanctions Announcement"
+version: "1.0.0"
+description: |
+  Schema for Russian Ministry of Foreign Affairs sanctions announcements.
+  Contains two primary sections: announcement metadata/content and sanction details.
+
+type: object
+required:
+  - announcement
+  - sanction_details
+additionalProperties: false
+
+properties:
+  version:
+    type: string
+    pattern: "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    description: "Schema version (semver)"
+    default: "1.0.0"
+
+  announcement:
+    type: object
+    description: "Document metadata and bilingual content"
+    required:
+      - title
+      - url
+      - lang
+      - publish_date
+      - publish_time
+      - authority
+      - publisher
+      - type
+      - document_id
+      - signatory
+      - content
+    additionalProperties: false
+    properties:
+      title:
+        type: object
+        description: "Bilingual announcement title"
+        required: [ru, en]
+        properties:
+          ru:
+            type: string
+            minLength: 1
+            description: "Russian title"
+          en:
+            type: string
+            minLength: 1
+            description: "English title"
+
+      url:
+        type: string
+        format: uri
+        description: "Source URL of the announcement"
+
+      lang:
+        type: string
+        enum: [ru, en]
+        description: "Primary language of the document"
+
+      publish_date:
+        type: string
+        pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        description: "Publication date in ISO 8601 format (YYYY-MM-DD)"
+
+      publish_time:
+        type: string
+        pattern: "^[0-9]{2}:[0-9]{2}$"
+        description: "Publication time in 24-hour format (HH:MM)"
+
+      authority:
+        type: string
+        description: |
+          Issuing authority. Two formats observed:
+          - Identifier: 'ru/ministry-of-foreign-affairs'
+          - Full name: 'Министерство иностранных дел Российской Федерации'
+          NOTE: Should be normalized to identifier format.
+
+      publisher:
+        type: string
+        description: |
+          Publishing entity. Same format variance as authority.
+
+      type:
+        type: string
+        description: |
+          Document type. Two formats observed:
+          - Identifier: 'ru/ministry-of-foreign-affairs-announcement'
+          - Freeform: 'press-release'
+
+      document_id:
+        type: string
+        description: "Official document identifier (e.g., '9-05-01-2026', '1585-26-09-2025')"
+
+      signatory:
+        type: string
+        description: "Signatory authority (same format variance as authority)"
+
+      content:
+        type: object
+        description: "Bilingual body content (YAML literal block scalar)"
+        required: [ru, en]
+        properties:
+          ru:
+            type: string
+            description: "Russian content (multiline, preserves newlines)"
+          en:
+            type: string
+            description: "English content (multiline, preserves newlines)"
+
+  sanction_details:
+    type: object
+    description: "Structured sanctions data"
+    required:
+      - instruments
+      - entities
+    additionalProperties: false
+    properties:
+      instruments:
+        type: array
+        description: "Legal instruments authorizing sanctions"
+        minItems: 1
+        items:
+          type: object
+          required: [id]
+          additionalProperties: false
+          properties:
+            id:
+              type: string
+              pattern: "^ru/[a-z0-9-]+$"
+              description: "Legal instrument identifier (e.g., 'ru/federal-law-114')"
+
+      entities:
+        type: array
+        description: "List of sanctioned entities (individuals or organizations)"
+        minItems: 1
+        items:
+          type: object
+          required:
+            - name
+            - type
+            - title
+            - effective_date
+            - sanction_list
+            - reason
+            - measures
+          additionalProperties: false
+          properties:
+            name:
+              type: object
+              description: "Bilingual name"
+              required: [ru, en]
+              properties:
+                ru:
+                  type: string
+                  minLength: 1
+                  description: "Name in Russian"
+                en:
+                  type: string
+                  minLength: 1
+                  description: "Name in English (Latin script)"
+
+            type:
+              type: string
+              enum: [individual, organization]
+              description: "Entity type"
+
+            title:
+              type: object
+              description: "Bilingual title/position/affiliation"
+              required: [ru, en]
+              properties:
+                ru:
+                  type: string
+                  minLength: 1
+                  description: "Title in Russian"
+                en:
+                  type: string
+                  minLength: 1
+                  description: "Title in English"
+
+            effective_date:
+              type: string
+              pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+              description: "Date sanctions take effect (ISO 8601)"
+
+            sanction_list:
+              type: string
+              description: |
+                Type of sanction list. Observed values:
+                - 'черного списка' (blacklist/stop-list)
+
+            country_code:
+              type: string
+              pattern: "^[A-Z]{2}$"
+              description: |
+                ISO 3166-1 alpha-2 country code of the sanctioned entity's
+                nationality or primary affiliation.
+                Examples: CA (Canada), GB (United Kingdom), AU (Australia)
+
+            reason:
+              type: array
+              description: "Bilingual justification for sanctions"
+              minItems: 1
+              items:
+                type: object
+                required: [ru, en]
+                properties:
+                  ru:
+                    type: string
+                    minLength: 1
+                    description: "Reason in Russian"
+                  en:
+                    type: string
+                    minLength: 1
+                    description: "Reason in English"
+
+            measures:
+              type: array
+              description: "Specific sanction measures applied"
+              minItems: 1
+              items:
+                type: object
+                required: [type, ru, en]
+                properties:
+                  type:
+                    type: array
+                    description: "Measure type identifiers"
+                    minItems: 1
+                    items:
+                      type: string
+                      enum:
+                        - entry_ban
+                        - asset_freeze
+                        - financial_restrictions
+                        - trade_restrictions
+                  ru:
+                    type: string
+                    minLength: 1
+                    description: "Measure description in Russian"
+                  en:
+                    type: string
+                    minLength: 1
+                    description: "Measure description in English"

@@ -1,0 +1,68 @@
+---
+# JSON Schema Draft-07 for Organizations Registry
+#
+# Examples:
+# - sources/supporting/organizations.yml
+
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "Organizations Registry"
+version: "1.0.0"
+description: |
+  Registry of organizations (authorities, publishers, etc.) referenced in
+  Russian sanctions data.
+
+type: object
+required: [organizations]
+additionalProperties: false
+
+properties:
+  organizations:
+    type: array
+    description: "List of organization definitions"
+    minItems: 1
+    items:
+      type: object
+      required: [id, name]
+      additionalProperties: false
+      properties:
+        id:
+          type: string
+          pattern: "^[a-z]{2}/[a-z0-9-]+$"
+          description: |
+            Organization identifier using pattern: {country}/{org}
+            Examples: 'ru/ministry-of-foreign-affairs', 'ru/state-duma'
+
+        name:
+          type: object
+          description: "Bilingual name"
+          required: [ru, en]
+          properties:
+            ru:
+              type: string
+              minLength: 1
+              description: "Russian name"
+            en:
+              type: string
+              minLength: 1
+              description: "English name"
+
+        short_name:
+          type: object
+          description: "Optional bilingual short name/abbreviation"
+          properties:
+            ru:
+              type: string
+              description: "Russian short name"
+            en:
+              type: string
+              description: "English short name"
+
+        url:
+          type: string
+          format: uri
+          description: "Official website URL"
+
+        parent:
+          type: string
+          pattern: "^[a-z]{2}/[a-z0-9-]+$"
+          description: "Parent organization ID (for hierarchical relationships)"

@@ -1,0 +1,10 @@
+---
+organizations:
+- id: ru/ministry-of-foreign-affairs
+  name:
+    ru: Министерство иностранных дел Российской Федерации
+    en: The Ministry of Foreign Affairs of the Russian Federation
+- id: ru/state-duma
+  name:
+    ru: Государственная Дума Федерального Собрания Российской Федерации
+    en: The State Duma of the Federal Assembly of the Russian Federation

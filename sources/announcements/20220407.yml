@@ -1,0 +1,2549 @@
+---
+announcement:
+  title:
+    ru: Заявление МИД России о персональных санкциях в отношении представителей высшего руководства и парламентариев Австралии
+    en: Foreign Ministry statement on personal sanctions on senior officials and MPs of Australia
+  url: https://mid.ru/ru/foreign_policy/news/1808465/?lang=en
+  lang: ru
+  publish_date: '2022-04-07'
+  publish_time: '18:54'
+  authority: Министерство иностранных дел Российской Федерации
+  publisher: Министерство иностранных дел Российской Федерации
+  type: press-release
+  document_id: 755-07-04-2022
+  signatory: Министерство иностранных дел Российской Федерации
+  content:
+    ru: |
+      Послушно следуя курсом «коллективного Запада», Канберра в безоглядном русофобском запале ввела санкции, которые затронули высших руководителей Российской Федерации и практически весь депутатский корпус. В ответ с 7 апреля с.г. в «стоп-лист» лиц, которым закрыт въезд в Россию, включаются члены австралийского комитета по национальной безопасности, палаты представителей, сената и региональных законодательных собраний.
+
+      Данный шаг предпринят в порядке реакции на недружественные действия нынешнего австралийского правительства, готового поддерживать любые действия, нацеленные на сдерживание России.
+
+      В ближайшее время последуют новые объявления о расширении санкционного «черного списка» за счет включения в него австралийских военных, бизнесменов, экспертов и медийных персон, которые способствуют разжиганию негативного отношения к нашей стране. Каждый антироссийский шаг – от введения новых персональных санкций до ограничения двусторонних экономических отношений, что наносит ущерб интересам самих австралийцев – получит решительный отпор.
+
+      Ниже следует список граждан Австралии, которые отныне являются невъездными в Российскую Федерацию.
+    en: |
+      Obediently following the policy set by the collective West, Canberra has fallen into a Russophobic frenzy and introduced sanctions against Russia’s senior leadership and practically all members of parliament. In response, on April 7, 2022, Russia added to its stop list members of the Australian National Security Committee, House of Representatives, Senate and regional legislative assemblies. They are denied entry into the Russian Federation.
+
+      This step comes in response to the unfriendly actions by the current Australian Government, which is prepared to support any actions aimed at containing Russia.
+
+      Subsequent announcements will expand the sanctions blacklist to include Australian military, entrepreneurs, experts and media figures who contribute to negative perceptions of our country. We will resolutely oppose every anti-Russia action – from the introduction of new personal sanctions to restrictions on bilateral economic ties, which is doing damage to bilateral economic relations.
+
+sanction_details:
+  instruments:
+    - id: ru/federal-law-114
+  entities:
+    - name:
+        ru: Скотт Моррисон
+        en: Scott Morrison
+      type: individual
+      title:
+        ru: премьер-министр
+        en: Prime Minister
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: &reason
+        - ru: Послушно следуя курсом «коллективного Запада», Канберра в безоглядном русофобском запале ввела санкции, которые затронули высших руководителей Российской Федерации и практически весь депутатский корпус.
+          en: Following the course of the "collective West", Canberra, in a reckless Russophobic frenzy, imposed sanctions affecting the senior leadership of the Russian Federation and virtually the entire parliamentary corps.
+      measures: &measures
+        - type:
+          - entry_ban
+          ru: Запрещен въезд в Российскую Федерацию.
+          en: Entry into the Russian Federation is prohibited.
+    - name:
+        ru: Барнаби Джойс
+        en: Barnaby Joyce
+      type: individual
+      title:
+        ru: заместитель премьер-министра
+        en: Deputy Prime Minister
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Карен Эндрюс
+        en: Karen Andrews
+      type: individual
+      title:
+        ru: министр внутренних дел
+        en:
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Саймон Бирмингем
+        en: Simon Birmingham
+      type: individual
+      title:
+        ru: министр финансов
+        en:
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Патрик Горман
+        en: Patrick Gorman
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Люк Гослинг
+        en: Luke Gosling
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Питер Даттон
+        en: Peter Dutton
+      type: individual
+      title:
+        ru: министр обороны
+        en: Minister for Defence
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Микаэлия Кэш
+        en: Michaelia Cash
+      type: individual
+      title:
+        ru: генеральный прокурор
+        en: Attorney-General
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мариз Пэйн
+        en: Marise Payne
+      type: individual
+      title:
+        ru: министр иностранных дел
+        en: Minister for Foreign Affairs
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джошуа Фрайденберг
+        en: Joshua Frydenberg
+      type: individual
+      title:
+        ru: государственный казначей
+        en: Treasurer
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энтони Албанизи
+        en: Anthony Albanese
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джон Александр
+        en: John Alexander
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Катрина Аллен
+        en: Katrina Allen
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энн Али
+        en: Anne Aly
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кевин Эндрюс
+        en: Kevin Andrews
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Бриджит Арчер
+        en: Bridget Archer
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Адам Бандт
+        en: Adam Bandt
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энджи Бэлл
+        en: Angie Bell
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Шерон Бёрд
+        en: Sharon Bird
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кристофер Бауэн
+        en: Christopher Bowen
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Рассел Броадбент
+        en: Russell Broadbent
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Скотт Буххольц
+        en: Scott Buchholz
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энтони Бёрк
+        en: Anthony Burke
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Линда Бёрни
+        en: Linda Burney
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джош Бёрнс
+        en: Josh Burns
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Марк Батлер
+        en: Mark Butler
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Терри Батлер
+        en: Terri Butler
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энтони Бёрни
+        en: Anthony Byrne
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джеймс Чалмерз
+        en: James Chalmers
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Даррен Честер
+        en: Darren Chester
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Лиза Честерз
+        en: Lisa Chesters
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джордж Кристенсен
+        en: George Christensen
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джейсон Клэр
+        en: Jason Clare
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Шерон Клэйдон
+        en: Sharon Claydon
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Элизабет Кокер
+        en: Elizabeth Coker
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэвид Колман
+        en: David Coleman
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джули Коллинз
+        en: Julie Collins
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Патрик Конаган
+        en: Patrick Conaghan
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Винсент Конелли
+        en: Vincent Connelly
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Патрик Конрой
+        en: Patrick Conroy
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Марк Колтон
+        en: Mark Coulton
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дугальд Дик
+        en: Dugald Dick
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Марк Дрейфус
+        en: Mark Dreyfus
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Демиан Драм
+        en: Damian Drum
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мария Эллиот
+        en: Maria Elliot
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Уоррен Энч
+        en: Warren Entsch
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Трэвор Эванс
+        en: Trevor Evans
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джейсон Фалински
+        en: Jason Falinski
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джоэл Фицгиббон
+        en: Joel Fitzgibbon
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Пол Флетчер
+        en: Paul Fletcher
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Николь Флинт
+        en: Nicolle Flint
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Майкл Фриландер
+        en: Michael Freelander
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Ги
+        en: Andrew Gee
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Стивен Георганас
+        en: Steven Georganas
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Джайлз
+        en: Andrew Giles
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэвид Гиллеспи
+        en: David Gillespie
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Иан Гудинаф
+        en: Ian Goodenough
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Хелен Эйнс
+        en: Helen Haines
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Гарт Гамильтон
+        en: Garth Hamilton
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Силия Хаммонд
+        en: Celia Hammond
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Хэйсти
+        en: Andrew Hastie
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Александр Хоук
+        en: Alexander Hawke
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кристофер Хейз
+        en: Christopher Hayes
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джулиан Хилл
+        en: Julian Hill
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кевин Хоган
+        en: Kevin Hogan
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Люк Ховарт
+        en: Luke Howarth
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Грегори Хант
+        en: Gregory Hunt
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эдхем Хьюзик
+        en: Edham Husic
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Стивен Айренс
+        en: Stephen Irons
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Стивен Джонс
+        en: Stephen Jones
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Роберт Каттер
+        en: Robert Katter
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Жерардин Керни
+        en: Gerardine Kearney
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Крейг Келли
+        en: Craig Kelly
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мэтт Кио
+        en: Matt Keogh
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Питер Халил
+        en: Peter Khalil
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кэтрин Кинг
+        en: Catherine King
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мэделин Кинг
+        en: Madeleine King
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Леминг
+        en: Andrew Laming
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мишель Ландри
+        en: Michelle Landry
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джулиан Лизер
+        en: Julian Leeser
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Ли
+        en: Andrew Leigh
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Сьюзан Ли
+        en: Sussan Ley
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэвид Литтлпрауд
+        en: David Littleproud
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Глэдис Лиу
+        en: Gladys Liu
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Нола Марино
+        en: Nola Marino
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ричард Марлс
+        en: Richard Marles
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Фиона Мартин
+        en: Fiona Martin
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кристи Макбэйн
+        en: Kristy McBain
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эмма Макбрайд
+        en: Emma McBride
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Майкл Маккормак
+        en: Michael McCormack
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мелисса Макинтош
+        en: Melissa McIntosh
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Брайан Митчелл
+        en: Brian Mitchell
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Роберт Митчелл
+        en: Robert Mitchell
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Бен Мортон
+        en: Ben Morton
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэниэл Мулино
+        en: Daniel Mulino
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Пета Мёрфи
+        en: Peta Murphy
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Шейн Нойман
+        en: Shayne Neumann
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эдвард О'Брайан
+        en: Edward O'Brien
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Левеллин О'Брайан
+        en: Llewellyn O'Brien
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Брендан О'Коннор
+        en: Brendan O'Connor
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эдвард О'Дауд
+        en: Kenneth O'Dowd
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Клэр О'Нил
+        en: Clare O'Neil
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джули Оуэнс
+        en: Julie Owens
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энтони Пэсин
+        en: Antony Pasin
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Алиша Пэйн
+        en: Alicia Payne
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Гевин Пирс
+        en: Gavin Pearce
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Грэхем Перретт
+        en: Graham Perrett
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Фиона Филлипс
+        en: Fiona Phillips
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кит Питт
+        en: Keith Pitt
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Таня Плиберсек
+        en: Tanya Plibersek
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Чарльз Портер
+        en: Charles Porter
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мелисса Прайс
+        en: Melissa Price
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Роуэн Рамзи
+        en: Rowan Ramsey
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Аманда Ришворт
+        en: Amanda Rishworth
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Стюарт Роберт
+        en: Stuart Robert
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мишель Роуленд
+        en: Michelle Rowland
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джоан Райан
+        en: Joanne Ryan
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ребекка Шарки
+        en: Rebekha Sharkie
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Девананд Шарма
+        en: Devanand Sharma
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Уильям Шортен
+        en: William Shorten
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джулиан Симмондс
+        en: Julian Simmonds
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энтони Смит
+        en: Anthony Smith
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэвид Смит
+        en: David Smith
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Уоррен Сноудон
+        en: Warren Snowdon
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энн Стенли
+        en: Anne Stanley
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Зали Стеггаль
+        en: Zali Steggall
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джеймс Стивенс
+        en: James Stevens
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Майкл Суккар
+        en: Michael Sukkar
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мерил Суонсон
+        en: Meryl Swanson
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ангус Тэйлор
+        en: Angus Taylor
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэниэл Тиан
+        en: Daniel Tehan
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Сьюзан Тэмплман
+        en: Susan Templeman
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мэтью Тислуэйт
+        en: Matthew Thistlethwaite
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Филлип Томпсон
+        en: Phillip Thompson
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кейт Твэйтс
+        en: Kate Thwaites
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Алан Тадж
+        en: Alan Tudge
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мария Вамвакину
+        en: Maria Vamvakinou
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Альбертус ван Манен
+        en: Albertus van Manen
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Росс Васта
+        en: Ross Vasta
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Уоллас
+        en: Andrew Wallace
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Тимоти Ваттс
+        en: Timothy Watts
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энн Вебстер
+        en: Anne Webster
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Аника Уэллс
+        en: Anika Wells
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Люси Уикс
+        en: Lucy Wicks
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Уилки
+        en: Andrew Wilkie
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джошуа Уилсон
+        en: Joshua Wilson
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ричард Уилсон
+        en: Richard Wilson
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Тимоти Уилсон
+        en: Timothy Wilson
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джейсон Вуд
+        en: Jason Wood
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кенет Вайятт
+        en: Kenneth Wyatt
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Терри Янг
+        en: Terry Young
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Антонио Заппиа
+        en: Antonio Zappia
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Трент Циммерман
+        en: Trent Zimmerman
+      type: individual
+      title:
+        ru: депутат Палаты представителей
+        en: MP, House of Representatives
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эрик Абетц
+        en: Eric Abetz
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Алекс Антик
+        en: Alex Antic
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Вэнди Аскью
+        en: Wendy Askew
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Тим Айрес
+        en: Tim Ayres
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Катрина Билык
+        en: Catryna Bilyk
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Брагг
+        en: Andrew Bragg
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Слэд Брокман
+        en: Slade Brockman
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кэрол Браун
+        en: Carol Brown
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мэттью Канаван
+        en: Matthew Canavan
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ким Карр
+        en: Kim Carr
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Клэр Чендлер
+        en: Claire Chandler
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энтони Чисхолм
+        en: Anthony Chisholm
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Рафф Кикконе
+        en: Raff Ciccone
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ричард Колбек
+        en: Richard Colbeck
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Доринда Кокс
+        en: Dorinda Cox
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Перин Дэви
+        en: Perin Davey
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Патрик Додсон
+        en: Patrick Dodson
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джонатон Даниам
+        en: Jonathon Duniam
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дон Фаррелл
+        en: Don Farrell
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мехреен Фаруки
+        en: Mehreen Faruqi
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэвид Фоусетт
+        en: David Fawcett
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кончетта Фиерраванти-Уэллс
+        en: Concetta Fierravanti-Wells
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кэти Галлагер
+        en: Katy Gallagher
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Нита Грин
+        en: Nita Green
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Стирлинг Грифф
+        en: Stirling Griff
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Карен Гроган
+        en: Karen Grogan
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Паулин Хансон
+        en: Pauline Hanson
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Сара Хансон-Янг
+        en: Sarah Hanson-Young
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Сара Хендерсон
+        en: Sarah Henderson
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Холли Хьюз
+        en: Hollie Hughes
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джейн Хьюм
+        en: Jane Hume
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кристина Кенелли
+        en: Kristina Keneally
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Кимберли Китчинг
+        en: Kimberley Kitching
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Жаки Ламби
+        en: Jacqui Lambie
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Сью Лайнс
+        en: Sue Lines
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дженни Макаллистер
+        en: Jenny McAllister
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Маларндирри Маккарти
+        en: Malarndirri McCarthy
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Сьюзан Макдональд
+        en: Susan McDonald
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джеймс Макгрэт
+        en: James McGrath
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Бриджет Маккензи
+        en: Bridget McKenzie
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ник Макким
+        en: Nick McKim
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Эндрю Маклахлан
+        en: Andrew McLachlan
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Сэм Макмахон
+        en: Sam McMahon
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Грэг Мирабелла
+        en: Greg Mirabella
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джим Молан
+        en: Jim Molan
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дебора О`Нилл
+        en: Deborah O`Neill
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мэтт О`Салливан
+        en: Matt O`Sullivan
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джеймс Патерсон
+        en: James Paterson
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Рекс Патрик
+        en: Rex Patrick
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Хелен Полли
+        en: Hellen Polley
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Луиз Прэтт
+        en: Louise Pratt
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джерард Ренник
+        en: Gerard Rennick
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Линда Рейнольдс
+        en: Linda Reynolds
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джанет Райс
+        en: Janet Rice
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Малкольм Робертс
+        en: Malcolm Roberts
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энн Растон
+        en: Anne Ruston
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Пол Скарр
+        en: Paul Scarr
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Зед Сеселья
+        en: Zed Seselja
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Тони Шелдон
+        en: Tony Sheldon
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Бэн Смолл
+        en: Ben Small
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дин Смит
+        en: Dean Smith
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мариэлль Смит
+        en: Marielle Smith
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джордон Стил-Джон
+        en: Jordon Steele-John
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Гленн Стерл
+        en: Glenn Sterle
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Аманда Стокер
+        en: Amanda Stoker
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Лидиа Торп
+        en: Lidia Thorpe
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Энн Уркухарт
+        en: Anne Urquhart
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Дэвид Вэн
+        en: David Van
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Джесс Уолш
+        en: Jess Walsh
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Ларисса Уотерс
+        en: Larissa Waters
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мюррей Уатт
+        en: Murray Watt
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Питер Уиш-Уилсон
+        en: Peter Whish-Wilson
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Пенни Вонг
+        en: Penny Wong
+      type: individual
+      title:
+        ru: член Сената
+        en: Senator
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Мэттью Гай
+        en: Matthew Guy
+      type: individual
+      title:
+        ru: член законодательного собрания
+        en: legislative assembly member
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+    - name:
+        ru: Стив Даймополос
+        en: Steve Dimopoulos
+      type: individual
+      title:
+        ru: член законодательного собрания
+        en: legislative assembly member
+      effective_date: '2022-04-07'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures

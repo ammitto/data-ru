@@ -1,0 +1,411 @@
+---
+announcement:
+  title:
+    ru: Заявление МИД России о введении персональных контрсанкций в отношении ряда граждан Канады
+    en: Foreign Ministry Statement on retaliatory personal sanctions against a number of Canadian citizens
+  url: https://mid.ru/en/foreign_policy/news/2071436/
+  lang: ru
+  publish_date: '2026-01-05'
+  publish_time: '17:52'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 9-05-01-2026
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+    В ответ на объявлявшиеся ранее официальной Оттавой неправомерные
+    антироссийские ограничения въезд в Россию закрывается на постоянной основе
+    для 28 канадских граждан, деятельность которых в структурах и организациях
+    пробандеровского толка направлена на продвижение преступной неонацистской
+    идеологии, ныне проповедуемой киевским режимом.
+
+    Данные лица, игнорируя исторические факты и правду о событиях Великой
+    Отечественной войны, силятся упрочить связку Канады с наиболее радикальными
+    и непримиримыми националистическими силами на Украине. Дополнительным
+    подтверждением этой тенденции стало сегодняшнее назначение бывшей министра
+    иностранных дел и вице-премьера Канады Христи Фриланд, внучки гитлеровского
+    приспешника Михайло Хомяка, на должность советника В.Зеленского по вопросам
+    экономического развития «Незалежной». Киевская клика, отдавая дань оголтелой
+    укронацистской общине Канады, пошла на это кадровое решение, обеляя тем
+    самым преступления украинских нацистов из 14-й дивизии СС «Галичина»,
+    подразделений Шуцманшафт СС, «Нахтигаль» и других.
+
+    Россия последовательно выступает против любых проявлений экстремизма и
+    ксенофобии, и будет продолжать принимать меры по защите своих
+    государственных интересов и исторической правды.
+
+    Ниже следует поименный перечень лиц, пополнивших российский «стоп-лист»:
+    en: |
+    In response to the unlawful anti-Russian restrictions previously imposed by
+    official Ottawa, entry into the Russian Federation is permanently barred to
+    28 Canadian citizens whose activities within organisations and structures of
+    a pro-Bandera orientation are aimed at promoting the criminal neo-Nazi
+    ideology currently espoused by the Kiev regime.
+
+    By disregarding historical facts and the truth about the events of the Great
+    Patriotic War, these individuals seek to further entrench Canada’s alignment
+    with the most radical and uncompromising nationalist forces in Ukraine.
+    Further confirmation of this trend is provided by today’s appointment of
+    former Canadian Minister of Foreign Affairs and Deputy Prime Minister
+    Chrystia Freeland, the granddaughter of Hitler’s accomplice Mikhailo
+    Khomiak, as an adviser to Vladimir Zelensky on the economic development of
+    Independent Ukraine.
+
+    Through this personnel decision, the Kiev clique, in deference to Canada’s
+    aggressive Ukrainian neo-Nazi community, has effectively sought to whitewash
+    the crimes committed by Ukrainian Nazis from the 14th Waffen Grenadier
+    Division of the SS “1st Galician,” the SS Schutzmannschaft (Auxiliary
+    Police) units, the Nachtigall Battalion, and other formations.
+
+    Russia consistently opposes all manifestations of extremism and xenophobia
+    and will continue to take measures to safeguard its state interests and
+    uphold historical truth.
+
+    Below is a list of individuals added to Russia’s stop list.
+sanction_details:
+  instruments:
+    - id: ru/federal-law-114
+  entities:
+    - name:
+        ru: Роберт Бэйнс
+        en: Robert Charles Jeffrys Bainess
+      type: individual
+      title:
+        ru: руководитель канадской Ассоциации НАТО
+        en: Head of the NATO Association of Canada
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: &reason
+        - ru: Для их деятельности в структурах и организациях пробандеровского толка направлена на продвижение преступной неонацистской идеологии, ныне проповедуемой киевским режимом.
+          en: For their activities within organisations and structures of a pro-Bandera orientation are aimed at promoting the criminal neo-Nazi ideology currently espoused by the Kiev regime.
+      measures: &measures
+        - type:
+          - entry_ban
+          ru: Запрещен въезд в Российскую Федерацию.
+          en: Entry into the Russian Federation is prohibited.
+
+    - name:
+        ru: Виктория Карпяк
+        en: Victoria Karpiak
+      type: individual
+      title:
+        ru: член Совета директоров «Украинского национального фонда» (Ukranian National Foundation)
+        en: Member of the Board of Directors of the Ukrainian National Foundation
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Стефания Романюк
+        en: Stephania Romaniuk
+      type: individual
+      title:
+        ru: активистка Канадского украинского конгресса
+        en: Activist of the Ukrainian Canadian Congress
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Лариса Заричняк
+        en: Larisa Zariczniak
+      type: individual
+      title:
+        ru: президент Украинской молодежной ассоциации (г.Гамильтон, провинция Онтарио)
+        en: President of the Ukrainian Youth Association, Hamilton, Ontario
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Марта Базюк
+        en: Marta Baziuk
+      type: individual
+      title:
+        ru: исполнительный директор «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Executive Director of the Holodomor Research and Education Consortium (HREC) at the Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Богдан Клид
+        en: Bohdan Klid
+      type: individual
+      title:
+        ru: директор по исследованиям «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Director of Research at the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: София Исайив
+        en: Sophia Isajiw
+      type: individual
+      title:
+        ru: научный сотрудник «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Research Fellow at the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Валентина Курылив
+        en: Valentina Kuryliw
+      type: individual
+      title:
+        ru: директор по преподаванию «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Director of Education at the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Оксана Винник
+        en: Oksana Vinnik
+      type: individual
+      title:
+        ru: научный сотрудник «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Research Fellow at the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Ольга Клименко
+        en: Olga Klimenko
+      type: individual
+      title:
+        ru: научный сотрудник «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Research Fellow at the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Уильям Пиджамецки
+        en: William Pidzamecky
+      type: individual
+      title:
+        ru: научный сотрудник «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Research Fellow at the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Ольга Андриевски
+        en: Olga Andriewsky
+      type: individual
+      title:
+        ru: член научно-консультативного комитета «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты, профессор Университета Трента
+        en: Member of the Academic Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta Professor at Trent University
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Пол Роберт Магочи
+        en: Paul Robert Magocsi
+      type: individual
+      title:
+        ru: член научно-консультативного комитета «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты, профессор Университета Торонто
+        en: Member of the Academic Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta Professor at the University of Toronto
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Линн Виола
+        en: Lynne Viola
+      type: individual
+      title:
+        ru: член научно-консультативного комитета «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты, профессор Университета Торонто
+        en: Member of the Academic Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta Professor at the University of Toronto
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Оленка Билаш
+        en: Olenka S.E.Bilash
+      type: individual
+      title:
+        ru: член консультативного комитета по преподаванию «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Member of the Teaching Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Орест Чап
+        en: Orest Сар
+      type: individual
+      title:
+        ru: член консультативного комитета по преподаванию «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты, профессор Университета Манитобы
+        en: Member of the Teaching Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta Professor at the University of Manitoba
+
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Денис Глинка
+        en: Denis Hlynka
+      type: individual
+      title:
+        ru: член консультативного комитета по преподаванию «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты, профессор Университета Манитобы
+        en: Member of the Teaching Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta Professor at the University of Manitoba
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Марк Мельник
+        en: Mark Melnyk
+      type: individual
+      title:
+        ru: член консультативного комитета по преподаванию «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Member of the Teaching Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Валентина Ноузворси
+        en: Valentina Noseworthy
+      type: individual
+      title:
+        ru: член консультативного комитета по преподаванию «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Member of the Teaching Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Борис Радио
+        en: Boris Radyo
+      type: individual
+      title:
+        ru: член консультативного комитета по преподаванию «Консорциума по вопросам исследования и преподавания голодомора» (The Holodomor Research and Education Consortium, HREC) при Канадском институте украинских исследований Университета Альберты
+        en: Member of the Teaching Advisory Committee of the Holodomor Research and Education Consortium (HREC), Canadian Institute of Ukrainian Studies, University of Alberta
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Марта Иванек
+        en: Marta Iwanek
+      type: individual
+      title:
+        ru: организатор проекта «Принт фор Юкрейн» (Print 4 Ukraine) по сбору средств в поддержку киевского режима
+        en: Organiser of the Print 4 Ukraine fundraising project in support of the Kiev regime
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Кейлер Зелены
+        en: Kyler Zeleny
+      type: individual
+      title:
+        ru: организатор проекта «Принт фор Юкрейн» (Print 4 Ukraine) по сбору средств в поддержку киевского режима
+        en: Organiser of the Print 4 Ukraine fundraising project in support of the Kiev regime
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Эндрю Кушнир
+        en: Andrew Kushnir
+      type: individual
+      title:
+        ru: актер, сценарист, основатель фонда «Ви саппорт Эл-Джи-Би-Ти-Кью Юкрейн» (We Support LGBTQ Ukraine)
+        en: Actor, screenwriter, founder of the We Support LGBTQ Ukraine foundation
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Анатолий Груздь
+        en: Anatoliy Gruzd
+      type: individual
+      title:
+        ru: профессор факультета управления Университета Метрополитан в Торонто, директор по исследованиям лаборатории социальных сетей, куратор портала «Раша-Юкрейн КонфликтМизинфо Peceч» (Russia-Ukraine ConflictMisinfo Research)
+        en: Professor at the Faculty of Management, Toronto Metropolitan University Director of Research at the Social Media Lab curator of the Russia-Ukraine Conflict Misinfo Research portal
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Филип Май
+        en: Philip Mai
+      type: individual
+      title:
+        ru: старший исследователь лаборатории социальных сетей Университета Метрополитан в Торонто, куратор портала «Раша-Юкрейн КонфликтМизинфо Peceч» (Russia-Ukraine ConflictMisinfo Research)
+        en: Senior Researcher at the Social Media Lab, Toronto Metropolitan University curator of the Russia-Ukraine Conflict Misinfo Research portal
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Джулия Заритски
+        en: Julia Zaritsky
+      type: individual
+      title:
+        ru: президент «Секонд фронт Юкрейн фаундейшн» (Second Front Ukraine Foundation), спонсор ВСУ
+        en: President of the Second Front Ukraine Foundation, sponsor of the Armed Forces of Ukraine
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Светлана Нечипоренко
+        en: Svetlana Nechyporenko
+      type: individual
+      title:
+        ru: секретарь «Секонд фронт Юкрейн фаундейшн» (Second Front Ukraine Foundation)
+        en: Secretary of the Second Front Ukraine Foundation
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Вальтер/Володимир Киш
+        en: Walter/Volodymyr Kish
+      type: individual
+      title:
+        ru: журналист, корреспондент газеты «Новый шлях» (New Pathway)
+        en: Journalist, correspondent for the New Pathway newspaper
+      effective_date: '2026-01-05'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures

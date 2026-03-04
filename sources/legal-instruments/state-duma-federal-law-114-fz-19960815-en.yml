@@ -1,0 +1,579 @@
+# yaml-language-server: $schema=../../schemas/cn-legal-instrument.yml
+---
+id: ru/federal-law-114
+title:
+- ru: О порядке выезда из Российской Федерации и въезда в Российскую Федерацию (Федеральный закон от 15.08.1996 г. № 114-ФЗ)
+- en: Federal Law of the Russian Federation on the Procedure for Exit from the Russian Federation and Entry Into the Russian Federation (Федеральный закон от 15.08.1996 г. № 114-ФЗ)
+url: http://www.kremlin.ru/acts/bank/9895/print
+type: ru/federal-law
+lang: en
+authority: ru/state-duma
+publisher: ru/state-duma
+document_id: № 114-ФЗ
+published_date: '1996-08-15'
+effective_date: '1996-08-22'
+
+content:
+- type: preamble
+  content:
+  - type: paragraph
+    content:
+    - Every person may freely leave the Russian Federation. A citizen of the Russian Federation shall have the right to freely return to the Russian Federation.
+
+- type: chapter
+  index: 1
+  label: CHAPTER I
+  title: GENERAL PROVISIONS
+  content:
+  - type: clause
+    index: 1
+    label: Article 1
+    content:
+    - Exit from the Russian Federation and entry into the Russian Federation (including transit through its territory) shall be governed by the Constitution of the Russian Federation, international treaties of the Russian Federation and the present Federal Law.
+
+    - Where an international treaty of the Russian Federation provides for the rules other than those provided for by the present Federal Law, the rules of the international treaty shall apply.
+
+  - type: clause
+    index: 2
+    label: Article 2
+    content:
+    - A citizen of the Russian Federation may be restricted in the right to leave the Russian Federation only on the grounds and in the manner provided for by the present Federal Law.
+    - A citizen of the Russian Federation may not be deprived of the right to enter the Russian Federation.
+    - Exit of a citizen of the Russian Federation from the Russian Federation shall not entail for him/her, his/her spouse or immediate relatives, any restrictions of the rights guaranteed by the Russian Federation legislation and international obligations of the Russian Federation.
+  - type: clause
+    index: 3
+    label: Article 3
+    content:
+    - The procedure for crossing the state border of the Russian Federation when leaving the Russian Federation and entering the Russian Federation, shall be governed by the Russian Federation Law “On State Border of the Russian Federation” and by the present Federal Law.
+  - type: clause
+    index: 4
+    label: Article 4
+    content:
+    - Citizens of the Russian Federation residing outside the Russian Federation, shall be protected and patronized by the Russian Federation.
+    - Diplomatic and consular institutions of the Russian Federation shall be obliged to ensure measures to protect citizens of the Russian Federation and to patronize them in the manner established by the Russian Federation legislation and international treaties of the Russian Federation.
+  - type: clause
+    index: 5
+    label: Article 5
+    content:
+    - Where an emergency situation occurs in the territory of a foreign state, the Russian Federation shall guarantee the implementation of diplomatic, economic and other measures provided for by international law, to ensure the security of citizens of the Russian Federation residing in the territory of this foreign state,
+    - Where circumstances occur in the territory of any foreign state that seriously impede the adoption of measures to protect citizens of the Russian Federation and to patronize them by the Russian Federation, the Russian Federation Government shall take measures to make citizens of the Russian Federation aware of recommendations on undesirability of entry into this state. Such recommendations shall not be the ground for the provisional restriction of the right to leave the Russian Federation.
+  - type: clause
+    index: 6
+    label: Article 6
+    content:
+    - Citizens of the Russian Federation shall leave the Russian Federation and enter the Russian Federation by valid documents identifying a citizen of the Russian Federation outside the territory of the Russian Federation. The procedure for the legalization, issuance and withdrawal of these documents shall be determined by the present Federal Law.
+    - When entering the Russian Federation, foreign citizens and stateless persons shall be obliged to present valid documents identifying them, that are recognized as such by the Russian Federation, and a visa issued by a respective diplomatic or consular institution of the Russian Federation outside the territory of the Russian Federation (hereinafter - a Russian visa), unless an international treaty of the Russian Federation provides for otherwise.
+    - A transport company (carrier of passengers) shall be obliged to control the availability of visas or other permissions for entry of persons to a foreign state, unless an international treaty of the Russian Federation provides for otherwise.
+    - The procedure for the issuance of a Russian visa shall be determined by the present Federal Law and by resolutions of the Russian Federation Government.
+- type: chapter
+  label: CHAPTER II
+  title: THE PROCEDURE FOR THE LEGALIZATION AND ISSUANCE OF DOCUMENTS FOR EXIT FROM THE RUSSIAN FEDERATION AND FOR ENTRY INTO THE RUSSIAN FEDERATION OF CITIZENS OF THE RUSSIAN FEDERATION
+  content:
+  - type: clause
+    index: 7
+    label: Article 7
+    content:
+    - As basic documents identifying a citizen of the Russian Federation by which citizens of the Russian Federation leave the Russian Federation and enter the Russian Federation, shall be recognized:
+    - type: unnumbered-list
+      content:
+      - type: list-item
+        content: A passport;
+      - type: list-item
+        content: A diplomatic passport;
+      - type: list-item
+        content: A service passport;
+      - type: list-item
+        content: A sailor’s passport (sailor’s identity card).
+  - type: clause
+    index: 8
+    label: Article 8
+    content:
+    - A passport shall be issued to a citizen of the Russian Federation upon
+      his/her written application filed personally or through his/her legitimate
+      representative, by an internal affairs body at the place of residence, by
+      the Russian Federation Ministry of Foreign Affairs in the territory of the
+      Russian Federation as well as by a diplomatic or consular institution of
+      the Russian Federation outside the territory of the Russian Federation in
+      the cases provided for by the present Federal Law.
+    - A citizen of the Russian Federation from the date of his/her birth and up to 18 years of age shall be issued a passport upon a written application of at least one of his/her parents, adopters, trustees or guardians, unless the law provides for otherwise.
+    - For a citizen of the Russian Federation residing outside the territory of the Russian Federation, a passport shall be legalized and issued by a diplomatic or consular institution of the Russian Federation in a state of residence of the citizen.
+    - The Russian Federation Ministry of Foreign Affairs may legalize and issue a passport to a citizen of the Russian Federation residing in the territory of the Russian Federation, upon his personal written application filed through the organization that sends him/her on official journey, and is registered at the Russian Federation Ministry of Foreign Affairs in the manner established by the Russian Federation Government.
+  - type: clause
+    index: 9
+    label: Article 9
+    content:
+    - For the legalization of a passport, a citizen of the Russian Federation should indicate in the application of the established form his/her surname, name, patronymic (including previous ones), sex, date and place of birth, place of residence, place of work (service, education) during the last ten years and present the basic document identifying him/her.
+    - The application shall be accompanied by personal photos and documents certifying payment of a state duty (when legalizing a passport in the territory of the Russian Federation) or a stamp duty (when legalizing a passport outside the territory of the Russian Federation) for the legalization of the passport as well as a document certifying payment for the passport form. In the application for the legalization of the passport a citizen of the Russian Federation shall indicate the lack of circumstances provided for by the present Federal Law that could impede his/her exit from the Russian Federation.
+  - type: clause
+    index: 10
+    label: Article 10
+    content:
+    - A passport shall be legalized by a respective state body within one month from the date of submission of an application and shall be issued for a period of five years.
+    - A date of submission of the application shall be deemed a day of submission of all properly legalized documents provided for by Article 9 of the present Federal Law as well as of photos.
+    - Where there are documentary proved circumstances related to a necessity of urgent treatment, a serious disease or death of an immediate relative and requiring exit from the Russian Federation, a period for the legalization of a passport should not exceed three working days from the day of submission of the application. In this case a citizen of the Russian Federation may apply for a passport for travel abroad at the place of his/her stay.
+  - type: clause
+    index: 11
+    label: Article 11
+    content:
+    - Where a citizen of the Russian Federation lost a passport (diplomatic passport, service passport, sailor’s passport) outside the Russian Federation, a respective diplomatic or consular institution of the Russian Federation shall issue to him/her a provisional document identifying him/her and giving the right to enter (return) the Russian Federation. The procedure for the legalization of such document and its form shall be determined by the Russian Federation Government.
+    - Legalization of a new passport without withdrawal of the previous passport shall not be allowed of the period of its validity has not expired, or without declaring the passport as invalid for exit from the Russian Federation if the bearer lost it.
+  - type: clause
+    index: 12
+    label: Article 12
+    content:
+    - A diplomatic passport shall be issued by the Russian Federation Ministry
+      of Foreign Affairs to citizens of the Russian Federation who in accordance
+      with the Vienna Convention on Diplomatic Relations of 1961 and other
+      international treaties of the Russian Federation, when leaving the Russian
+      Federation for fulfillment of their service duties have diplomatic immunity,
+      to the Russian Federation President, members of the Council of Federation,
+      deputies of the State Duma of the Russian Federation Federal Assembly (for
+      their term of office), members of the Russian Federation Government and
+      persons on similar posts, diplomatic personnel and diplomatic couriers of
+      the Russian Federation Ministry of Foreign Affairs.
+    - Members of a family (wife (husband), minor children, disabled adult
+      children) of a citizen of the Russian Federation who has a diplomatic
+      passport and has been sent to an official journey outside the territory of
+      the Russian Federation or to a mission of the Russian Federation at an
+      international organization outside the territory of the Russian Federation,
+      who reside or travel with him/her, shall be also issued a diplomatic
+      passport.
+    - Officials and personnel of administrative and technical services and special services of the
+      Administration of the Russian Federation President, personnel of the Council of Federation of the
+      Russian Federation Federal Assembly, personnel of the State Duma of the Russian Federation Federal
+      Assembly, personnel of the Russian Federation Government who accompany them in an official
+      journey outside the territory of the Russian Federation, officials of the Federal executive bodies,
+      legislative (representative) bodies and executive bodies of members of the Russian Federation,
+      personnel of administrative and technical services of diplomatic and consular institutions of the
+      Russian
+      Members of a family (wife (husband), minor children, disabled adult children) of a citizen of the
+      Russian Federation who in accordance with the third part of the present Article, has been issued a
+      service passport, may be also issued a service passport where a period of the official journey outside
+      the territory of the Russian Federation exceeds one year.
+    - Federation outside the territory of the Russian Federation as well as officials and staff of
+      administrative and technical services of official missions of the Russian Federation or missions of the
+      Russian Federation at international organizations outside the territory of the Russian Federation, shall
+      be issued a service passport but for the period not more than five years.
+    - A diplomatic passport and service passport shall be the property of the Russian Federation and after
+      the expiration of the official journey outside the territory of the Russian Federation they shall be
+      returned to the organization that sent the citizen of the Russian Federation on the official journey
+      outside the territory of the Russian Federation
+  - type: clause
+    index: 13
+    label: Article 13
+    content:
+    - A sailor’s passport (sailor’s identity card) shall be a valid document for exit from the Russian
+      Federation and entry into the Russian Federation on a vessel, of the bearer of the sailor’s passport
+      (sailor’s identity card) is included into the-vessel registry.
+    - For the purposes provided for by the Convention on Sailors Identity Cards of 1958 (Convention No
+      108 of the International Labor Organization), a bearer of the sailor’s passport (sailor’s identity card)
+      shall have the right to leave the Russian Federation and to enter the Russian Federation by any
+      transport means individually or in a group, provided there is a duly certified extract from the vessel
+      registry.
+    - The sailor’s passport (sailor’s identity card) shall be issued to a citizen of the Russian Federation who
+      works on a Russian vessel sailing abroad or is sent by a Russian ship-owner to work on a foreign
+      vessel as well as to students of educational institutions, included in the vessel registry and to personnel
+      of enterprises, institutions and organizations subordinate to federal executive authorities in charge of
+      the sea and river transport and fishery, to other federal executive authorities, who are sent to vessels to
+      fulfil service missions.
+  - type: clause
+    index: 14
+    label: Article 14
+    content:
+    - Payment for medical assistance to a citizen of the Russian Federation, save a citizen of the Russian
+      Federation who is sent on an official journey, when he/she leaves the Russian Federation, shall be
+      effected according to the conditions provided for by the medical insurance policy or a document
+      substituting it which is valid to receive medical assistance outside the territory of the Russian
+      Federation or if there are guarantees of a physical of legal person inviting a citizen of the Russian
+      Federation, to reimburse the expenses for medical assistance (treatment in a medical institution) to the
+      citizen of the Russian Federation.
+    - Where the documents listed in part one of the present Article are unavailable, the citizen himself shall
+      incur the expenses for medical assistance outside the territory of the Russian Federation.
+      In cases covered by insurance, assistance to citizens of the Russian Federation staying in the territory
+      of a foreign state, shall be rendered by a diplomatic or consular institution of the Russian Federation in
+      the manner established by the Russian Federation Government, unless the international treaty of the
+      Russian Federation with a respective foreign state provides for otherwise.
+
+- type: chapter
+  label: CHAPTER III
+  title: THE PROCEDURE FOR EXIT OF A CITIZEN OF THE RUSSIAN FEDERATION FROM THE RUSSIAN FEDERATION
+  content:
+  - type: clause
+    index: 15
+    label: Article 15
+    content:
+    - 'The right of a citizen of the Russian Federation to leave the Russian Federation may be provisionally restricted where he/she:'
+
+    - type: numbered-list
+      content:
+      - type: list-item
+        label: 1)
+        content:
+        - has an excess to especially important data or top secret data constituting a state secret in accordance
+          with the law of the Russian Federation on the state secret, and concluded a labor agreement (contract)
+          stipulating a provisional restriction of the right to leave the Russian Federation, provided that the
+          period of restriction cannot exceed five years from the date of the last acquaintance of the person with
+          especially important data or top secret data, - until expiration of the period of restriction established by
+          the labor agreement (contract) or in accordance with the present Federal Law.
+        - Where there is a resolution of the Interdepartmental Commission on Protection of the State Secret that
+          the especially important data or top secret data which the citizen was aware of on the day of
+          submission of an application for exit from the Russian Federation, retain a respective degree of
+          secrecy, the period of restriction of the right to leave the Russian Federation indicated in the labor
+          agreement (contract) may be extended by the Interdepartmental Commission formed by the Russian
+          Federation Government. However, the period of restriction of the right to exit should not exceed ten
+          years altogether including the period of restriction established by the labor agreement (contract), from
+          the date of the last acquaintance of the person with the especially important data or top secret data;
+
+      - type: list-item
+        label: 2)
+        content:
+        - in accordance with the Russian Federation legislation has been called up to the military service or
+          has been forwarded to the alternative civil service, until the termination of the military service or the
+          alternative civil service;
+
+      - type: list-item
+        label: 3)
+        content:
+        - has been detained on suspicion of having committed a crime or have been accused, until the court’s decision on the case or entry into force of the sentence;
+
+      - type: list-item
+        label: 4)
+        content:
+        - has been convicted for a crime until the sentence has been served or lifted;
+
+      - type: list-item
+        label: 5)
+        content:
+        - evades from fulfillment of obligations imposed on him/her by a court of law, until the obligations
+          have been fulfilled or the sides have reached an agreement;
+
+      - type: list-item
+        label: 6)
+        content:
+        - has presented deliberately false information when legalizing documents for exit from the Russian
+          Federation, until the resolution of this issue within a month by a body legalizing such documents.
+
+  - type: clause
+    index: 16
+    label: Article 16
+    content:
+    - In all the cases of provisional restriction of the right to leave the Russian Federation provided for by
+      Article 15 of the present Federal Law the internal affairs body issues to a citizen of the Russian
+      Federation a notification indicating the grounds and period of restriction, the date and registration
+      number of a decision on restriction, full name and address of the organization that took responsibility
+      for the restriction of the right of this citizen to leave the Russian Federation.
+  - type: clause
+    index: 17
+    label: Article 17
+    content:
+    - Decisions on restriction of the right to leave the Russian Federation of citizens privy to the especially
+      important data or top secret data constituting the state secret as well as of citizens privy to such data
+      prior to enactment of the present Federal Law, shall be appealed against by citizens to the
+      Interdepartmental Commission formed by the Russian Federation Government which shall be obliged
+      to examine the appeal and to reply no later than within three months. Denial of the right of the Russian
+      Federation citizen to leave the Russian Federation may be appealed against to a court of law.
+  - type: clause
+    index: 18
+    label: Article 18
+    content:
+    - Where exit of a citizen of the Russian Federation from the Russian Federation is restricted on the
+      grounds provided for by subparagraphs 1 and 2 of Article 15 of the present Federal Law, his/her
+      passport shall be deposited with the state body that issued the passport, until the expiration of the
+      period of provisional restriction.
+    - Withdrawal of a passport of a citizen of the Russian Federation on the grounds provided for by the
+      present Federal Law, shall be effected by a court of law, the Office of Public Prosecutor, internal
+      affairs bodies, border service and customs bodies, diplomatic and consular institutions of the Russian
+      Federation.
+  - type: clause
+    index: 19
+    label: Article 19
+    content:
+    - Servicemen of the Russian Federation Armed Forces as well as of federal executive authorities which
+      provide for military service, save the persons who undergo military service under conscription, shall
+      leave the Russian Federation if they have a permission of their command, legalized in the manner
+      established by the Russian Federation Government.
+  - type: clause
+    index: 20
+    label: Article 20
+    content:
+    - A minor citizen of the Russian Federation shall leave the Russian Federation, as a rule, together with
+      at least one of his/her parents, adopters, trustees or guardians. Where a minor citizen of the Russian
+      Federation leaves the Russian Federation without escort, in addition to the passport he/she should have
+      a notarially legalized consent of the indicated persons to exit from the Russian Federation, and where a
+      minor citizen leaves the Russian Federation for more than three months, such consent should be also
+      certified by the trusteeship and guardianship bodies in the manner established by the Russian
+      Federation Government.
+  - type: clause
+    index: 21
+    label: Article 21
+    content:
+    - Where one of the parents, adopters, trustees or guardians expresses his/her discord with the exit of a
+      minor citizen of the Russian Federation from the Russian Federation, the question about his/her exit
+      from the Russian Federation shall be resolved in a court of law.
+  - type: clause
+    index: 22
+    label: Article 22
+    content:
+    - Responsibility for the life and health of minor citizens of the Russian Federation leaving the Russian
+      Federation, protection of their rights and legitimate interests outside the territory of the Russian
+      Federation shall rest with the parents, adopters, trustees or guardians.
+    - In case of organized exit of groups of minor citizens of the Russian Federation without escort by
+      parents, adopters, trustees or guardians, leaders of these groups shall perform duties of legitimate
+      representatives of the minor citizens.
+  - type: clause
+    index: 23
+    label: Article 23
+    content:
+    - A citizen of the Russian Federation recognized as incapable by a court of law, upon a petition of the
+      parents, adopters or guardians, may leave the Russian Federation escorted by an adult person capable
+      to ensure the security of the incapable citizen of the Russian Federation and the security of other
+      people.
+- type: chapter
+  label: CHAPTER IV
+  title: THE PROCEDURE FOR THE LEGALIZATION AND ISSUANCE OF DOCUMENTS FOR ENTRY INTO THE RUSSIAN FEDERATION AND EXIT FROM THE RUSSIAN FEDERATION OF FOREIGN CITIZENS AND STATELESS PERSONS
+  content:
+  - type: clause
+    index: 24
+    label: Article 24
+    content:
+    - Foreign citizens may enter the Russian Federation and leave the Russian Federation if they have a
+      Russian visa, by valid documents identifying them, which are recognized as such by the Russian
+      Federation, unless international treaties of the Russian Federation provide for otherwise.
+    - Stateless persons may enter the Russian Federation and leave the Russian Federation if they have a
+      Russian visa, by valid documents issued by respective bodies of the state of residence, that identify
+      them and are recognized as such by the Russian Federation, unless international treaties of the Russian
+      Federation provide for otherwise.
+    - Foreign citizens and stateless persons may be denied entry into the Russian Federation and exit from
+      the Russian Federation on the grounds provided for by the present Federal Law.
+  - type: clause
+    index: 25
+    label: Article 25
+    content:
+    - The ground for the legalization of entry into the Russian Federation of foreign citizens or stateless
+      persons shall be a written application (submitted personally or through a representative) to a
+      diplomatic or consular institution of the Russian Federation.
+    - Where foreign citizens or stateless persons intend to enter the Russian Federation at the invitation of a
+      Russian physical or legal person, the procedure for the legalization of such invitation shall be
+      established by the Russian Federation Government
+    - The ground for the legalization of entry into the Russian Federation of foreign citizens or stateless
+      persons shall be also a duly legalized contract on a tourist trip.
+- type: chapter
+  label: CHAPTER V
+  title: ENTRY INTO THE RUSSIAN FEDERATION AND EXIT FROM THE RUSSIAN FEDERATION FOREIGN CITIZENS AND STATELESS PERSONS
+  content:
+
+  - type: clause
+    index: 26
+    label: Article 26
+    content:
+    - Foreign citizens or stateless persons may be denied to enter the Russian Federation if they:
+
+    - type: numbered-list
+      content:
+      - type: list-item
+        label: 1)
+        content:
+        - when applying for a Russian visa could not confirm availability of means for residence in the
+          territory of the Russian Federation and for exit from the Russian Federation or present guarantees for
+          the provision of such means in accordance with the procedure established by the Russian Federation
+          Government;
+      - type: list-item
+        label: 2)
+        content:
+        - at a point of entry on the state border of the Russian Federation violated the rules for crossing the
+          state border of the Russian Federation, customs rules, sanitary norms, until the reason for violation has
+          been removed;
+      - type: list-item
+        label: 3)
+        content:
+        - presented deliberately false information about themselves or purposes of their stay.
+
+  - type: clause
+    index: 27
+    label: Article 27
+    content:
+    - 'Foreign citizens or stateless persons shall be denied entry into the Russian Federation where:'
+
+    - type: numbered-list
+      content:
+      - type: list-item
+        label: 1)
+        content:
+        - it is necessary for the purposes of the state security;
+      - type: list-item
+        label: 2)
+        content:
+        - during their previous stay they were convicted in accordance with the Russian Federation
+          legislation for the commitment of a serious or especially serious crime or during the previous stay they
+          were forcibly deported from the Russian Federation, during five years after serving the sentence for
+          the committed crime or within one year from the date of the forced deportation;
+      - type: list-item
+        label: 3)
+        content:
+        - they did not present documents necessary for obtaining a Russian visa in accordance with the
+          Russian Federation legislation, until their submission;
+      - type: list-item
+        label: 4)
+        content:
+        - they apply for a Russian visa for more than three month period and did not present a certificate on
+          the lack of HIV-infection, until submission of such certificate.
+  - type: clause
+    index: 28
+    label: Article 28
+    content:
+    - 'Exit from the Russian Federation for foreign citizens or stateless persons may be restricted where they:'
+    - type: numbered-list
+      content:
+      - type: list-item
+        label: 1)
+        content:
+        - in accordance with the Russian Federation legislation have been detained on suspicion of having
+          committed a crime or have been accused, until the court’s decision on the case or entry into force of
+          the sentence;
+      - type: list-item
+        label: 2)
+        content:
+        - have been convicted for a crime until the sentence has been served or lifted;
+      - type: list-item
+        label: 3)
+        content:
+        - evade from fulfillment of obligations imposed on them by a court of law, until the obligations have
+          been fulfilled or the sides have reached an agreement;
+      - type: list-item
+        label: 4)
+        content:
+        - have not fulfilled obligations to pay taxes provided for by the Russian Federation legislation, until
+          fulfillment of these obligations.
+
+- type: chapter
+  label: CHAPTER VI
+  title: PROCEDURE FOR THE TRANSIT OF FOREIGN CITIZENS AND STATELESS PERSONS THROUGH THE TERRITORY OF THE RUSSIAN FEDERATION
+  content:
+  - type: clause
+    index: 29
+    label: Article 29
+    content:
+    - Transit through the territory of the Russian Federation shall be effected as a rule without the right to a stopover.
+    - Transit through the territory of the Russian Federation of foreign citizens and stateless persons to a
+      state of destination by all means of passenger transport shall be allowed upon presentation of a
+      Russian transit visa, a visa for entry into a state adjacent to the Russian Federation on the travel
+      itinerary or a visa of a state of destination and travel tickets valid for entry into the Russian Federation
+      or confirmed guarantees of their acquisition at a transfer point in the territory of the Russian
+      Federation.
+  - type: clause
+    index: 30
+    label: Article 30
+    content:
+    - A visa with the right to a stopover in the territory of the Russian Federation may be issued to foreign
+      citizens and stateless persons upon presentation of a motivated request and documents confirming a
+      necessity of a stopover, unless an international treaty of the Russian Federation provides for otherwise.
+  - type: clause
+    index: 31
+    label: Article 31
+    content:
+    - A foreign citizen or a stateless person shall be allowed to transit through the territory of the
+      Russian Federation without a visa where they:
+
+    - type: numbered-list
+      content:
+      - type: list-item
+        label: 1)
+        content:
+        - fly over the territory of the Russian Federation without a stopover;
+      - type: list-item
+        label: 2)
+        content:
+        - fly an international airline with a transfer at the airport in the territory of the Russian Federation and
+          have duly legalized documents on the right to enter a state of destination and an air ticket with a
+          confirmed date of departure from die airport of transfer in the territory of the Russian Federation
+          within 24 hours from the moment of arrival, save the cases of a forced stoppage;
+      - type: list-item
+        label: 3)
+        content:
+        - reside in the territory of a state with which the Russian Federation has a respective international
+          treaty.
+  - type: clause
+    index: 32
+    label: Article 32
+    content:
+    - "The forced stoppage shall be recognized a stay over 24 hours in a settlement due to occurrence of the
+      following circumstances:"
+
+    - type: numbered-list
+      content:
+      - type: list-item
+        label: 1)
+        content:
+        - natural disasters hindering the movement of a train, land transport, vessel or an aircraft;
+
+        - type: list-item
+          label: 2)
+          content:
+          - necessary repairs of a respective vehicle damaged as a result of breakage of any of its parts or as a
+            result of a transport accident;
+        - type: list-item
+          label: 2)
+          content:
+          - a disease, if according to a physician’s judgment a further movement of a sick person poses a threat
+            to his/her life and health;
+        - type: list-item
+          label: 2)
+          content:
+          - unexpected delays when transferring at a transfer point.
+
+      - In case of the forced stoppage, legalization of a stay in the territory of the Russian Federation and
+        extension of a transit Russian visa shall be effected by an internal affairs body at a place of the forced
+        stoppage upon application of aliens or stateless persons.
+
+- type: chapter
+  label: CHAPTER VII
+  title: LIABILITY OF OFFICIALS, CITIZENS OF THE RUSSIAN FEDERATION, FOREIGN CITIZENS AND STATELESS PERSONS FOR THE VIOLATION OF THE PRESENT FEDERAL LAW
+  content:
+  - type: clause
+    index: 33
+    label: Article 33
+    content:
+    - Citizens of the Russian Federation, foreign citizens and stateless persons shall be liable for the
+      violation of the present Federal Law in accordance with the Russian Federation legislation.
+  - type: clause
+    index: 34
+    label: Article 34
+    content:
+    - Where a state body or an official violated the procedure for the legalization of documents for entry
+      into the Russian Federation and (or) exit from the Russian Federation, provided for by the present
+      Federal Law, a citizen of the Russian Federation, a foreign citizen or a stateless person shall be
+      entitled to apply to a court of law to defend their interests in the manner established by the Russian
+      Federation legislation.
+  - type: clause
+    index: 35
+    label: Article 35
+    content:
+    - Officials guilty of violation of the rights of a citizen of the Russian Federation, a foreign citizen or a
+      stateless person to exit from the Russian Federation and (or) entry into the Russian Federation, shall
+      bear material and other responsibility for the damage caused to the indicated persons by their
+      decisions, actions (inaction), in the manner established by the Russian Federation legislation.
+- type: chapter
+  label: CHAPTER VIII
+  title: FINAL PROVISIONS
+  content:
+    - type: clause
+      index: 36
+      label: Article 36
+      content:
+      - The present Federal Law shall come into force as of the date of its official publication.
+    - type: clause
+      index: 37
+      label: Article 37
+      content:
+      - As of the date of the enactment of the present Federal Law to recognize:
+        1) as invalid:
+      - type: unnumbered-list
+        content:
+        - type: list-item
+          label: '-'
+          content:
+          - the Resolution of the Russian Federation Supreme Soviet of 22 December 1992 “On the Enactment in the Territory of the Russian Federation of the USSR Law “On the Procedure of Exit from the USSR and Entry into the USSR of the USSR Citizens” (the Bulletin of Peoples’ Deputies Congress of the Russian Federation and of the Russian Federation Supreme Soviet, 1993, No 1, p. 19);
+        - type: list-item
+          label: '-'
+          content:
+          - Article 37 of the Federal Law “On the Status of a Deputy of the Council of Federation and on the Status of a Deputy of the State Duma of the Russian Federation Federal Assembly” (the Code of Laws of the Russian Federation, 1994, No 2, p.74);

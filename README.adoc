@@ -91,23 +91,112 @@ Or via the adapters repository:
 ruby adapter.rb
 ----
 
-== YAML Schema
+== Source Data Format
 
-Each processed YAML file follows the schema defined in
-`ammitto/lib/ammitto/sources/ru/` using Lutaml::Model.
+The processed YAML files in `processed/` follow this structure:
 
-.Example YAML structure
+=== Person Entity
 [source,yaml]
 ----
 names:
   - "PRIMARY NAME (Кириллица)"
   - "PRIMARY NAME (Latin)"
-entity_type: person  # or "organization"
+entity_type: person
 source: ru
 country: Country Name
-list_type: "stop-list"  # or "central-bank", "government"
+list_type: "stop-list"
 sanction_measures:
   - "Entry ban"
+----
+
+=== Organization Entity
+[source,yaml]
+----
+names:
+  - "ORGANIZATION NAME"
+entity_type: organization
+source: ru
+country: Country Name
+list_type: "stop-list"
+sanction_measures:
+  - "Financial restrictions"
+----
+
+=== Field Definitions
+
+[cols="1,4"]
+|===
+| Field | Description
+
+| `names`
+| Array of name variants (may include Cyrillic and Latin scripts)
+
+| `entity_type`
+| Entity type: person or organization
+
+| `source`
+| Source code: ru
+
+| `country`
+| Country associated with the entity
+
+| `list_type`
+| Type of Russian sanctions list: stop-list, central-bank, government
+
+| `sanction_measures`
+| Array of sanction measures applied
+
+|===
+
+== Harmonized Data Format
+
+After harmonization, entities are transformed into JSON-LD format:
+
+=== Entity (JSON-LD)
+[source,json]
+----
+{
+  "@context": "https://www.ammitto.org/schema/v1/context.jsonld",
+  "@id": "https://www.ammitto.org/entity/ru/001",
+  "@type": "PersonEntity",
+  "names": [
+    {
+      "@type": "NameVariant",
+      "fullName": "PRIMARY NAME (Кириллица)",
+      "script": "Cyrl",
+      "isPrimary": true
+    },
+    {
+      "@type": "NameVariant",
+      "fullName": "PRIMARY NAME (Latin)",
+      "script": "Latn",
+      "isPrimary": false
+    }
+  ],
+  "sanctionEntries": [
+    {
+      "@id": "https://www.ammitto.org/entry/ru/001",
+      "@type": "SanctionEntry",
+      "authority": {
+        "@id": "https://www.ammitto.org/authority/ru",
+        "name": "Russia"
+      },
+      "regime": {
+        "@type": "SanctionRegime",
+        "code": "STOP_LIST",
+        "name": "Stop List"
+      },
+      "effects": [
+        {
+          "@type": "SanctionEffect",
+          "effectType": "travel_ban",
+          "scope": "full"
+        }
+      ],
+      "status": "active"
+    }
+  ]
+}
 ----
 
 == Entity Types

@@ -1,0 +1,196 @@
+---
+announcement:
+  title:
+    ru: Заявление МИД России об ответных персональных санкциях в отношении представителей политического истеблишмента и экспертного сообщества Великобритании
+    en: Foreign Ministry statement on retaliatory personal sanctions against representatives of the UK political establishment and expert community
+  url: https://www.mid.ru/ru/maps/gb/2049201/
+  lang: ru
+  publish_date: '2025-09-26'
+  publish_time: '15:00'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 1585-26-09-2025
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В Лондоне не оставляют надежд с помощью подконтрольного киевского режима
+      все же нанести нашей стране стратегическое поражение. Дабы продлить жизнь
+      терпящему одно поражение за другим «украинскому проекту», в минувшие дни в
+      ход пущены обкатанные британцами инструменты манипуляции сознанием:
+      очередной виток антироссийской шпиономании, фантазии о якобы нависшей над
+      Европой «военной угрозе», с помпой объявленные экономические ограничения,
+      правда, бьющие в основном по британской же экономике.
+
+      Циничные антироссийские авантюры продолжают исправно финансироваться
+      Лондоном в ущерб деградирующей социально-экономической и, как следствие,
+      внутриполитической обстановке в стране. Ситуация с выполнением британским
+      правительством базовых социальных обязательств перед собственным
+      населением с каждым месяцем все сильнее напоминает «Тришкин кафтан» – будь
+      то в сфере сдерживания нелегальной миграции и разгула уличной
+      преступности, или стимулирования экономического роста.
+
+      В ответ на сохраняющийся конфронтационный курс Лондона принято решение о
+      включении в российский «стоп-лист» дополнительной группы представителей
+      политического истеблишмента и «экспертного» сообщества Великобритании.
+
+      В их числе лица, запятнавшие себя агитацией в поддержку неправомерных
+      односторонних ограничений, а также причастные к подрывной работе Лондона
+      на российском направлении, в том числе фабрикации клеветнических домыслов
+      и распространению дезинформации о нашей стране.
+
+      Ниже следует перечень подданных Великобритании, а также сотрудничающих с
+      сеющими клевету и раздор британскими аналитическими и консалтинговыми
+      центрами граждан третьих стран, которым отныне закрыт въезд в Российскую
+      Федерацию:
+
+      <list>
+
+      Также в список внесен ряд представителей Управления по применению
+      финансовых санкций Министерства финансов Великобритании.
+
+      Хотели бы вновь подчеркнуть, что любые усилия британской стороны в погоне
+      за дискредитацией и «изоляцией» России, в том числе в контексте СВО, будут
+      неизменно получать решительный и жесткий отпор с нашей стороны.
+
+      Работа над расширением российского «стоп-листа», обусловленная сохранением
+      деструктивной британской политики по эскалации напряженности в Европе и
+      мире, будет продолжена.
+
+    en: |
+      London is clinging to the belief that it can inflict a strategic damage on
+      Russia with the help of the Kiev regime it controls. Hoping to extend the
+      life span of the Ukraine project, which is suffering one defeat after
+      another, they have resorted to the tried and tested mind control methods
+      in the past few days, namely launched another round of anti-Russia spy
+      paranoia, spreading myths of the alleged military threat to Europe, and
+      ostentatiously announced the adoption of new economic sanctions,
+      regardless of the fact that these sanctions will hit the British economy
+      the hardest.
+
+      London continues to finance cynical anti-Russia campaigns even though this
+      is accelerating the decline of its socioeconomic and, consequently,
+      internal political situation. The British government’s efforts to honour
+      its basic social commitments look more and more like trying to rob the
+      Peter to pay Paul – both when it comes to curbing illegal migration and
+      street crime, or encouraging economic growth.
+
+      In response to London’s continued confrontational course, a decision has
+      been made to add a number of British representatives from the UK political
+      establishment and expert community to Russia’s “stop list.”
+
+      This list includes individuals advocating for illegal unilateral sanctions
+      and engaged in London’s subversive activities towards Russia, including
+      the fabrication of anti-Russia materials and the spreading of
+      disinformation about our country.
+
+      The following is a list of British nationals, as well as third-country
+      nationals collaborating with destructive British analytical and consulting
+      agencies, who are now barred from entering the Russian Federation:
+
+      <list>
+
+      The list also includes several representatives of the Office of Financial
+      Sanctions Implementation (OFSI) within HM Treasury.
+
+      We would like to point out again that Britain’s efforts to discredit and
+      isolate Russia, including in the context of the special military
+      operation, will inevitably meet with a firm and strong response.
+
+      The Russian “stop list” will be subject to further expansion owing to
+      Britain’s persistent destructive policy aimed at escalating tensions in
+      Europe and the rest of the world.
+
+sanction_details:
+  instruments:
+    - id: ru/federal-law-114
+  entities:
+    - name:
+        ru: Бирн, Джеймс
+        en: Byrne, James
+      type: individual
+      title:
+        ru: основатель и исполнительный директор британского исследовательского центра Open Source Centre
+        en: Co-founder and CEO, British research institute Open Source Centre;
+      effective_date: '2025-09-26'
+      sanction_list: черного списка
+      reason: &reason
+        - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+          en: For collaborating with destructive British analytical and consulting agencies.
+      measures: &measures
+        - type:
+          - entry_ban
+          ru: Запрещен въезд в Российскую Федерацию.
+          en: Entry into the Russian Federation is prohibited.
+
+    - name:
+        ru: Дибел-Юнг, Анна
+        en: Deibel-Jung, Anna
+      type: individual
+      title:
+        ru: заместитель директора Управления по применению торговых санкций Министерства предпринимательства и торговли Великобритании
+        en: Deputy Director, Office of Trade Sanctions Implementation (OTSI) within the Department for Business and Trade
+      effective_date: '2025-09-26'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Дуган, Дэвид Майкл
+        en: Doogan, David Michael
+      type: individual
+      title:
+        ru: депутат Палаты общин Парламента Великобритании от Шотландской национальной партии
+        en: Member of the House of Commons from the Scottish National Party
+      effective_date: '2025-09-26'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Петрокофски, Макс
+        en: Petrokofsky, Max
+      type: individual
+      title:
+        ru: начальник Управления по применению финансовых санкций МИД Великобритании;
+        en: Head, Sectoral Sanctions (Trade), the Foreign, Commonwealth & Development Office
+      effective_date: '2025-09-26'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Редловска, Кинга
+        en: Redlowska, Kinga
+      type: individual
+      title:
+        ru: начальник европейского отдела Центра по проблемам финансов и безопасности и участник Целевой группы по морским санкциям, действующих в составе Королевского института оборонных исследований;
+        en: Head, Centre for Finance and Security (CFS Europe); member of the Maritime Sanctions Taskforce, Royal United Services Institute
+      effective_date: '2025-09-26'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Рейнолдс, Эмма Элизабет
+        en: Reynolds, Emma Elizabeth
+      type: individual
+      title:
+        ru: министр окружающей среды, продовольствия и сельского хозяйства Великобритании, депутат Палаты общин Парламента Великобритании от Лейбористской партии
+        en: Secretary of State for Environment, Food and Rural Affairs, member of the House of Commons from the Labour Party
+      effective_date: '2025-09-26'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
+
+    - name:
+        ru: Эраскин, Гонсало Саис
+        en: Erasquin, Gonsalo Saiz
+      type: individual
+      title:
+        ru: научный сотрудник Центра по проблемам финансов и безопасности и участник Целевой группы по морским санкциям, действующих в составе Королевского института оборонных исследований
+        en: Research Fellow, Centre for Finance and Security; member of the Maritime Sanctions Taskforce, Royal United Services Institute
+      effective_date: '2025-09-26'
+      sanction_list: черного списка
+      reason: *reason
+      measures: *measures
