@@ -1,0 +1,4570 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России в связи с введением персональных санкций в отношении граждан США
+    en: Foreign Ministry statement on personal sanctions against US citizens
+  url: https://www.mid.ru/ru/foreign_policy/news/1938555/
+  lang: ru
+  publish_date: '2024-03-14'
+  publish_time: '13:20'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 482-14-03-2024
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В контексте ответных мер на постоянно расширяющиеся санкции, вводимые в массовом порядке американскими властями против граждан России за «поддержку Кремля и специальной военной операции», въезд в Российскую Федерацию закрывается для 227 американцев, причастных к разработке, реализации и оправданию русофобского курса нынешней Администрации США, а также непосредственно вовлеченных в антироссийские акции.
+
+      Речь идет о конкретных лицах в структурах исполнительной власти, деловом сообществе, медийной сфере и академических кругах, которые регулярно «отмечаются» враждебными выпадами либо распространением измышлений и откровенной клеветы о внешней и внутренней политике России. В дополнение к объявлению нежелательными в Российской Федерации ряда американских НКО гуманитарного профиля, использовавшихся посольством США в Москве для рекрутирования «агентуры влияния», нынешнее расширение российского «стоп-листа» имеет целью, помимо прочего, закрепить у Вашингтона на рефлекторном уровне осознание простой истины, что любые агрессивные поползновения не остануться безнаказанными и получат решительный отпор.
+
+      <list>
+    en: |
+      The Russian Federation has banned 227 Americans from entering its territory. The ban applies to those involved in conceiving, carrying out and justifying the anti-Russia policy adopted by the current administration of the United States, as well as those directly involved in anti-Russia undertakings. The decision is part of retaliatory measures in response to the massive and constantly expanding list of sanctions imposed by the American government on Russian citizens for supporting the Kremlin and the special military operation.
+
+      This list designates specific persons from the executive branch, as well as the business community, the media industry and academia who have regularly made hostile statements or spread far-fetched allegations and outright slander about Russia’s domestic and foreign policy. This list supplements the designation of several American non-profit organisations specialising in humanitarian affairs as undesirable in the Russian Federation for using the United States Embassy in Moscow to recruit agents of influence. It is designed, among other things, to make sure that Washington understands the simple truth that any aggressive move will not go unpunished and will face a resolute response.
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Рави Абделяль
+      en: Rawi Abdelal
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор Центра Дэвиса по изучению России и Евразии при Гарвардском университете;
+        Ричард Андерсон
+      en: Richard D. Anderson Jr.
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – почетный профессор Калифорнийского университета;
+        Марк Андричик
+      en: Mark Andryczyk
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник Института Гарримана при Колумбийском университете;
+        Махмуд Ба
+      en: Mahmoud Bah
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель исполнительного директора госкорпорации «Миллениум чэллендж корпорэйшн»;
+        Пайам Баназаде
+      en: Payam Banazadeh
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный директор компании «Капелла спэйс»;
+        Чарльз Бекер
+      en: Charles Maxwell Becker
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель руководителя кафедры экономики Университета Дьюка;
+        Дэниел Бесснер
+      en: Daniel Bessner
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – сотрудник Вашингтонского университета;
+        Лада Биланюк
+      en: Laada Bilaniuk
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Вашингтонского университета;
+        Роберт Бирман
+      en: Robert Bierman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член правления «Балкан инвестигэйтив репортинг нетворк»;
+        Стивен Бланк
+      en: Stephen Blank
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший научный сотрудник НПО «Институт изучения внешней политики»;
+        Джейсон Бордофф
+      en: Jason Eric Bordoff
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор Центра глобальной энергетической политики Колумбийского университета;
+        Анжела Брайтлингер
+      en: Angela Britlinger
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор Центра славянских, восточноевропейских и евразийских исследований при Университете штата Огайо;
+        Мэриэнн Браун
+      en: Marianne С. Brown
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Тревор Браун
+      en: Trevor Brown
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – декан Колледжа по связям с общественностью им. Джона Гленна при Университете штата Огайо;
+        Рэйчел Бричта
+      en: Rachel Brichta
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – руководящий сотрудник Центра российских, восточноевропейских и евразийских исследований Мичиганского университета;
+        Сара Бьянчи
+      en: Sarah Bianchi
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель Торгового представителя США;
+        Аллен Вайнер
+      en: Allen S. Weiner
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор Центра по международным конфликтам и переговорам при Стэнфордском университете;
+        Амир Вайнер
+      en: Amir Weiner
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор Центра российских, восточноевропейских и евразийских исследований при Стэнфордском университете;
+        Александра Вакро
+      en: Alexandra Vacroux
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный директор Центра Дэвиса по изучению России и Евразии при Гарвардском университете;
+        Дэниэл Вартко
+      en: Daniel Wartko
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – советник делегации США при ОБСЕ по вопросам контроля над вооружениями;
+        Джеффри Вейдлингер
+      en: Jeffrey Veidlinger
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор истории и иудаизма в Мичиганском университете;
+        Кэти Видал
+      en: Kathi Vidal
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший заместитель министра торговли;
+        Александр Виндман
+      en: Alexander Vindman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – генеральный директор ЧВК «Трайдент саппорт»;
+        Лорейн Волес
+      en: Lorraine Ann Voles
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – глава аппарата Вице-президента;
+        Джошуа Волц
+      en: Joshua Volz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра энергетики;
+        Джеффри Вуд
+      en: Jeffrey Wood
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – генеральный менеджер американского представительства компании «Конгсберг протек системс»;
+        Эрик Вудхаус
+      en: Erik Woodhouse
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя госсекретаря по санкциям и борьбе с финансовыми угрозами;
+        Натан Вулф
+      en: Nathan Daniel Wolfe
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – основатель компании «Метабиота»;
+        Кевин Вэйл
+      en: Kevin Weil
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по развитию бизнеса компании «Плэнет лабс»;
+        Томас Гарза
+      en: Thomas Jesus Garza
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – доцент кафедры славянских и евразийских исследований, директор языкового центра свободных искусств Техасского университета;
+        Оуэн Геррнштадт
+      en: Owen Hermstadt
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров федерального Экспортно-Импортного банка;
+        Дэниэл Гетман
+      en: Daniel J. Getman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по развитию бизнеса компании «Капелла спэйс»;
+        Мелисса Гиллиам
+      en: Melissa Lynn Gilliam
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный вице-президент и ректор Университета штата Огайо;
+        Пол Грегори
+      en: Paul Roderick Gregory
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Хьюстонского университета;
+        Анна Гржимала
+      en: Anna Maria Grzymala-Busse
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Стэнфордского университета;
+        Тресса Гуенов
+      en: Tressa Steffen Guenov
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра обороны;
+        Питер Дажак
+      en: Peter Daszak
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Экохелс эллианс»;
+        Синди Дайер
+      en: Cindy Dyer
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – посол по особым поручениям по вопросам борьбы с торговлей людьми;
+        Джон Данлоп
+      en: John Barret Dunlop
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший научный сотрудник Института Гувера при Стэнфордском университете;
+        Агнес Дасевич
+      en: Agnes Dasewicz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – операционный директор Корпорации США по финансированию развития;
+        Роберт Джерачи
+      en: Robert Geraci
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник Центра российских, восточноевропейских и евразийских исследований при Иллинойском университете;
+        Эдвард Джозеф
+      en: Edward P. Joseph
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор института им. Дж.Хопкинса, член международного консультационного комитета Белградского центра по информационной политике;
+        Кэтрин Джоллак
+      en: Katherine Jolluck
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший преподаватель современной восточноевропейской истории при Стэнфордском университете;
+        Норман Джонс
+      en: Norman W. Jones
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель проректора Университета штата Огайо;
+        Полин Джонс
+      en: Pauline Jones
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор политологии Мичиганского университета;
+        Элиза Джулиано
+      en: Elise Giuliano
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор программы по американо-российским отношениям Колумбийского университета;
+        Патрик Диллон
+      en: Michael Patrick Dillon
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – супруг заместителя главы аппарата Белого дома Дженнифер О’Малли Диллон;
+        Маркиан Добчански
+      en: Markian Dobczansky
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель директора Центра ЕС при Иллинойском университете;
+        Ли Домашовец
+      en: Lee Domaszowec
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – основатель и руководитель компании «Финикс файе стратеджик консалтинг»;
+        Пол Донахью
+      en: Paul P. Donahue
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – операционный директор ЧВК «Констеллис холдингс»;
+        Карен Донфрид
+      en: Karen Erika Donfried
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – бывший заместитель госсекретаря по делам Европы и Евразии;
+        Генри Дюбуа
+      en: Henry Dubois
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – финансовый директор компании «Блэкскай»;
+        Итан Зиндлер
+      en: Ethan Zindler
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – советник министерства финансов по вопросам климата;
+        Эдвард Зиосс
+      en: Edward J. Zioss
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – руководитель направления космических и авиационных систем компании «Эл-3 Харрис текнолоджис»;
+        Эрнест Зитсер
+      en: Ernest Zitser
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник Центра славянских, евразийских и восточноевропейских исследований Дюкского университета;
+        Денис Ибишбегович
+      en: Denis Ibisbegovic
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – советник посла США в Сербии по вопросам оппозиции;
+        Грег Капелла
+      en: Greg Capella
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра торговли;
+        Роберт Кардилло
+      en: Robert Cardillo
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по стратегическим вопросам и председатель совета директоров компании «Плэнет федерал»;
+        Уильям Кареш
+      en: William В. Karesh
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный вице-президент по вопросам здравоохранения и политики компании «Экохелс эллианс»;
+        Роджер Карстенс
+      en: Roger Carstens
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – спецпредставитель президента США по вопросам заложников;
+        Уолтер Картер
+      en: Walter Edward Carter Jr.
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент Университета штата Огайо;
+        Джоэль Кастертон
+      en: Joel Т. Casterton
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Чарльз стил»;
+        Майкл Касс-Энтони
+      en: Michael Cass-Antony
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший советник по вопросам санкционной политики госдепартамента;
+        Джейсон Келли
+      en: Jason Kelly
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – основатель и президент компании «Гинкгоу биоворкс»;
+        Андреа Кендалл-Тейлор
+      en: Andrea Kendall-Taylor
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник НПО «Центр новой американской безопасности»;
+        Джим Керквлит
+      en: Jim Kerkvliet
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный директор компании «Оптимус стил»;
+        Кевин Керленд
+      en: Kevin J. Kurland
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра торговли;
+        Джаред Кимбол
+      en: Jared С. Kimball
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – советник министерства юстиции;
+        Майкл Киммадж
+      en: Michael Chapman Kimmage
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор истории в Католическом университете Америки;
+        Джимми Кирби
+      en: Jimmy Kirby
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель директора Финансовой разведки;
+        Джон Киршнер
+      en: Jon Kirchner
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по вопросам развития компании «Блэкскай»;
+        Альфред Кларк
+      en: Alfred Ray Clark
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – создатель ЧВК «Блэк уотер»;
+        Мадлен Клейнер
+      en: Madeleine A. Kleiner
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Питер Клемент
+      en: Peter Clement
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший научный сотрудник Колумбийского университета;
+        Лэдли Клоски
+      en: J. Ledlie Klosky
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор в военной академии США;
+        Диана Коенкер
+      en: Diane P. Koenker
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – почетный профессор Иллинойского университета;
+        Карен Кокс
+      en: Karen Yasumura Сох
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по связям с госорганами компании «Максар текнолоджис»;
+        Нэнси Конди
+      en: Nancy Condee
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор Центра российских, восточноевропейских и евразийских исследований Питтсбургского университета;
+        Майкл Консайдин
+      en: Michael Considine
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра энергетики;
+        Дэррил Конуэй
+      en: Darryle Conway
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по вопросам развития ЧВК «Констеллис холдингс»;
+        Изобель Коулман
+      en: Isobel Coleman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель директора по вопросам планирования Агентства США по международному развитию;
+        Чад Коэн
+      en: Chad Cohen
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – операционный директор компании «Капелла спэйс»;
+        Элиот Коэн
+      en: Eliot Asher Cohen
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – политолог;
+        Арвинд Кришна
+      en: Arwind Krishna
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Адриана Куглер
+      en: Adriana Debora Kugler
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета управляющих Федеральной резервной системы США;
+        Александр Кули
+      en: Alexander A. Cooley
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Колумбийского университета;
+        Энн Купер
+      en: Ann Cooper
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – почетный профессор Колумбийского университета;
+        Мэриэнн Лаван
+      en: Maryanne Lavan
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший вице-президент по юридическим вопросам корпорации «Локхид Мартин»;
+        Эндрю Лайт
+      en: Andrew Е. Light
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель министра энергетики;
+        Гейл Лапидус
+      en: Gail W. Lapidus
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший научный сотрудник Института международных исследований при Стэнфордском университете;
+        Дэниел Ласика
+      en: Daniel Lasica
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – начальник управления стратегического планирования и политики командования ВС США в Европе;
+        Алексия Латортю
+      en: Alexia Latortue
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель министра финансов;
+        Гил Лац
+      en: Gil Latz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-проректор по глобальным стратегиям и международным отношениям Университета штата Огайо;
+        Марк Леннон
+      en: Mark Lennon
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – руководитель Совета по оборонным инновациям при министерстве цифрового развития Украины;
+        Кристиан Ленц
+      en: Christian Lenz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по технологиям компании «Капелла спэйс»;
+        Кэрол Лефф
+      en: Carol Skalnik Leff
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – почетный научный сотрудник Иллинойского университета;
+        Кейт Ливерс
+      en: Keith Axel Livers
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – доцент кафедры славянских языков и литературы Техасского университета;
+        Рейчел Лингаас
+      en: Rachel Fredman Lyngaas
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – главный специалист по санкциям министерства финансов;
+        Шамала Литтлфилд
+      en: Shamala N. Littlefield
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Локхид Мартин Глобал»;
+        Нита Мадхав
+      en: Nita К. Madhav
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – бывший президент компании «Метабиота»;
+        Роджер Майерсон
+      en: Roger Bruce Myerson
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Чикагского университета;
+        Эрин Макки
+      en: Erin Elizabeth McKee
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель директора бюро Европы и Евразии Агентства США по международному развитию;
+        Лоуренс Марковиц
+      en: Lawrence P. Markowitz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – доцент кафедры международных отношений и связей с общественностью Института Гарримана при Колумбийском университете;
+        Джозеф Маркс
+      en: Joseph Marks
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – обозреватель в издании «Вашингтон пост»;
+        Кимберли Мартен
+      en: Kimberly Marten
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Колумбийского университета;
+        Мориан Маршалл
+      en: Maureen Elizabeth Marshall
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель директора Центра российских, восточноевропейских и евразийских исследований при Иллинойском университете;
+        Уильям Маршалл
+      en: William Marshall
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – соучредитель и исполнительный директор компании «Плэнет лабс»;
+        Чандра Маршалл
+      en: Chandra Marshall
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент и руководитель направления по развитию радиолокационных и сенсорных систем корпорации «Локхид Мартин»;
+        Эрика Маршалл
+      en: Erika Marshall
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по развитию бизнеса корпорации «Локхид Мартин»;
+        Род Маскоке
+      en: Rod Maskoke
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший вице-президент по технологиям корпорации «Локхид Мартин»;
+        Эмма Матео
+      en: Emma Mateo
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник Института Гарримана при Колумбийском университете;
+        Келли Матцен
+      en: Kelly Matzen
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по технологиям компании «Окситек»;
+        Джозеф Менн
+      en: Joseph Menn
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – обозреватель в издании «Вашингтон пост»;
+        Николас Мерски
+      en: Nicholas Merski
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – операционный директор компании «Блэкскай»;
+        Самир Мехта
+      en: Samir В. Mehta
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – руководитель направления по системам связи, компании «Эл-3 Харрис текнолоджис»;
+        Ларри Миллер
+      en: Larry Miller
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор компании «Локхид Мартин Глобал»;
+        Мэтью Миллер
+      en: Matthew Alan Miller
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – пресс-секретарь госдепартамента;
+        Скотт Монтгомери
+      en: Scott L. Montgomery
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – сотрудник Вашингтонского университета;
+        Харриет Муравь
+      en: Harriet Lisa Murav
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Иллинойского университета;
+        Питер Мэтт
+      en: Peter R. Matt
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Коммершл металс компани»;
+        Мэтью Мюррей
+      en: Matthew Murray
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Колумбийского университета;
+        Норман Наймарк
+      en: Norman М. Naimark
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Стэнфордского университета;
+        Эллен Накашима
+      en: Ellen Nakashima
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – обозреватель в издании «Вашингтон пост»;
+        Брент Нейман
+      en: Brent Neiman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра финансов;
+        Эндрю Нестинген
+      en: Andrew Nestingen
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Вашингтонского университета;
+        Сара Нетберн
+      en: Sarah Netbum
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – мировой судья в южном округе Нью-Йорка;
+        Дэниэл Норд
+      en: Daniel Nord
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший вице-президент компании «Максар текнолоджис»;
+        Ричард Ньюкомб
+      en: Richard Newcomb
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – партнер юридической фирмы «Ди-Эл-Эй пайпер»;
+        Филипс О’Брайен
+      en: Philips O’Brien
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – историк, профессор Сэнт-Эндрюсского университета;
+        Элис Олбрайт
+      en: Alice Patterson Albright
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный директор госкорпорации «Миллениум чэллендж корпорэйшн»;
+        Кевин Оливэл
+      en: Kevin J. Olival
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент компании «Экохелс эллианс»;
+        Бенджамин Оппенгейм
+      en: Benjamin Oppenheim
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – бывший вице-президент компании «Метабиота»;
+        Митчел Оренштейн
+      en: Mitchell A. Orenstein
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заведующий кафедрой российских и восточноевропейских исследований Пенсильванского университета;
+        Джон Пауэрс
+      en: Jon Powers
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент компании «Плэнет федерал»;
+        Роберт Персон
+      en: Robert Person
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – сотрудник в военной академии США;
+        Реймонд Пизелли
+      en: Raymond Piselli
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по международным вопросам корпорации «Локхид Мартин»;
+        Джудит Прайор
+      en: Judith Delzoppo Pryor
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – первый вице-президент федерального Экспортно-импортного банка;
+        Скотт Радниц
+      en: Scott Radnitz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Вашингтонского университета;
+        Терри Райан
+      en: Terry М. Ryan
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный директор ЧВК «Констеллис холдингс»;
+        Анита Рамасастри
+      en: Anita Ramasastry
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Вашингтонского университета;
+        Джон Рамбо
+      en: Jon Rambeau
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – руководитель направления комплексных систем компании «Эл-3 Харрис текнолоджис»;
+        Гэри Раухед
+      en: Gary Ellen Roughead
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Джон Рендан
+      en: John W. Rendan
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент и главный исполнительный директор в компании «Рендан груп»;
+        Люси Рид
+      en: Lucy Reed
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Чикагского университета;
+        Нэйтан Риклин
+      en: Nathan Ricklin
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по инженерным разработкам компании «Капелла спэйс»;
+        Джейсон Ричман
+      en: Jason A. Richman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – помощник прокурора;
+        Джеффри Риччетти
+      en: Jeffrey Ricchetti
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – лоббист, брат советника президента США С.Риччетти;
+        Валери Робинсон
+      en: Valeri J. Robinson
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник Иллинойского университета;
+        Грэм Робинсон
+      en: Graham N. Robinson
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Пол Розен
+      en: Paul М. Rosen
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель министра финансов;
+        Эндрю Ролинг
+      en: Andrew Rohling
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель командующего сухопутными войсками ВС США в Европе;
+        Кимберли Росс
+      en: Kimberley A. Ross
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Джон Салливан
+      en: John Joseph Sullivan
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – бывший посол США в России;
+        Дрю Салливан
+      en: Drew Sullivan
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – основатель Центра по исследованию коррупции и организованной преступности;
+        Лоуренс Саммерс
+      en: Lawrence Henry Summers
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – бывший министр финансов;
+        Ларри Самуэльсон
+      en: Larry Samuelson
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Йельского университета;
+        Карен Сейлорс
+      en: Karen Saylors
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Лабиринт глобал хелс»;
+        Дэниэл Секель
+      en: Danielle Sekel
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – координатор Центра российских, восточноевропейских и евразийских исследований при Иллинойском университете;
+        Джеф Селдин
+      en: Jeff Seldin
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – специальный корреспондент информагентства «Голос Америки»;
+        Стюарт Селдовиц
+      en: Stuart М. Seldowitz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – бывший и.о. директора по делам Южной Азии Совета национальной безопасности;
+        Джули Серкейра
+      en: Julie Cerqueira
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра энергетики;
+        Стивен Сигел
+      en: Steven Seegel
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор славянских и евразийских исследований Техасского университета;
+        Уолтер Скотт
+      en: Walter Scott
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный вице-президент и глава технологического направления компании «Максар текнолоджис»;
+        Дэн Слейтер
+      en: Dan Slater
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор политологии Мичиганского университета;
+        Барбара Смит
+      en: Barbara R. Smith
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – председатель совета директоров «Коммершл металс компани»;
+        Клиффорд Смит
+      en: Clifford Т. Smith
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный вице-президент компании «Кливленд-Клиффе стил»;
+        Владимир Сокор
+      en: Vladimir Socor
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший научный сотрудник НПО «Джеймстаунский фонд»;
+        Нил Сомерс
+      en: Neil М. Somers
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – спецагент ФБР;
+        Тим Старкс
+      en: Tim Starks
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – обозреватель в издании «Вашингтон пост»;
+        Марк Стейнберг
+      en: Mark D. Steinberg
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – почетный профессор Иллинойского университета;
+        Аарон Стекети
+      en: Aaron P. Steketee
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – спецагент ФБР;
+        Пол Стивен
+      en: Paul Stephen
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – главный специалист по информационной безопасности компании «Капелла спэйс»;
+        Шон Стэкли
+      en: Sean Stackley
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший вице-президент по стратегическим вопросам компании «Эл-3 Харрис текнолоджис»;
+        Марк Стюарт
+      en: Mark Stewart
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший вице-президент по корпоративным операциям корпорации «Локхид Мартин»;
+        Урви Суд
+      en: Urvi Doshi Sood
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент компании «Локхид Мартин Глобал»;
+        Дэвид Сумоски
+      en: David A. Sumoski
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – операционный директор компании «Нукор корпорэйшн»;
+        Клэй Сэлл
+      en: J. Clay Sell
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный директор компании «Икс-Энерджи»;
+        Раким Тамипсид
+      en: Rakim Tumipseed
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – руководитель международных полевых программ компании «Окситек»;
+        Ричард Темпест
+      en: Richard Tempest
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Иллинойского университета;
+        Трой Томан
+      en: Troy Toman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по программному обеспечению компании «Плэнет лабс»;
+        Леон Топалиян
+      en: Leon John Topalian
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Нукор корпорэйшн»;
+        Бенджамин Тромли
+      en: Benjamin Tromly
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Вашингтонского университета;
+        Эрик Троп
+      en: Eric Н. Traupe
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Капелла спэйс»;
+        Джейми Уайт
+      en: Jayme White
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель Торгового представителя США;
+        Майкл Уильямсон
+      en: Michael Williamson
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший вице-президент по глобальному развитию и стратегии корпорации «Локхид Мартин»;
+        Эрик Уильямсон
+      en: Eric Williamson
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – почетный член военной академии США;
+        Мэри Уинстон
+      en: Mary A. Winston
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Бенджамин Уиттс
+      en: Benjamin Witts
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – журналист;
+        Грегори Ульмер
+      en: Gregory М. Ulmer
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный вице-президент по развитию аэрокосмического направления корпорации «Локхид Мартин»;
+        Стивен Уолкер
+      en: Steven Н. Walker
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент и директор по технологиям корпорации «Локхид Мартин»;
+        Джеймс Уолтон
+      en: James Calder Walton
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник Гарвардского университета;
+        Роберт Уорт
+      en: Robet F. Worth
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – журналист издания «Нью-Йорк таймc»;
+        Москила Упадхъяя
+      en: Moxila A. Upadhyaya
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – мировой судья;
+        Марк Уэлш
+      en: Mark A. Welsh
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Энн Фадж
+      en: Ann Marie Fudge
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Дайэн Фаррелл
+      en: Diane Catherine Goss Farrell
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя министра торговли;
+        Мередит Фенсом
+      en: Meredith Т. Fensom
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по глобальным связям с общественностью компании «Окситек»;
+        Льюис Фон Таер
+      en: Lewis Von Thaer
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Институт Баттелле мемориал»;
+        Тони Фразье
+      en: Tony Frazier
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный вице-президент и генеральный менеджер компании «Максар текнолоджис»;
+        Тимоти Фрай
+      en: Timothy М. Frye
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Колумбийского университета;
+        Майкл Фридман
+      en: Michael J. Friedman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – помощник прокурора в округе Колумбия;
+        Петер Фрицше
+      en: Peter A. Fritzsche
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – профессор Иллинойского университета;
+        Грей Фрэндсен
+      en: Grey Frandsen
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – президент компании «Окситек»;
+        Таня Ханна
+      en: Tania Warana Hanna
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице- президент по взаимодействию с государственными органами компании «Эл-3 Харрис текнолоджис»;
+        Бред Харрис
+      en: Brad Harris
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по бюджету и управлению ресурсами Университета штата Огайо;
+        Джон Харрис
+      en: John С. Harris
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – генерал-адъютант Национальной гвардии штата Огайо;
+        Грант Харрис
+      en: Grant Т. Harris
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель министра торговли;
+        Кэтрин Хафф
+      en: Kathryn Huff
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – заместитель министра энергетики;
+        Стефани Хилл
+      en: Stephanie С. Hill
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – исполнительный вице-президент корпорации «Локхид Мартин»;
+        Ивонн Ходж
+      en: Yvonne О. Hodge
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший вице-президент по развитию бизнеса и цифровизации корпорации «Локхид Мартин»;
+        Джеймс Хоуп
+      en: James Норе
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – глава миссии Агентства США по международному развитию на Украине и в Белоруссии;
+        Старр Хьюз
+      en: Starr Hughes
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по развитию программы истребителей F-35 в корпорации «Локхид Мартин»;
+        Марк Хьюитт
+      en: Mark Hewitt
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – вице-президент по корпоративной стратегии корпорации «Локхид Мартин»;
+        Дэниел Чирот
+      en: Daniel Chirot
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – почетный профессор Вашингтонского университета;
+        Джон Чорчиари
+      en: John D. Ciorciari
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – доцент Школы государственной политики им. Джеральда Форда при Мичиганском университете;
+        Брюс Шварц
+      en: Bruce С. Swartz
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – зам.заместителя Генерального прокурора;
+        Уэнди Шерман
+      en: Wendy Ruth Sherman
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – бывший первый заместитель Госсекретаря;
+        Ремша Шетти
+      en: Remsha Shetty
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – операционный директор компании «Гинкгоу биоворкс»;
+        Робби Шинглер
+      en: Robbie Schingler
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – директор по стратегическим вопросам компании «Плэнет лабс»;
+        Чарльз Шмитт
+      en: Charles Schmitt
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – глава компании «ССАБ Америкас»;
+        Томас Шове
+      en: Thomas М. Schoewe
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Дерек Шолле
+      en: Dereck Chollet
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – специальный советник Госдепартамента;
+        Мириам Шрагер
+      en: Miriam Shrager
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – старший преподаватель кафедры славянских и восточноевропейских языков и культур Индианского университета;
+        Питер Шредер
+      en: Peter Schroeder
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – научный сотрудник НПО «Центр новой американской безопасности»;
+        Дэвид Эбни
+      en: David P. Abney
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – член совета директоров холдинга «Нортроп Грумман»;
+        Эмма Элленридер
+      en: Emma D. Ellenrieder
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        – прокурор отдела контрразведки и экспортного контроля Управления национальной безопасности министерства юстиции США;
+        Джонатан Эпштейн
+      en: Jonathan Н. Epstein
+    type: individual
+    nationality: US
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2024-03-14'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

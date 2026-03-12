@@ -1,0 +1,5140 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России об ответных персональных санкциях в отношении депутатов Палаты общин Парламента Великобритании
+    en: Заявление МИД России об ответных персональных санкциях в отношении депутатов Палаты общин Парламента Великобритании
+  url: https://mid.ru/ru/foreign_policy/news/1810980/
+  lang: ru
+  publish_date: '2022-04-27'
+  publish_time: '13:06'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 918-27-04-2022
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В ответ на принятое 11 марта с.г. правительством Великобритании решение о внесении в санкционный список 386 депутатов Государственной Думы Федерального Собрания Российской Федерации на основе взаимности вводятся персональные ограничения в отношении 287 членов Палаты общин британского парламента.
+
+      Указанные лица, которым отныне закрыт въезд в Российскую Федерацию, принимали наиболее активное участие в учреждении антироссийских санкционных инструментов Лондона, способствуют безосновательному нагнетанию русофобской истерии в Великобритании.
+
+      Враждебная риторика и надуманные обвинения, звучащие из уст британских парламентариев, не только потворствуют враждебному курсу Лондона, нацеленному на демонизацию нашей страны и ее международную изоляцию, но и используются противниками взаимоуважительного диалога с Россией для подрыва фундамента двустороннего сотрудничества.
+      Члены фракции Консервативной партии в Палате общин Парламента Великобритании
+
+      Стивен Пол БАРКЛИ (Stephen Paul BARCLAY),
+      Дэвид Майкл ДЭВИС (David Michael DAVIS),
+      Чарльз Джордж ЮСТИС (Charles George EUSTICE),
+      Доминик Чарльз ГРИВ (Dominic Charles GRIEVE),
+      Кристофер ХИТОН-ХАРРИС (Christopher HEATON-HARRIS),
+      Джереми Ричард Стреншам ХАНТ (Jeremy Richard Streynsham HUNT),
+       Алистер Уильям Джек (Alister William JACK),
+       Даниэль Роберт КАВЧИНСКИЙ (Daniel Robert KAWCZYNSKI),
+       Андреа Жаклин ЛЕДСОМ (Andrea Jacqueline LEADSOM),
+       Джулиан Мюррей ЛЬЮИС (Julian Murray LEWIS),
+       Эстер Луиза МАКВЕЙ (Esther Louise MCVEY),
+       Пенелопа Мери МОРДОНТ (Penelope Mary MORDAUNT),
+       Кэролайн Фиона Эллен НОУКС (Caroline Fiona Ellen NOKES),
+      Кристофер Джон ПИНЧЕР (Christopher John PINCHER),
+       Джейкоб Уильям РИС-МОГГ (Jacob William REES-MOGG),
+       Марк Стивен СПЕНСЕР (Mark Steven SPENCER),
+      Тереза Энн ВИЛЬЕРС (Theresa Ann VILLIERS),
+       Хизер Кей УИЛЛЕР (Heather Kay WHEELER),
+
+      <list>
+    en: ''
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Найджел АДАМС
+      en: Nigel ADAMS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бим АФОЛАМИ
+      en: Bim AFOLAMI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Адам АФРИЕ
+      en: Adam AFRIYIE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Джеймс Гай АЛДУС
+      en: Peter James Guy ALDOUS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Люси Элизабет АЛЛАН
+      en: Lucy Elizabeth ALLAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стюарт Джеймс ЭНДРЮ
+      en: Stuart James ANDREW
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эдвард Джон Компорт АРГАР
+      en: Edward John Comport ARGAR
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Виктория Мэри АТКИНС
+      en: Victoria Mary ATKINS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард Майкл БЭКОН
+      en: Richard Michael BACON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кеми БАДЕНОХ
+      en: Kemi BADENOCH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стив Джон БЕЙКЕР
+      en: Steve John BAKER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Харриет Мэри Морисон БОЛДУИН
+      en: Harriet Mary Morison BALDWIN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Чарльз БЭРОН
+      en: John Charles BARON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Александр Пол БЕРЕСФОРД
+      en: Alexander Paul BERESFORD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Джейкоб Гилкрайст БЕРРИ
+      en: James Jacob Gilchrist BERRY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Уильям БОН
+      en: Peter William BONE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Джеймс БОТОМЛИ
+      en: Peter James BOTTOMLEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Кэмпбелл БОУИ
+      en: Andrew Campbell BOWIE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бен Девид БРЕДЛИ
+      en: Ben David BRADLEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Карен Энн БРЕДЛИ
+      en: Karen Anne BRADLEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джек Эдгар БРЕРЕТОН
+      en: Jack Edgar BRERETON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Джеймс БРИДГЕН
+      en: Andrew James BRIDGEN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стив БРИН
+      en: Steve BRINE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Фиона Клер БРЮС
+      en: Fiona Claire BRUCE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Алекс БУРГАРТ
+      en: Michael Alex BURGHART
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Конор БЕРНС
+      en: Conor BURNS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Алан Хью КЭИРНС
+      en: Alan Hugh CAIRNS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Роджер КАРТЛИДЖ
+      en: James Roger CARTLIDGE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Уильям Найджел Пол КЭШ
+      en: William Nigel Paul CASH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мария Колетт КОЛФИЛД
+      en: Maria Colette CAULFIELD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Александр Джон Гервейз ЧОЛК
+      en: Alexander John Gervase CHALK
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ата-Ур-Рехман ЧИШТИ
+      en: Atta-Ur-Rehman CHISHTI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джоанна Пета ЧЕРЧИЛЛЬ
+      en: Johanna Peta CHURCHILL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Саймон Ричард КЛАРК
+      en: Simon Richard CLARKE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеффри КЛИФТОН-БРАУН
+      en: Geoffrey CLIFTON-BROWN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тереза Энн КОФИ
+      en: Therese Anne COFFEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Альберто Кастренз КОСТА
+      en: Alberto Castrenze COSTA
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Александр КОРТС
+      en: Robert Alexander COURTS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Трейси Элизабет Энн КРАУЧ
+      en: Tracey Elizabeth Anne CROUCH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Томас Чарльз ДЭВИС
+      en: David Thomas Charles DAVIES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эдвард Глин ДЭВИС
+      en: Edward Glyn DAVIES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мимс Джейн Элис ДЭВИС
+      en: Mims Jane Alice DAVIES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Филипп ДЭВИС
+      en: Philip DAVIES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мишель Эмма Мэй ДОНЕЛАН
+      en: Michelle Emma May DONELAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стив Дэниел ДАБЛ
+      en: Steve Daniel DOUBLE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард Гросвенор ПЛАНКЕТ-ЭРНЛ-ДРАКС
+      en: Richard Grosvenor PLUNKETT-ERNLE-DRAX
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Филипп ДАДРИДЖ
+      en: James Philip DUDDRIDGE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Джеймс ДУГУД
+      en: David James DUGUID
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Филипп Мартин ДАНН
+      en: Philip Martin DUNNE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл ЭЛЛИС
+      en: Michael ELLIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Чарли Бретт Энтони ЭЛФИК
+      en: Charlie Brett Anthony ELPHICKE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Луис Девид ФАБРИКАНТ
+      en: Michael Louis David FABRICANT
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Виктория Грейс ФОРД
+      en: Victoria Grace FORD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кевин Джон ФОСТЕР
+      en: Kevin John FOSTER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Джино ФРАНСУА
+      en: Mark Gino FRANCOIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джордж Уильям ФРИМЕН
+      en: George William FREEMAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майк Уитни ФРИР
+      en: Mike Whitney FREER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Маркус Джон Хадсон ФИШ
+      en: Marcus John Hudson FYSH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роджер Джеймс ГЕЙЛ
+      en: Roger James GALE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Роберт Тимоти ГАРНЬЕ
+      en: Mark Robert Timothy GARNIER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Нусрат Мунир УИ-ГАНИ
+      en: Nusrat Munir UI-GHANI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Николас Джон ГИББ
+      en: Nicolas John GIBB
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Уильям ГИРВАН
+      en: Paul William GIRVAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Филип ГЛЕН
+      en: John Philip GLEN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт ГУДВИЛ
+      en: Robert GOODWILL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард Майкл ГРЭМ
+      en: Richard Michael GRAHAM
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Вайтсайд ГРЕЙ
+      en: James Whiteside GRAY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристофер Патрик Джеймс ГРИН
+      en: Christopher Patric James GREEN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Демиан Ховард ГРИН
+      en: Damian Howard GREEN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джастин ГРИНИНГ
+      en: Justine GREENING
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Доминик Чарльз Робертс ГРИВ
+      en: Dominic Charles Roberts GRIEVE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Самюэль Филипп ГИМА
+      en: Samuel Phillip GYIMAH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Генри ХАЛФОН
+      en: Robert Henry HALFON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Люк Энтони ХОЛЛ
+      en: Luke Anthony HALL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Грэг Уильям ХЭНДС
+      en: Greg William HANDS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Джеймс ХАРПЕР
+      en: Mark James HARPER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Элизабет Ребекка Скотт ХАРРИС
+      en: Elizabeth Rebecca Scott HARRIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Труди Линн ХАРРИСОН
+      en: Trudy Lynne HARRISON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Саймон Энтони ХАРТ
+      en: Simon Anthony HART
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Генри ХЕЙЗ
+      en: John Henry HAYES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Оливер ХИЛД
+      en: Oliver HEALD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Гордон ХЕНДЕРСОН
+      en: Gordon HENDERSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Демиан Патрик ХИНДС
+      en: Damian Patrick HINDS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кевин Пол ХОЛИНРЕЙК
+      en: Kevin Paul HOLLINRAKE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Филип Томас ХОЛОБОН
+      en: Philip Thomas HOLLOBONE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Адам Джеймс Харольд ХОЛЛОУЭЙ
+      en: Adam James Harold HOLLOWAY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Майкл ХОВЕЛЛ
+      en: John Michael HOWELL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Найджел Пол ХАДЛСТОН
+      en: Nigel Paul HUDDLESTON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эдди Франсис ХЬЮЗ
+      en: Eddie Francis HUGHES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бернард Кристисон ДЖЕНКИН
+      en: Bernard Christison JENKIN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Андреа Мари ДЖЕНКИНС
+      en: Andrea Marie JENKYNS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Эдвард ДЖЕНРИК
+      en: Robert Edward JENRICK
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кэролайн Элизабет ДЖОНСОН
+      en: Caroline Elizabeth JOHNSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Гарет Алан ДЖОНСОН
+      en: Gareth Alan JOHNSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джозеф ДЖОНСОН
+      en: Joseph JOHNSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Хэнсон ДЖОНС
+      en: Andrew Hanson JONES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Иан ДЖОНС
+      en: David Ian JONES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Маркус Чарльз ДЖОНС
+      en: Marcus Charles JONES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джилиан КИГАН
+      en: Gillian KEEGAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сима Луиза Джиасси КЕННЕДИ
+      en: Seema Louise Ghiassi KENNEDY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стивен Чарльз КЕРР
+      en: Stephen Charles KERR
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Грэг НАЙТ
+      en: Greg KNIGHT
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Роберт ЛАМОНТ
+      en: John Robert LAMONT
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Паулин Элизабет ЛЭТЭМ
+      en: Pauline Elizabeth LATHAM
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Филипп Джеймс ЛИ
+      en: Phillip James LEE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джереми Джон Элтон ЛЕФРОЙ
+      en: Jeremy John Elton LEFROY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эдвард Джулиан ЛЕЙ
+      en: Edward Julian LEIGH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Оливер ЛЕТВИН
+      en: Oliver LETWIN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Иан ЛЕВЕР
+      en: Andrew Iain LEWER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Иан Ричард Перегрин ЛИДЕЛЛ-ГРЕЙНДЖЕР
+      en: Ian Richard Peregrine LIDDELL-GRAINGER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джулия Луиза ЛОПЕЗ
+      en: Julia Louis LOPEZ
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джек Джакомо ЛОПРЕСТИ
+      en: Jack Giacomo LOPRESTI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джонатан Джордж КАЛАДИН
+      en: Jonathan George CALADINE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тим Пол ЛОУТОН
+      en: Tim Paul LOUGHTON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крейг МАКИНЛЕЙ
+      en: Craig MACKINLAY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рейчел Хелен МАКЛЕЙН
+      en: Rachel Helen MACLEAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Алан МАК
+      en: Alan MAC
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Скотт Лесли МАНН
+      en: Scott Leslie MANN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Кристофер МЕЙНАРД
+      en: Paul Christopher MAYNARD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Патрик Аллен МАКЛАФЛИН
+      en: Patrick Allen MCLOUGHLIN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стивен Энтони МАКПАРТЛАНД
+      en: Stephen Anthony MCPARTLAND
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Эндрю МЕНЗИС
+      en: Mark Andrew MENZIES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джони Лютер МЕРСЕР
+      en: Johnny Luther MERCER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Хью Уильям МЕРИМЭН
+      en: Huw William MERRIMAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стивен Джеймс МИТКАЛФ
+      en: Stephen James METCALFE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Аманда Энн МИЛЛИНГ
+      en: Amanda Anne MILLING
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Найджел Джон МИЛЛС
+      en: Nigel John MILLS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Джон Бауэр МИТЧЕЛ
+      en: Andrew John Bower MITCHELL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэмиен МУР
+      en: Damien MOORE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Никола Энн МОРГАН
+      en: Nicola Ann MORGAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Джордж МОРРИС
+      en: James George MORRIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Гордон МАНДЕЛЛ
+      en: David Gordon MUNDELL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Шерил МАРРЕЙ
+      en: Sheryll MURRAY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Уильям МАРРИСОН
+      en: Andrew William MURRISON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Джеймс МакГилаври НЕЙЛ
+      en: Robert James MacGillivray NEILL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сара Луиза НЬЮТОН
+      en: Sarah Louise NEWTON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Александр Джесс НОРМАН
+      en: Alexander Jesse NORMAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Нил О’БРАЙАН
+      en: Neil O’BRIEN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Нил Квентин ПЕРИШ
+      en: Neil Quentin PARISH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Джулиан Франсис ПОУСИ
+      en: Mark Julian Francis PAWSEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Дэвид ПЕНРОУЗ
+      en: John David PENROSE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристофер Иан Брайан Майнот ФИЛП
+      en: Christopher Ian Brian Mynott PHILP
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ребекка Фей Кларк ПО
+      en: Rebecca Faye Clark POW
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Виктория Мери Бозуэлл ПРЕНТИС
+      en: Victoria Mary Boswell PRENTIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Эндрю ПРИЧАРД
+      en: Mark Andrew PRITCHARD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Томас Кристофер Джон ПЁРСГЛАВ
+      en: Thomas Christopher John PURSGLOVE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джереми Марк КВИН
+      en: Jeremy Mark QUIN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Уильям Джеймс КВИНС
+      en: William James QUINCE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Алан РЭДВУД
+      en: John Alan REDWOOD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Лоуренс Энтони РОБЕРТСОН
+      en: Laurence Anthony ROBERTSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мери Джозефин РОБИНСОН
+      en: Mary Josephine ROBINSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дуглас Гордон РОСС
+      en: Douglas Gordon ROSS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ли Бенджамин РОУЛИ
+      en: Lee Benjamin ROWLEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Генри РАТЛИ
+      en: David Henry RUTLEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Стюарт СКАЛЛИ
+      en: Paul Stuart SCULLY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Эдмунд Армстронг СИЛУС
+      en: Andrew Edmund Armstrong SELOUS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард Джеймс ШЕННОН
+      en: Richard James SHANNON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Алек Эдвард ШЕЛБРУК
+      en: Alec Edward SHELBROOKE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристофер Джеймс СКИДМОР
+      en: Christopher James SKIDMORE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Хлоя Ребекка СМИТ
+      en: Chloe Rebecca SMITH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Генри Эдвард СМИТ
+      en: Henry Edward SMITH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джулиан Ричард СМИТ
+      en: Julian Richard SMITH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ройстон Мэтью СМИТ
+      en: Royston Matthew SMITH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Артур Николас Винстон СОАМС
+      en: Arthur Nicholas Winston SOAMES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Джордж СТИВЕНСОН
+      en: Andrew George STEPHENSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Джон СТИВЕНСОН
+      en: Andrew John STEVENSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Александр СТЮАРТ
+      en: Robert Alexander STEWART
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Родерик Джеймс СТЮАРТ
+      en: Roderick James STEWART
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Гари Николас СТРИТЕР
+      en: Gary Nicholas STREETER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мелвин Джон СТРАЙД
+      en: Melvyn John STRIDE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Грэм Чарльз СТЮАРТ
+      en: Graham Charles STUART
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Десмонд Ангус СВЕЙН
+      en: Desmond Angus SWAYNE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Эндрю Раймонд СИМС
+      en: Robert Andrew Raymond SYMS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дерек Гордон ТОМАС
+      en: Derek Gordon THOMAS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Маргарет Энн ТРОУП
+      en: Margaret Ann THROUP
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Келли Джейн ТОЛХЁРСТ
+      en: Kelly Jane TOLHURST
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джастин Пол ТОМЛИНСОН
+      en: Justin Paul TOMLINSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Джеймс ТОМЛИНСОН
+      en: Michael James TOMLINSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крейг Пол ТРЕЙСИ
+      en: Craig Paul TRACEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Артур Стивен ТРЕДИНИК
+      en: David Arthur Stephen TREDENNICK
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Шейлеш Лакман ВАРА
+      en: Shailesh Lackman VARA
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мартин Джон ВИКЕРС
+      en: Martin John VICKERS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тереза Энн ВИЛЛЕРС
+      en: Theresa Ann VILLERS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Робин Каспар УОКЕР
+      en: Robin Caspar WALKER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Джон УОРБЁРТОН
+      en: David John WARBURTON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэтт Роберт УОРМЭН
+      en: Matthew Robert WARMAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Хелен Оливия Бикнелл УОТЛИ
+      en: Helen Olivia Bicknell WHATELY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Хизер Кей УИЛЛЕР
+      en: Heather Kay WHEELER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крэйг УИТТАКЕР
+      en: Craig WHITTAKER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Флесби Лоуренс УИТИНГДЕЙЛ
+      en: John Flasby Lawrance WHITTINGDALE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Уильям Девид УИГГИН
+      en: William David WIGGIN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сара УОЛАСТОН
+      en: Sarah WOLLASTON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майк Джон ВУД
+      en: Mike John WOOD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Виллиам Питер ВРАГГ
+      en: William Peter WRAGG
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джереми Пол РАЙТ
+      en: Jeremy Paul WRIGHT
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        .
+        Члены фракции Лейбористской партии в Палате общин Парламента Великобритании
+        Линдси Харви ХОЙЛ
+      en: Lindsay Harvey HOYLE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        спикер Палаты общин
+        Дайан Джули ЭББОТ
+      en: Diane Julie ABBOTT
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дебора Анжела Элспет Мари АБРАМС
+      en: Deborah Angela Elspeth Marie ABRAHAMS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Ли ЭЙМСБЕРИ
+      en: Michael Lee AMESBURY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Антониа Луиз АНТОНИАЦЦИ
+      en: Antonia Louise ANTONIAZZI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джонатан Майкл Грэм ЭШУОРТ
+      en: Jonathan Michael Graham ASHWORTH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Маргарет Мэри БЕККЕТ
+      en: Margaret Mary BECKETT
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Клайв Джеймс Чарльз БЕТТС
+      en: Clive James Charles BETTS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Кристофер БЛОМФИЛД
+      en: Paul Christopher BLOMFIELD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кевин Дэнис БРЕННАН
+      en: Kevin Denis BRENNAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Карен Патриша БАК
+      en: Karen Patricia BUCK
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард БЁРГОН
+      en: Richard BURGON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дон Петула БАТЛЕР
+      en: Dawn Petula BUTLER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Алан КЭМПБЕЛЛ
+      en: Alan CAMPBELL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэн Джозеф КАРДЕН
+      en: Dan Joseph CARDEN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Хараламбос ХАРАЛАМБУС
+      en: Charalambos CHARALAMBOUS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Вернон Родни КОУКЕР
+      en: Vernon Rodney COAKER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Нил Алан Джон КОЙЛ
+      en: Neil Alan John COYLE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стелла Джудит КРИЗИ
+      en: Stella Judith CREASY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джудит Мэри КАММИНС
+      en: Judith Mary CUMMINS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джанет Джессика ДЭБИ
+      en: Janet Jessica DABY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тарнманджит Сингх ДХЕСИ
+      en: Tarnmanjeet Singh DHESI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Кристофер ДАУД
+      en: Peter Christopher DOWD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рози Клэр ДАФФИЛД
+      en: Rosie Clare DUFFIELD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крис Филип Джеймс ЭЛМОР
+      en: Chris Philip James ELMORE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Виктория Джейн ФОКСКРОФТ
+      en: Victoria Jane FOXCROFT
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Барри Страхан ГАРДИНЕР
+      en: Barry Strachan GARDINER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рут Стефани Николь ДЖОРДЖ
+      en: Ruth Stephanie Nicole GEORGE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Прит Каур ДЖИЛЛ
+      en: Preet Kaur GILL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Тимоти ГРОГАН
+      en: John Timothy GROGAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Луиз ХЕЙГ
+      en: Louise HAIGH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Фабиан УЗЕЛ-ХЭМИЛТОН
+      en: Fabian UZIELL-HAMILTON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Джордж ХЭНСОН
+      en: David George HANSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кэролин ХАРРИС
+      en: Carolin HARRIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сьюзен Мэри ХЕЙМАН
+      en: Susan Mary HAYMAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон ХИЛИ
+      en: John HEALEY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Маргарет Оливия ХИЛЛИЕР
+      en: Margaret Olivia HILLIER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Шэрон ХОДЖСОН
+      en: Sharon HODGSON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джордж Эдвард ХАУАРТ
+      en: George Edward HOWARTH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэниел Оуэн Вулгар ДЖАРВИС
+      en: Daniel Owen Woolgar JARVIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Даррен Пол ДЖОНС
+      en: Darren Paul JONES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеральд ДЖОНС
+      en: Gerald JONES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мохаммед Афзал ХАН
+      en: Mohammed Afzal KHAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер КАЙЛ
+      en: Peter KYLE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Иэн ЛЕЙВЕРИ
+      en: Ian LAVERY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эмма Луиз ЛЬЮЭЛЛ-БАК
+      en: Emma Louise LEWELL-BUCK
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Энтони Джозеф ЛЛОЙД
+      en: Anthony Joseph LLOYD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джастин Пирс Ричард МЭДДЕРС
+      en: Justin Piers Richard MADDERS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Халид МАХМУД
+      en: Khalid MAHMOOD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рейчел Хелен МАСКЕЛЛ
+      en: Rachael Helen MASKELL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристиан МЭТИСОН
+      en: Christian MATHESON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Керри Джилиан МАККАРТИ
+      en: Kerry Gillian MCCARTHY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Конор Патрик МАКГИНН
+      en: Conor Patrick MCGINN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Игнашес О’Рурк МАКМАХОН
+      en: James Ignatius O’Rourke MCMAHON
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Иэн МЭРНС
+      en: James Ian MEARNS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стивен Джеймс МОРГАН
+      en: Stephen James MORGAN
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Иэн МАРРЕЙ
+      en: Ian MURRAY
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Александр Джеймс Джордан НОРРИС
+      en: Alexander James Jordan NORRIS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стефани Луиз ПИКОК
+      en: Stefanie Louise PEACOCK
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Люк ПОЛЛАРД
+      en: Luke POLLARD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Элеанор Клэр РИВЗ
+      en: Eleanor Claire REEVES
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэтью Ричард Ален РОДДА
+      en: Matthew Richard Allen RODDA
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ллойд Кэмерон РАССЕЛ-МОЙЛ
+      en: Lloyd Cameron RUSSELL-MOYLE
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джефф СМИТ
+      en: Jeff SMITH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Николас Дезмонд Джон СМИТ
+      en: Nicholas Desmond John SMITH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Карин Маргарет СМИТ
+      en: Karin Marguerite SMYTH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Александр Дэвид СОБЕЛ
+      en: Alexander David SOBEL
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Фрэнсис СПЕЛЛАР
+      en: John Francis SPELLAR
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Ричард ТАМИ
+      en: Mark Richard TAMI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Гарет Ричард ТОМАС
+      en: Gareth Richard THOMAS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стивен Крезвел ТИММС
+      en: Stephen Creswell TIMMS
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэри Элизабет ТВИСТ
+      en: Mar Elizabeth TWIST
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Алан Патрик Винсент УАЙТХЕД
+      en: Alan Patrick Vincent WHITEHEAD
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дениэл Стивен ЗЕЙХНЕР
+      en: Daniel Stephen ZEICHNER
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        .
+        С учетом ставки Лондона на последовательное усиление антироссийских санкций работа над ответными контрмерами, включающими расширение российского «стоп-листа», будет продолжена.
+        ## English
+      en: TRANSLATED
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        27.04.2022 13:06
+        Statement of the Russian Foreign Ministry on retaliatory personal sanctions against deputies of the House of Commons of the British Parliament
+        918-27-04-2022
+        In response to the decision taken by the British government on March 11 this year to add 386 deputies of the State Duma of the Federal Assembly of the Russian Federation to the sanctions list on the basis of reciprocity, personal restrictions are imposed on 287 members of the House of Commons of the British Parliament.
+        These persons, who are now denied entry to the Russian Federation, took the most active part in the establishment of London's anti-Russian sanctions instruments, contribute to the groundless escalation of Russophobic hysteria in the UK.
+        Hostile rhetoric and far-fetched accusations coming from the mouths of British parliamentarians not only indulge London's hostile course aimed at demonizing our country and its international isolation, but are also used by opponents of mutually respectful dialogue with Russia to undermine the foundation of bilateral cooperation.
+        Below is a list of British parliamentarians:
+        Members of the Conservative Party faction in the House of Commons of the British Parliament
+        Stephen Paul BARCLAY
+        David Michael DAVIS
+        Charles George EUSTICE
+        Dominic Charles GRIEVE
+        Christopher HEATON-HARRIS
+        Jeremy Richard Streynsham HUNT
+        Alistair William JACK
+        Daniel Robert KAWCZYNSKI
+        Andrea Jacqueline LEADSOM
+        Julian Murray LEWIS
+        Esther Louise MCVEY
+        Penelope Mary MORDAUNT
+        Caroline Fiona Ellen NOKES
+        Christopher John PINCHER
+        Jacob William REES-MOGG
+        Mark Steven SPENCER
+        Theresa Ann VILLIERS
+        Heather Kay WHEELER
+        Nigel ADAMS
+        Bim AFOLAMI
+        Adam AFRIYIE
+        Peter James Guy ALDOUS
+        Lucy Elizabeth ALLAN
+        Stuart James ANDREW
+        Edward John Comport ARGAR
+        Victoria Mary ATKINS
+        Richard Michael BACON
+        Kemi BADENOCH
+        Steve John BAKER
+        Harriet Mary Morison BALDWIN
+        John Charles BARON
+        Alexander Paul BERESFORD
+        James Jacob Gilchrist BERRY
+        Peter William BONE
+        Peter James BOTTOMLEY
+        Andrew Campbell BOWIE
+        Ben David BRADLEY
+        Karen Anne BRADLEY
+        Jack Edgar BRERETON
+        Andrew James BRIDGEN
+        Steve BRINE
+        Fiona Claire BRUCE
+        Michael Alex BURGHART
+        Conor BURNS
+        Alan Hugh CAIRNS
+        James Roger CARTLIDGE
+        William Nigel Paul CASH
+        Maria Colette CAULFIELD
+        Alexander John Gervase CHALK
+        Atta-Ur-Rehman CHISHTI
+      en: Atta-Ur-Rehman CHISHTI
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        Joanna Peta CHURCHILL
+        Simon Richard CLARKE
+        Jeffrey CLIFTON-BROWN
+        Therese Anne COFFEY
+        Alberto Castrenze COSTA
+        Robert Alexander COURTS
+        Tracy Elizabeth Anne CROUCH
+        David Thomas Charles DAVIES
+        Edward Glyn DAVIES
+        Mims Jane Alice DAVIES
+        Philip DAVIES
+        Michelle Emma May DONELAN
+        Steve Daniel DOUBLE
+        Richard Grosvenor PLUNKETT-ERNLE-DRAX
+        James Philip DUDDRIDGE
+        David James DUGUID
+        Philip Martin DUNNE
+        Michael ELLIS
+        Charlie Brett Anthony ELPHICKE
+        Michael Louis David FABRICANT
+        Victoria Grace FORD
+        Kevin John FOSTER
+        Mark Gino FRANCOIS
+        George William FREEMAN
+        Mike Whitney FREER
+        Marcus John Hudson FISH
+      en: Marcus John Hudson FYSH
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        Roger James GALE
+        Mark Robert Timothy GARNIER
+        Nusrat Munir UI-GHANI
+        Nicolas John GIBB
+        Paul William GIRVAN
+        John Philip GLEN
+        Robert GOODWILL
+        Richard Michael GRAHAM
+        James Whiteside GRAY
+        Christopher Patrick James GREEN
+        Damian Howard GREEN
+        Justine GREENING
+        Dominic Charles Roberts GRIEVE
+        Samuel Phillip GYIMAH
+        Robert Henry HALFON
+        Luke Anthony HALL
+        Greg William HANDS
+        Mark James HARPER
+        Elizabeth Rebecca Scott HARRIS
+        Trudy Lynne HARRISON
+        Simon Anthony HART
+        John Henry HAYES
+        Oliver HEALD
+        Gordon HENDERSON
+        Damian Patrick HINDS
+        Kevin Paul HOLLINRAKE
+        Philip Thomas HOLLOBONE
+        Adam James Harold HOLLOWAY
+        John Michael HOWELL
+        Nigel Paul HUDDLESTON
+        Eddie Francis HUGHES
+        Bernard Christison JENKIN
+        Andrea Marie JENKYNS
+        Robert Edward JENRICK
+        Caroline Elizabeth JOHNSON
+        Gareth Alan JOHNSON
+        Joseph JOHNSON
+        Andrew Hanson JONES
+        David Ian JONES
+        Marcus Charles JONES
+        Gillian KEEGAN
+        Seema Louise Ghiassi KENNEDY
+        Stephen Charles KERR
+        Greg KNIGHT
+        John Robert LAMONT
+        Pauline Elizabeth LATHAM
+        Philip James LEE
+        Jeremy John Elton LEFROY
+        Edward Julian LEIGH
+        Oliver LETWIN
+        Andrew Iain LEWER
+        Ian Richard Peregrine LIDDELL-GRAINGER
+        Julia Louis LOPEZ
+        Jack Giacomo LOPRESTI
+        Jonathan George CALADINE
+        Tim Paul LOUGHTON
+        Craig MACKINLAY
+        Rachel Helen MACLEAN
+        Alan MAC
+        Scott Leslie MANN
+        Paul Christopher MAYNARD
+        Patrick Allen MCLOUGHLIN
+        Stephen Anthony MCPARTLAND
+        Mark Andrew MENZIES
+        Johnny Luther MERCER
+        Huw William MERRIMAN
+        Stephen James METCALFE
+        Amanda Anne MILLING
+        Nigel John MILLS
+        Andrew John Bower MITCHELL
+        Damien MOORE
+        Nicola Ann MORGAN
+        James George MORRIS
+        David Gordon MUNDELL
+        Sheryll MURRAY
+        Andrew William MURRISON
+        Robert James MacGillivray NEILL
+        Sarah Louise NEWTON
+        Alexander Jesse NORMAN
+        Neil O'BRIEN
+        Neil Quentin PARISH
+        Mark Julian Francis PAWSEY
+        John David PENROSE
+        Christopher Ian Brian Mynott PHILP
+        Rebecca Faye Clark PO
+      en: Rebecca Faye Clark POW
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-27'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

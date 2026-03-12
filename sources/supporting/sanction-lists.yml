@@ -1,0 +1,6 @@
+---
+sanction_lists:
+- id: ru/mid-entry-black-list
+  name:
+    ru: черного списка
+    en: Ministry of Foreign Affairs Entry Black List

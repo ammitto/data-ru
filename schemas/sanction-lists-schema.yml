@@ -1,0 +1,46 @@
+---
+# JSON Schema Draft-07 for Sanction Lists Registry
+#
+# Examples:
+# - sources/supporting/sanction-lists.yml
+
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "Sanction Lists Registry"
+version: "1.0.0"
+description: |
+  Registry of sanction list types referenced in Russian sanctions data.
+
+type: object
+required: [sanction_lists]
+additionalProperties: false
+
+properties:
+  sanction_lists:
+    type: array
+    description: "List of sanction list definitions"
+    minItems: 1
+    items:
+      type: object
+      required: [id, name]
+      additionalProperties: false
+      properties:
+        id:
+          type: string
+          pattern: "^[a-z]{2}/[a-z0-9-]+$"
+          description: |
+            Sanction list identifier using pattern: {country}/{list}
+            Examples: 'ru/mid-entry-black-list'
+
+        name:
+          type: object
+          description: "Bilingual name"
+          required: [ru, en]
+          properties:
+            ru:
+              type: string
+              minLength: 1
+              description: "Russian name"
+            en:
+              type: string
+              minLength: 1
+              description: "English name"

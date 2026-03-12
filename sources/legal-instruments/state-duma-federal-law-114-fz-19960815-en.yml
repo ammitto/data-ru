@@ -471,8 +471,8 @@ content:
     index: 31
     label: Article 31
     content:
-    - A foreign citizen or a stateless person shall be allowed to transit through the territory of the
-      Russian Federation without a visa where they:
+    - "A foreign citizen or a stateless person shall be allowed to transit through the territory of the
+      Russian Federation without a visa where they:"
 
     - type: numbered-list
       content:

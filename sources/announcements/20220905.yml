@@ -1,0 +1,529 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России в связи с введением персональных санкций в отношении граждан США
+    en: Foreign Ministry statement on personal sanctions against US citizens
+  url: https://mid.ru/ru/maps/us/1828611/
+  lang: ru
+  publish_date: '2022-09-05'
+  publish_time: '14:50'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 1789-05-09-2022
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В порядке ответных мер на постоянно расширяемые Администрацией Дж.Байдена персональные санкции против граждан России, в отношении очередной группы лиц из числа членов Конгресса США, высокопоставленных чиновников, представителей делового и экспертного сообществ, а также деятелей культуры (25 чел.), вводится запрет на въезд в Российскую Федерацию на постоянной основе.
+
+      <list>
+    en: |
+      In response to the constantly expanding list of personal sanctions against Russian nationals imposed by the Biden administration, Russia has adopted restrictions against members of the US Congress, high-ranking officials, representatives of business and expert circles, as well as cultural workers (25 people total), who are now permanently banned from entering the Russian Federation.
+
+      US nationals added to the Russian stop-list as a response measure now include the following:
+
+
+      Matthew S. Axelrod
+
+      –
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Мэтью АКСЕЛЬРОД
+      en: Matthew S. Axelrod
+    type: individual
+    nationality: US
+    title:
+      ru: заместитель Министра торговли
+      en: заместитель Министра торговли
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Брюс БОДИН
+      en: Bruce M. Bodine
+    type: individual
+    nationality: US
+    title:
+      ru: старший вице-президент компании «Мозаик»
+      en: старший вице-президент компании «Мозаик»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид БУРРИТ
+      en: David Boyd Burritt
+    type: individual
+    nationality: US
+    title:
+      ru: исполнительный директор металлургического концерна «Ю-Эс стил»
+      en: исполнительный директор металлургического концерна «Ю-Эс стил»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Даниэль ВАЖДИЧ
+      en: Daniel P. Vajdich
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        глава лоббистской фирмы
+        «Йорктаун солюшнс»
+      en: |-
+        глава лоббистской фирмы
+        «Йорктаун солюшнс»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол ГОБЛ
+      en: Paul A. Goble
+    type: individual
+    nationality: US
+    title:
+      ru: сотрудник Института мировой политики
+      en: сотрудник Института мировой политики
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Лоренсо ГОНСАЛВЕС
+      en: Lorenco Gonsalves
+    type: individual
+    nationality: US
+    title:
+      ru: президент компании горнодобывающего сектора «Кливленд клиффс»
+      en: президент компании горнодобывающего сектора «Кливленд клиффс»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дон ГРЭЙВС
+      en: Don Graves
+    type: individual
+    nationality: US
+    title:
+      ru: заместитель Министра торговли
+      en: заместитель Министра торговли
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Риота ДЖОНЕН
+      en: Ryota Jonen
+    type: individual
+    nationality: US
+    title:
+      ru: директор «Всемирного движения за демократию»
+      en: директор «Всемирного движения за демократию»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк КЕЛЛИ
+      en: Mark Edward Kelly
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        сенатор от Демократической партии
+        (шт. Аризона)
+      en: |-
+        сенатор от Демократической партии
+        (шт. Аризона)
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тэа КЕНДЛЕР
+      en: Thea D. Rozman Kendler
+    type: individual
+    nationality: US
+    title:
+      ru: заместитель Министра торговли
+      en: заместитель Министра торговли
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Виктория КЛЕМЕНТ
+      en: Victoria Clement
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        глава консалтинговой компании
+        «Централ Эйша инсайтс»
+      en: |-
+        глава консалтинговой компании
+        «Централ Эйша инсайтс»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кевин КРАМЕР
+      en: Kevin John Kramer
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        сенатор от Республиканской партии
+        (шт. Северная Дакота)
+      en: |-
+        сенатор от Республиканской партии
+        (шт. Северная Дакота)
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид КРЭЙН
+      en: David Michael Crane
+    type: individual
+    nationality: US
+    title:
+      ru: глава НПО «Глобал эккаунтабилити нетворк»
+      en: глава НПО «Глобал эккаунтабилити нетворк»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джереми ПЕЛТЕР
+      en: Jeremy Pelter
+    type: individual
+    nationality: US
+    title:
+      ru: заместитель Министра торговли
+      en: заместитель Министра торговли
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Шон ПЕНН
+      en: Sean Penn
+    type: individual
+    nationality: US
+    title:
+      ru: актер, режиссер, продюсер
+      en: актер, режиссер, продюсер
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Томас ПЕРРИЕЛЛО
+      en: Thomas Stuart Price Perriello
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        исполнительный директор фондов
+        «Открытое общество»
+      en: |-
+        исполнительный директор фондов
+        «Открытое общество»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джина РАЙМОНДО
+      en: Gina Raimondo
+    type: individual
+    nationality: US
+    title:
+      ru: Министр торговли
+      en: Министр торговли
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл РАУНДС
+      en: Marion Michael Rounds
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        сенатор от Республиканской партии
+        (шт. Южная Дакота)
+      en: |-
+        сенатор от Республиканской партии
+        (шт. Южная Дакота)
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон СЕРАФИНИ
+      en: John Serafini
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        старший управляющий компании
+        «Хоукай 360»
+      en: |-
+        старший управляющий компании
+        «Хоукай 360»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кирстен СИНЕМА
+      en: Kyrsten Lea Sinema
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        сенатор от Демократической партии
+        (шт. Аризона)
+      en: |-
+        сенатор от Демократической партии
+        (шт. Аризона)
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард СКОТТ
+      en: Richard Lynn Scott
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        сенатор от Республиканской партии
+        (шт. Флорида)
+      en: |-
+        сенатор от Республиканской партии
+        (шт. Флорида)
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стивен СТАРР
+      en: Stephen Frederick Starr
+    type: individual
+    nationality: US
+    title:
+      ru: основатель и председатель Института Центральной Азии и Кавказа
+      en: основатель и председатель Института Центральной Азии и Кавказа
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бен СТИЛЛЕР
+      en: Benjamin Edward Meara Stiller
+    type: individual
+    nationality: US
+    title:
+      ru: актер, режиссер, продюсер
+      en: актер, режиссер, продюсер
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Патрик ТУМИ
+      en: Patrick Joseph Toomey Jr.
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        сенатор от Республиканской партии
+        (шт. Пенсильвания)
+      en: |-
+        сенатор от Республиканской партии
+        (шт. Пенсильвания)
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Энтони УИЛЛ
+      en: W. Anthony Will
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        президент химической компании
+        «Си-Эф индастриз»
+      en: |-
+        президент химической компании
+        «Си-Эф индастриз»
+    effective_date: '2022-09-05'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

@@ -6,3 +6,4 @@ end
 
 require_relative 'ammitto-data-ru/schema_validator'
 require_relative 'ammitto-data-ru/kremlin_legal_instrument_fetcher'
+require_relative 'ammitto-data-ru/announcement_parser'

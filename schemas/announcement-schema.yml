@@ -200,7 +200,7 @@ properties:
                 Type of sanction list. Observed values:
                 - 'черного списка' (blacklist/stop-list)
 
-            country_code:
+            nationality:
               type: string
               pattern: "^[A-Z]{2}$"
               description: |

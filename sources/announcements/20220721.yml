@@ -1,0 +1,750 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: >-
+      Заявление МИД России о персональных санкциях в отношении представителей силовых структур, пограничной службы и компаний-подрядчиков
+      оборонного сектора Австралии
+    en: >-
+      Foreign Ministry statement on introducing personal sanctions on representatives of Australia’s law enforcement agencies,
+      border force and defence sector contractors
+  url: https://mid.ru/en/maps/au/1823204/
+  lang: ru
+  publish_date: '2022-07-21'
+  publish_time: '19:17'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 1514-21-07-2022
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В порядке ответа на принятое ранее решение официальной Канберры о введении санкций по австралийскому аналогу «Закона Магнитского» Российская Федерация на основе взаимности дополнительно вносит в национальный «стоп-лист» 39 человек из числа представителей силовых структур, пограничной службы, а также компаний-подрядчиков оборонного сектора Австралии.
+
+      <list>
+    en: |
+      In response to the official Canberra’s adoption of sanctions in line with the Australian version of the Magnitsky Act, the Russian Federation has added 39 people from law enforcement agencies, the border force and Australia’s defence sector contractors to the national stop list.
+
+      The names of the blacklisted people are as follows:
+
+
+
+      No
+
+      Name, Surname
+
+      Name, Surname in Russian
+
+      Office/position
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Марк Эблонг
+      en: Marc Ablong
+    type: individual
+    nationality: AU
+    title:
+      ru: заместитель Министра внутренних дел
+      en: заместитель Министра внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бэн Бэйот
+      en: Ben Bayot
+    type: individual
+    nationality: AU
+    title:
+      ru: управляющий директор по инфраструктуре компании Serco
+      en: управляющий директор по инфраструктуре компании Serco
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Браун
+      en: David Brown
+    type: individual
+    nationality: AU
+    title:
+      ru: глава департамента по делам исправительных учреждений штата Южная Австралия
+      en: глава департамента по делам исправительных учреждений штата Южная Австралия
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Гэрри Браун
+      en: Garry Brown
+    type: individual
+    nationality: AU
+    title:
+      ru: директор по развитию компании Serco
+      en: директор по развитию компании Serco
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джо Буффон
+      en: Joe Buffone
+    type: individual
+    nationality: AU
+    title:
+      ru: директор департамента Министерства внутренних дел
+      en: директор департамента Министерства внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Катарина Кэрролл
+      en: Katarina Carroll
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар Управления полиции штата Квинсленд
+      en: комиссар Управления полиции штата Квинсленд
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эмма Кассар
+      en: Emma Cassar
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар по делам исправительных учреждений штата Виктория
+      en: комиссар по делам исправительных учреждений штата Виктория
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джейми Чалкер
+      en: Jamie Chalker
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар Управления полиции Северной территории
+      en: комиссар Управления полиции Северной территории
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кевин Коркоран
+      en: Kevin Corcoran
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар по делам исправительных учреждений штата Новый Южный Уэльс
+      en: комиссар по делам исправительных учреждений штата Новый Южный Уэльс
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крис Доусон
+      en: Chris Dawson
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар Управления полиции штата Западная Австралия
+      en: комиссар Управления полиции штата Западная Австралия
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэйн Фримэн
+      en: Dwayne Freeman
+    type: individual
+    nationality: AU
+    title:
+      ru: помощник комиссара Австралийской пограничной службы
+      en: помощник комиссара Австралийской пограничной службы
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Хамиш Хэнсфорд
+      en: Hamish Hansford
+    type: individual
+    nationality: AU
+    title:
+      ru: директор департамента Министерства внутренних дел
+      en: директор департамента Министерства внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ванесса Холбен
+      en: Vanessa Holben
+    type: individual
+    nationality: AU
+    title:
+      ru: директор департамента Австралийской пограничной службы
+      en: директор департамента Австралийской пограничной службы
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Натали Хатчинс
+      en: Natalie Hutchins
+    type: individual
+    nationality: AU
+    title:
+      ru: Министр по делам исправительных учреждений штата Виктория
+      en: Министр по делам исправительных учреждений штата Виктория
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Билл Джонстон
+      en: Bill Johnston
+    type: individual
+    nationality: AU
+    title:
+      ru: Министр по делам исправительных учреждений Западная Австралия
+      en: Министр по делам исправительных учреждений Западная Австралия
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Кеффорд
+      en: Andrew Kefford
+    type: individual
+    nationality: AU
+    title:
+      ru: заместитель Министра внутренних дел
+      en: заместитель Министра внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеофф Ли
+      en: Geoff Lee
+    type: individual
+    nationality: AU
+    title:
+      ru: Министр по делам исправительных учреждений штата Новый Южный Уэльс
+      en: Министр по делам исправительных учреждений штата Новый Южный Уэльс
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл МакФарланел
+      en: Michael MacFarlanel
+    type: individual
+    nationality: AU
+    title:
+      ru: Старший суперинтендант по делам исправительных учреждений штата Квинсленд
+      en: Старший суперинтендант по делам исправительных учреждений штата Квинсленд
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Милфорд
+      en: Michael Milford
+    type: individual
+    nationality: AU
+    title:
+      ru: директор департамента Министерства внутренних дел
+      en: директор департамента Министерства внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Черил-энн Мой
+      en: Cheryl-anne Moy
+    type: individual
+    nationality: AU
+    title:
+      ru: заместитель Министра внутренних дел
+      en: заместитель Министра внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Оутрэм
+      en: Michael Outram
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар Австралийской пограничной службы
+      en: комиссар Австралийской пограничной службы
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Шэйн Пэттон
+      en: Shane Patton
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар Управления полиции штата Виктория
+      en: комиссар Управления полиции штата Виктория
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Черил Пирс
+      en: Cheryl Pearce
+    type: individual
+    nationality: AU
+    title:
+      ru: помощник комиссара Австралийской пограничной службы
+      en: помощник комиссара Австралийской пограничной службы
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Пеззулло
+      en: Michael Pezzullo
+    type: individual
+    nationality: AU
+    title:
+      ru: первый заместитель Министра внутренних дел
+      en: первый заместитель Министра внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майк Рейнольдс
+      en: Mike Reynolds
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар по делам исправительных учреждений штата Западная Австралия
+      en: комиссар по делам исправительных учреждений штата Западная Австралия
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Райан
+      en: Mark Ryan
+    type: individual
+    nationality: AU
+    title:
+      ru: Министр по делам исправительных учреждений штата Квинсленд
+      en: Министр по делам исправительных учреждений штата Квинсленд
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джастин Сандерс
+      en: Justine Saunders
+    type: individual
+    nationality: AU
+    title:
+      ru: заместитель Министра внутренних дел
+      en: заместитель Министра внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Софи Шарп
+      en: Sophie Sharpe
+    type: individual
+    nationality: AU
+    title:
+      ru: директор департамента Министерства внутренних дел
+      en: директор департамента Министерства внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Малкольм Скини
+      en: Malcolm Skene
+    type: individual
+    nationality: AU
+    title:
+      ru: директор департамента Австралийской пограничной службы
+      en: директор департамента Австралийской пограничной службы
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Грант Стивенс
+      en: Grant Stevens
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар Управления полиции штата Южная Австралия
+      en: комиссар Управления полиции штата Южная Австралия
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Стриклэнд
+      en: Michael Strickland
+    type: individual
+    nationality: AU
+    title:
+      ru: управляющий директор по правосудию и иммиграции компании Serco
+      en: управляющий директор по правосудию и иммиграции компании Serco
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Винсент Тарзиа
+      en: Vincent Tarzia
+    type: individual
+    nationality: AU
+    title:
+      ru: Министр по делам исправительных учреждений штата Южная Австралия
+      en: Министр по делам исправительных учреждений штата Южная Австралия
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Клинт Томас
+      en: Clint Thomas
+    type: individual
+    nationality: AU
+    title:
+      ru: управляющий директор по обороне компании Serco
+      en: управляющий директор по обороне компании Serco
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Селена Уибо
+      en: Selena Uibo
+    type: individual
+    nationality: AU
+    title:
+      ru: Генеральный прокурор и Министр юстиции Северной территории
+      en: Генеральный прокурор и Министр юстиции Северной территории
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэттью Варли
+      en: Matthew Varley
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар по делам исправительных учреждений Северной территории
+      en: комиссар по делам исправительных учреждений Северной территории
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пип де Ве
+      en: Pip de Veau
+    type: individual
+    nationality: AU
+    title:
+      ru: директор департамента Министерства внутренних дел
+      en: директор департамента Министерства внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Вервер
+      en: Peter Verwer
+    type: individual
+    nationality: AU
+    title:
+      ru: заместитель Министра внутренних дел
+      en: заместитель Министра внутренних дел
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Карэн Вэбб
+      en: Karen Webb
+    type: individual
+    nationality: AU
+    title:
+      ru: комиссар Управления полиции штата Новый Южный Уэльс
+      en: комиссар Управления полиции штата Новый Южный Уэльс
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Виллинг
+      en: Peter Welling
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        исполнительный директор компании Serco В условиях, когда австралийские власти продолжают нагнетать русофобские настроения
+        и проводить курс на расширение санкций, оставляем за собой право на дальнейшие контрмеры.
+      en: >-
+        исполнительный директор компании Serco В условиях, когда австралийские власти продолжают нагнетать русофобские настроения
+        и проводить курс на расширение санкций, оставляем за собой право на дальнейшие контрмеры.
+    effective_date: '2022-07-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

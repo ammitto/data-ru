@@ -23,7 +23,8 @@ module AmmittoDataRU
       'sources/announcements' => 'schemas/announcement-schema.yml',
       'sources/legal-instruments' => 'schemas/legal-instrument-schema.yml',
       'sources/supporting/document-types.yml' => 'schemas/document-types-schema.yml',
-      'sources/supporting/organizations.yml' => 'schemas/organizations-schema.yml'
+      'sources/supporting/organizations.yml' => 'schemas/organizations-schema.yml',
+      'sources/supporting/sanction-lists.yml' => 'schemas/sanction-lists-schema.yml'
     }.freeze
 
     # Validation result for a single file
