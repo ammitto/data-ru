@@ -1,0 +1,57 @@
+---
+# JSON Schema Draft-07 for Document Types Registry
+#
+# Examples:
+# - sources/supporting/document-types.yml
+
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "Document Types Registry"
+version: "1.0.0"
+description: |
+  Registry of document types used in the Russian sanctions data system.
+
+type: object
+required: [document_types]
+additionalProperties: false
+
+properties:
+  document_types:
+    type: array
+    description: "List of document type definitions"
+    minItems: 1
+    items:
+      type: object
+      required: [id, name]
+      additionalProperties: false
+      properties:
+        id:
+          type: string
+          pattern: "^[a-z]{2}/[a-z0-9-]+$"
+          description: |
+            Document type identifier using pattern: {country}/{type}
+            Examples: 'ru/federal-law', 'ru/ministry-of-foreign-affairs-announcement'
+
+        name:
+          type: object
+          description: "Bilingual name"
+          required: [ru, en]
+          properties:
+            ru:
+              type: string
+              minLength: 1
+              description: "Russian name"
+            en:
+              type: string
+              minLength: 1
+              description: "English name"
+
+        description:
+          type: object
+          description: "Optional bilingual description"
+          properties:
+            ru:
+              type: string
+              description: "Russian description"
+            en:
+              type: string
+              description: "English description"

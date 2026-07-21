@@ -1,0 +1,151 @@
+---
+# JSON Schema Draft-07 for Russian Legal Instruments
+#
+# Examples:
+# - sources/legal-instruments/state-duma-federal-law-114-fz-19960815.yml
+
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "Russian Legal Instrument"
+version: "1.0.0"
+description: |
+  Schema for Russian legal instruments (federal laws, decrees, etc.).
+  Uses a recursive content structure for chapters, clauses, and other elements.
+
+type: object
+required:
+  - id
+  - title
+  - type
+  - lang
+  - authority
+  - publisher
+  - document_id
+  - published_date
+  - effective_date
+  - content
+additionalProperties: false
+
+properties:
+  id:
+    type: string
+    pattern: "^ru/[a-z0-9-]+$"
+    description: "Legal instrument identifier (e.g., 'ru/federal-law-114')"
+
+  title:
+    type: array
+    description: "Bilingual titles"
+    minItems: 1
+    items:
+      type: object
+      properties:
+        ru:
+          type: string
+          description: "Russian title"
+        en:
+          type: string
+          description: "English title"
+      additionalProperties: false
+
+  url:
+    type:
+      - string
+      - "null"
+    format: uri
+    description: "Source URL (optional)"
+
+  type:
+    type: string
+    pattern: "^ru/[a-z0-9-]+$"
+    description: "Document type identifier (e.g., 'ru/federal-law')"
+
+  lang:
+    type: string
+    enum: [ru, en]
+    description: "Primary language of the document"
+
+  authority:
+    type: string
+    pattern: "^ru/[a-z0-9-]+$"
+    description: "Issuing authority identifier"
+
+  publisher:
+    type: string
+    pattern: "^ru/[a-z0-9-]+$"
+    description: "Publishing entity identifier"
+
+  document_id:
+    type: string
+    description: "Official document identifier (e.g., '№ 114-ФЗ')"
+
+  published_date:
+    type: string
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "Publication date (ISO 8601)"
+
+  effective_date:
+    type: string
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "Effective date (ISO 8601)"
+
+  amended_date:
+    type: string
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "Last amendment date (ISO 8601, optional)"
+
+  content:
+    type: array
+    description: "Structured content elements"
+    minItems: 1
+    items:
+      $ref: "#/definitions/contentElement"
+
+definitions:
+  contentElement:
+    type: object
+    required: [type, content]
+    additionalProperties: false
+    properties:
+      type:
+        type: string
+        enum:
+          - preamble
+          - chapter
+          - section
+          - clause
+          - paragraph
+          - unnumbered-list
+          - numbered-list
+          - list-item
+          - table
+          - quote
+        description: "Content element type"
+
+      index:
+        type: string
+        description: "Numeric index (e.g., '1', '2', '3')"
+
+      label:
+        type: string
+        description: "Display label (e.g., 'Статья 1', 'Глава I')"
+
+      title:
+        type: string
+        description: "Element title (e.g., 'Общие положения')"
+
+      content:
+        description: "Nested content (string, array of strings, or array of elements)"
+        oneOf:
+          - type: string
+          - type: array
+            items:
+              oneOf:
+                - type: string
+                - $ref: "#/definitions/contentElement"
+
+      rows:
+        type: array
+        description: "Table rows (for type: table)"
+        items:
+          type: array
+          items:
+            type: string

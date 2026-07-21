@@ -1,0 +1,20 @@
+@prefix ammitto: <https://www.ammitto.org/ontology/> .
+@prefix entity: <https://www.ammitto.org/entity/> .
+@prefix entry: <https://www.ammitto.org/entry/> .
+@prefix instrument: <https://www.ammitto.org/instrument/> .
+@prefix regime: <https://www.ammitto.org/regime/> .
+@prefix authority: <https://www.ammitto.org/authority/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://www.ammitto.org/authority/ru>
+  a ammitto:Authority ;\n  schema:name "Russia (MID/CBR)" ;\n  ammitto:countryCode "RU" .
+<https://www.ammitto.org/regime/ru_>
+  a ammitto:SanctionRegime ;\n  ammitto:code "RU_" .
+<https://www.ammitto.org/entity/ru/ru-unknown>
+  ammitto:entity_type "organization" .
+<https://www.ammitto.org/entry/ru/stop-list/ru-unknown>
+  ammitto:entity_id <https://www.ammitto.org/entity/ru/ru-unknown> ;\n  ammitto:hasAuthority <https://www.ammitto.org/authority/ru> ;\n  ammitto:hasRegime <https://www.ammitto.org/regime/ru_> ;\n  ammitto:hasEffect """{"effect_type":"entry_ban","scope":"full"}""" ;\n  ammitto:status "active" ;\n  ammitto:reference_number "RU-unknown" ;\n  ammitto:raw_source_data """{"source_format":"html","source_specific_fields":{}}""" .

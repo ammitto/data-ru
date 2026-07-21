@@ -1,0 +1,2451 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России о персональных санкциях в отношении антироссийски настроенных граждан Австралии
+    en: Foreign Ministry statement regarding personal sanctions against citizens of Australian holding anti-Russia views
+  url: https://mid.ru/en/foreign_policy/news/1978052/
+  lang: ru
+  publish_date: '2024-10-29'
+  publish_time: '17:37'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 2019-29-10-2024
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В ответ на политически мотивированные санкции против российских физических и юридических лиц со стороны правительства Австралии, вводимые в рамках русофобской кампании «коллективного Запада», въезд в Российскую Федерацию на бессрочной основе закрывается дополнительно для 131 австралийца из числа представителей военно-промышленного комплекса, журналистов и общественных деятелей, формирующих в этой стране антироссийскую повестку дня.
+
+      С учетом того, что официальная Канберра не намерена отказываться от антироссийского курса и продолжает вводить новые санкционные меры, работа над актуализацией российского «стоп-листа» будет продолжена.
+
+      <list>
+    en: |
+      Guided by a politically tainted agenda, the government of Australia has been imposing sanctions against Russian individuals and entities as part of the Russia-hating campaign unleashed by the so-called collective West. In response, the Russian Federation decided to add 131 Australian nationals to the permanent stop list and therefore make it impossible for them to enter its territory. These individuals include representatives of defence manufacturers, journalists, as well as civil society activists who have contributed to shaping the anti-Russia agenda in this country.
+
+      The effort to update the Russian stop list will carry on, considering Canberra’s persistence in following an anti-Russia policy and imposing new sanctions against our country.
+      No
+
+      Name
+
+      Name in Russian
+
+      Occupation, position, title
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Кен Андерсон
+      en: Ken Anderson
+    type: individual
+    nationality: AU
+    title:
+      ru: Член правления NIOA Group
+      en: Член правления NIOA Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Костиган
+      en: Costigan Gabrielle Anne
+    type: individual
+    nationality: AU
+    title:
+      ru: Гэбриэль Энн Управляющий директор по вопросам развития бизнеса компании Bae Systems
+      en: Гэбриэль Энн Управляющий директор по вопросам развития бизнеса компании Bae Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Катерина
+      en: Kateryna Argyrou
+    type: individual
+    nationality: AU
+    title:
+      ru: Аргиру Сопредседатель Союза украинских организаций в Австралии
+      en: Аргиру Сопредседатель Союза украинских организаций в Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Клинт Бэйрд
+      en: Clint Baird
+    type: individual
+    nationality: AU
+    title:
+      ru: Лейтенант-коммандер Военно-морских сил Австралии
+      en: Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Бартон
+      en: Michael Barton
+    type: individual
+    nationality: AU
+    title:
+      ru: Финансовый директор компании Codan Ltd
+      en: Финансовый директор компании Codan Ltd
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Беннетт
+      en: James Bennett
+    type: individual
+    nationality: AU
+    title:
+      ru: Исполнительный вице-президент по вопросам космических систем компании Electro Optic Systems
+      en: Исполнительный вице-президент по вопросам космических систем компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю
+      en: Andrew Bertoncin
+    type: individual
+    nationality: AU
+    title:
+      ru: Бертонсин Уорент-офицер Военно-морских сил Австралии
+      en: Бертонсин Уорент-офицер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стефан Бейер
+      en: Stephan Beyer
+    type: individual
+    nationality: AU
+    title:
+      ru: Независимый директор компании SPEE3D
+      en: Независимый директор компании SPEE3D
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ник Бирбилис
+      en: Nick Birbilis
+    type: individual
+    nationality: AU
+    title:
+      ru: Декан Факультета естественных наук, инженерии и искусственной среды, профессор университета Дикина
+      en: Декан Факультета естественных наук, инженерии и искусственной среды, профессор университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Блэк
+      en: David Black
+    type: individual
+    nationality: AU
+    title:
+      ru: Член совета директоров оборонной компании Electro Optic Systems
+      en: Член совета директоров оборонной компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Уве Боттчер
+      en: Uwe Boettcher
+    type: individual
+    nationality: AU
+    title:
+      ru: Председатель правления компании Kord Defence
+      en: Председатель правления компании Kord Defence
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кол Бланш
+      en: Col Blanch
+    type: individual
+    nationality: AU
+    title:
+      ru: Комиссар Управления полиции штата Западная Австралия
+      en: Комиссар Управления полиции штата Западная Австралия
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Антон
+      en: Anton Bogdanovych
+    type: individual
+    nationality: AU
+    title:
+      ru: Богданович Доцент Университета Западного Сиднея
+      en: Богданович Доцент Университета Западного Сиднея
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Никки Бойд
+      en: Nikki Boyd
+    type: individual
+    nationality: AU
+    title:
+      ru: Министр по делам исправительных учреждений штата Квинсленд
+      en: Министр по делам исправительных учреждений штата Квинсленд
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джефф Браун
+      en: Geoff Brown
+    type: individual
+    nationality: AU
+    title:
+      ru: Член совета директоров компании Electro Optic Systems
+      en: Член совета директоров компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэтт Бернетт
+      en: Matt Burnett
+    type: individual
+    nationality: AU
+    title:
+      ru: Мэр Регионального совета Гладстона
+      en: Мэр Регионального совета Гладстона
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэб Баттерворс
+      en: Deb Butterworth
+    type: individual
+    nationality: AU
+    title:
+      ru: Уорент-офицер Военно-морских сил Австралии (2019-2022)
+      en: Уорент-офицер Военно-морских сил Австралии (2019-2022)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэмиан Кэхилл
+      en: Damien Cahill
+    type: individual
+    nationality: AU
+    title:
+      ru: Директор программы электронных боевых систем компании DefendTex
+      en: Директор программы электронных боевых систем компании DefendTex
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стив Камиллери
+      en: Steve Camilleri
+    type: individual
+    nationality: AU
+    title:
+      ru: Соучредитель, технический директор компании SPEE3D
+      en: Соучредитель, технический директор компании SPEE3D
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Анулак
+      en: Anoulack Chanthivong
+    type: individual
+    nationality: AU
+    title:
+      ru: Чантивонг Министр по делам исправительных учреждений штата Новый Южный Уэльс
+      en: Чантивонг Министр по делам исправительных учреждений штата Новый Южный Уэльс
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крейг Читтик
+      en: Craig Chittick
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Директор Департамента международного сотрудничества Группы международного сотрудничества и безопасности Офиса премьер-министра
+        и кабинета министров
+      en: >-
+        Директор Департамента международного сотрудничества Группы международного сотрудничества и безопасности Офиса премьер-министра
+        и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дана Клири
+      en: Dana Cleary
+    type: individual
+    nationality: AU
+    title:
+      ru: Программный менеджер компании Sentinel Boats
+      en: Программный менеджер компании Sentinel Boats
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ральф Клифтон
+      en: Ralf Clifton
+    type: individual
+    nationality: AU
+    title:
+      ru: Уорент-офицер авиации Военно-воздушных сил Австралии
+      en: Уорент-офицер авиации Военно-воздушных сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Иэн Кук
+      en: Ian Cook
+    type: individual
+    nationality: AU
+    title:
+      ru: Исполнительный вице-президент компании Electro Optic Systems
+      en: Исполнительный вице-президент компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Билл Костелло
+      en: Bill Costello
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Начальник Управления Тихого океана Департамента международного сотрудничества Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров (Министерство)
+      en: >-
+        Начальник Управления Тихого океана Департамента международного сотрудничества Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров (Министерство)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джейсон
+      en: Jason Cummings
+    type: individual
+    nationality: AU
+    title:
+      ru: Каммингс Менеджер морских проектов компании Sentinel Boats
+      en: Каммингс Менеджер морских проектов компании Sentinel Boats
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Клайв Кателл
+      en: Clive Cuthell
+    type: individual
+    nationality: AU
+    title:
+      ru: Финансовый директор компании Electro Optic Systems
+      en: Финансовый директор компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джэйсон Доусон
+      en: Jason Dawson
+    type: individual
+    nationality: AU
+    title:
+      ru: Лейтенант-коммандер Военно-морских сил Австралии
+      en: Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Деннисон
+      en: David Dennison
+    type: individual
+    nationality: AU
+    title:
+      ru: Бывший вице-президент по передовым практикам компании Internet 2.0 Pty. Ltd.
+      en: Бывший вице-президент по передовым практикам компании Internet 2.0 Pty. Ltd.
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Дональдсон
+      en: Mark Donaldson
+    type: individual
+    nationality: AU
+    title:
+      ru: Член правления NIOA Group
+      en: Член правления NIOA Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Блэр
+      en: Blair Drinkwater
+    type: individual
+    nationality: AU
+    title:
+      ru: Дринкуотер Вице-президент по развитию бизнеса и стратегии компании Ferra Group
+      en: Дринкуотер Вице-президент по развитию бизнеса и стратегии компании Ferra Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Алан Дюпон
+      en: Alan Dupont
+    type: individual
+    nationality: AU
+    title:
+      ru: Приглашенный научный сотрудник института Лоуи
+      en: Приглашенный научный сотрудник института Лоуи
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл
+      en: Michael Edwards
+    type: individual
+    nationality: AU
+    title:
+      ru: Эдвардс Главный судомонтажник компании Sentinel Boats
+      en: Эдвардс Главный судомонтажник компании Sentinel Boats
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристофер
+      en: Christopher Ellis
+    type: individual
+    nationality: AU
+    title:
+      ru: Эллис Капитан Военно-морских сил Австралии
+      en: Эллис Капитан Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джереми Ивэйн
+      en: Jeremy Evain
+    type: individual
+    nationality: AU
+    title:
+      ru: Лейтенант-коммандер Военно-морских сил Австралии
+      en: Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Юинг
+      en: Michael Ewing
+    type: individual
+    nationality: AU
+    title:
+      ru: Бывший декан Факультета бизнеса и права, профессор университета Дикина
+      en: Бывший декан Факультета бизнеса и права, профессор университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Фини
+      en: David Feeney
+    type: individual
+    nationality: AU
+    title:
+      ru: Член правления NIOA Group
+      en: Член правления NIOA Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ким
+      en: Kim Felmingham
+    type: individual
+    nationality: AU
+    title:
+      ru: Фелмингхэм Уорент-офицер Сухопутных войск Австралии (2022-настоящее время)
+      en: Фелмингхэм Уорент-офицер Сухопутных войск Австралии (2022-настоящее время)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джереми Фернандес
+      en: Jeremy Fernandez
+    type: individual
+    nationality: AU
+    title:
+      ru: Телеведущий телерадиовещательной компании «Эй-Би-Си»
+      en: Телеведущий телерадиовещательной компании «Эй-Би-Си»
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Александэр Финнис
+      en: Alexander Finnis
+    type: individual
+    nationality: AU
+    title:
+      ru: Лейтенант-коммандер Военно-морских сил Австралиии
+      en: Лейтенант-коммандер Военно-морских сил Австралиии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэттью Флинт
+      en: Matthew Flint
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Начальник Управления военно-морского кораблестроения и атомных подводных лодок Департамента по вопросам QUAD, AUKUS
+        и военно-морского кораблестроения Группы международного сотрудничества и безопасности Офиса премьер-министра и кабинета
+        министров
+      en: >-
+        Начальник Управления военно-морского кораблестроения и атомных подводных лодок Департамента по вопросам QUAD, AUKUS
+        и военно-морского кораблестроения Группы международного сотрудничества и безопасности Офиса премьер-министра и кабинета
+        министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джейн Гиллис
+      en: Jane Gillis
+    type: individual
+    nationality: AU
+    title:
+      ru: Группа управления и корпоративного развития Офиса премьер-министра и кабинета министров
+      en: Группа управления и корпоративного развития Офиса премьер-министра и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Фиона Грэсби
+      en: Fiona Grasby
+    type: individual
+    nationality: AU
+    title:
+      ru: Уорент-офицер авиации Военно-воздушных сил Австралии (2019-2022)
+      en: Уорент-офицер авиации Военно-воздушных сил Австралии (2019-2022)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Грин
+      en: Andrew Greene
+    type: individual
+    nationality: AU
+    title:
+      ru: Корреспондент телерадиовещательной компании «Эй-Би-Си»
+      en: Корреспондент телерадиовещательной компании «Эй-Би-Си»
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бен Грин
+      en: Ben Greene
+    type: individual
+    nationality: AU
+    title:
+      ru: Учредитель, бывший глава отдела инноваций оборонной компании Electro Optic Systems
+      en: Учредитель, бывший глава отдела инноваций оборонной компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Александр
+      en: Alexander Gosling
+    type: individual
+    nationality: AU
+    title:
+      ru: Гослинг Член совета директоров компании Micro-X
+      en: Гослинг Член совета директоров компании Micro-X
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Саймон Хэк
+      en: Simon Hack
+    type: individual
+    nationality: AU
+    title:
+      ru: Генеральный директор компании Ferra Australia
+      en: Генеральный директор компании Ferra Australia
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эллисон Харриден
+      en: Allison Harriden
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        И.о. начальника Управления обороны и разведки Департамента национальной безопасности Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров
+      en: >-
+        И.о. начальника Управления обороны и разведки Департамента национальной безопасности Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бен Харрисон
+      en: Ben Harrison
+    type: individual
+    nationality: AU
+    title:
+      ru: Неисполнительный директор компании HighCom
+      en: Неисполнительный директор компании HighCom
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю
+      en: Andrew Hartmann
+    type: individual
+    nationality: AU
+    title:
+      ru: Хартманн Член совета директоров компании Micro-X
+      en: Хартманн Член совета директоров компании Micro-X
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кимберли
+      en: Kimberley Healy
+    type: individual
+    nationality: AU
+    title:
+      ru: Хили Лейтенант-коммандер Военно-морских сил Австралии
+      en: Хили Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Маркус Хейллер
+      en: Marcus Hellyer
+    type: individual
+    nationality: AU
+    title:
+      ru: Бывший старший аналитик Австралийского института стратегической политики
+      en: Бывший старший аналитик Австралийского института стратегической политики
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Лорен
+      en: Lauren Henschke
+    type: individual
+    nationality: AU
+    title:
+      ru: Хеншке Начальник отдела общественных интересов Министерства иностранных дел и торговли Австралии
+      en: Хеншке Начальник отдела общественных интересов Министерства иностранных дел и торговли Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эдриан Хикс
+      en: Adrian Hicks
+    type: individual
+    nationality: AU
+    title:
+      ru: Лейтенант-коммандер Военно-морских сил Австралии
+      en: Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бэн Хиссинк
+      en: Ben Hissink
+    type: individual
+    nationality: AU
+    title:
+      ru: Капитан Военно-морских сил 1-го ранга Австралии
+      en: Капитан Военно-морских сил 1-го ранга Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Гарри Хаунселл
+      en: Garry Hounsell
+    type: individual
+    nationality: AU
+    title:
+      ru: Председатель совета директоров оборонной компании Electro Optic Systems
+      en: Председатель совета директоров оборонной компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэниел
+      en: Daniel Hutchinson
+    type: individual
+    nationality: AU
+    title:
+      ru: Хатчинсон Исполнительный генеральный директор компании Codan Ltd
+      en: Хатчинсон Исполнительный генеральный директор компании Codan Ltd
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рэйчел Хаксли
+      en: Rachel Huxley
+    type: individual
+    nationality: AU
+    title:
+      ru: Декан Факультета здравоохранения, профессор университета Дикина
+      en: Декан Факультета здравоохранения, профессор университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Альф Янниелло
+      en: Alf Ianniello
+    type: individual
+    nationality: AU
+    title:
+      ru: Управляющий директор, генеральный директор компании Codan Ltd
+      en: Управляющий директор, генеральный директор компании Codan Ltd
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кевин Айлсли
+      en: Kevin Illsley
+    type: individual
+    nationality: AU
+    title:
+      ru: Бывший директор по работе с клиентами компании DefendTex
+      en: Бывший директор по работе с клиентами компании DefendTex
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Лиз Джонсон
+      en: Liz Johnson
+    type: individual
+    nationality: AU
+    title:
+      ru: Проректор по академическим вопросам, профессор университета Дикина
+      en: Проректор по академическим вопросам, профессор университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэттью Джонс
+      en: Mattew Jones
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Бывший исполнительный вице-президент компании Electro Optic Systems, вице-президент по вопросам Азиатско-Тихоокеанского
+        региона компании Codan Communication
+      en: >-
+        Бывший исполнительный вице-президент компании Electro Optic Systems, вице-президент по вопросам Азиатско-Тихоокеанского
+        региона компании Codan Communication
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Доминик Келли
+      en: Dominic Kelly
+    type: individual
+    nationality: AU
+    title:
+      ru: Исполнительный директор компании Kord Defence
+      en: Исполнительный директор компании Kord Defence
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Меган Келли
+      en: Meghan Kelly
+    type: individual
+    nationality: AU
+    title:
+      ru: Бывший и.о. декана Факультета искусств и педагогики, доцент университета Дикина
+      en: Бывший и.о. декана Факультета искусств и педагогики, доцент университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Байрон Кеннеди
+      en: Byron Kennedy
+    type: individual
+    nationality: AU
+    title:
+      ru: Соучредитель, генеральный директор компании SPEE3D
+      en: Соучредитель, генеральный директор компании SPEE3D
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Том Кеньон
+      en: Tom Kenyon
+    type: individual
+    nationality: AU
+    title:
+      ru: Член консультативного совета компании Internet 2.0 Pty. Ltd.
+      en: Член консультативного совета компании Internet 2.0 Pty. Ltd.
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Филипп Кимптон
+      en: Philip Kimpton
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        И.о. директора Департамента национальной безопасности Группы международного сотрудничества и безопасности Офиса премьер-министра
+        и кабинета министров
+      en: >-
+        И.о. директора Департамента национальной безопасности Группы международного сотрудничества и безопасности Офиса премьер-министра
+        и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Нокс
+      en: David Knox
+    type: individual
+    nationality: AU
+    title:
+      ru: Председатель совета директоров  компании Micro-X
+      en: Председатель совета директоров  компании Micro-X
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Адам Льюис
+      en: Adam Lewis
+    type: individual
+    nationality: AU
+    title:
+      ru: Председатель правления компании SPEE3D
+      en: Председатель правления компании SPEE3D
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джо Леонг
+      en: Jo Leong
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        И.о. начальника Управления интеграции политики Группы международного сотрудничества и безопасности Офиса премьер-министра
+        и кабинета министров
+      en: >-
+        И.о. начальника Управления интеграции политики Группы международного сотрудничества и безопасности Офиса премьер-министра
+        и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кэти Лин
+      en: Katy Lin
+    type: individual
+    nationality: AU
+    title:
+      ru: Начальник отдела по вопросам санкций и транснациональной преступности Министерства иностранных дел и торговли Австралии
+      en: Начальник отдела по вопросам санкций и транснациональной преступности Министерства иностранных дел и торговли Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кейт Ланди
+      en: Kate Lundy
+    type: individual
+    nationality: AU
+    title:
+      ru: Член совета директоров компании Electro Optic Systems
+      en: Член совета директоров компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мария
+      en: Maria Macnamara
+    type: individual
+    nationality: AU
+    title:
+      ru: Макнамара Бывший член консультативного совета компании Internet 2.0 Pty. Ltd.
+      en: Макнамара Бывший член консультативного совета компании Internet 2.0 Pty. Ltd.
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Даррин Макдональд
+      en: Darin MacDonald
+    type: individual
+    nationality: AU
+    title:
+      ru: Коммандер Военно-морских сил Австралии
+      en: Коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Иэн Мартин
+      en: Iain Martin
+    type: individual
+    nationality: AU
+    title:
+      ru: Президент, ректор, профессор Университета Дикина
+      en: Президент, ректор, профессор Университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Андреа Меткалф
+      en: Andrea Metcalf
+    type: individual
+    nationality: AU
+    title:
+      ru: Мэр города, глава городского совета Большого Бендиго штата Виктория
+      en: Мэр города, глава городского совета Большого Бендиго штата Виктория
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Илона Мейер
+      en: Ilona Meyer
+    type: individual
+    nationality: AU
+    title:
+      ru: Член совета директоров компании Micro-X
+      en: Член совета директоров компании Micro-X
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Аделаида Макдональд
+      en: Adelaide McDonald
+    type: individual
+    nationality: AU
+    title:
+      ru: Неисполнительный директор компании HighCom
+      en: Неисполнительный директор компании HighCom
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джим Макдауэлл
+      en: Jim McDowell
+    type: individual
+    nationality: AU
+    title:
+      ru: Член совета директоров компании Micro-X
+      en: Член совета директоров компании Micro-X
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Грант Макфарлэн
+      en: Grant McFarlane
+    type: individual
+    nationality: AU
+    title:
+      ru: Уорент-офицер Сухопутных войск Австралии (2018-2022)
+      en: Уорент-офицер Сухопутных войск Австралии (2018-2022)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джордж
+      en: George McGuire
+    type: individual
+    nationality: AU
+    title:
+      ru: Макгуайр Генеральный директор компании Sentinel Boats
+      en: Макгуайр Генеральный директор компании Sentinel Boats
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид
+      en: David McPherson
+    type: individual
+    nationality: AU
+    title:
+      ru: Макфирсон Коммандер Военно-морских сил Австралии
+      en: Макфирсон Коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эрин Молан
+      en: Erin Molan
+    type: individual
+    nationality: AU
+    title:
+      ru: Телеведущая, журналист телеканала «Скай ньюс»
+      en: Телеведущая, журналист телеканала «Скай ньюс»
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Моран
+      en: Peter Moran
+    type: individual
+    nationality: AU
+    title:
+      ru: Управляющий директор группы компании Kord Defence
+      en: Управляющий директор группы компании Kord Defence
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стюарт Мюллер
+      en: Stewart Muller
+    type: individual
+    nationality: AU
+    title:
+      ru: Коммандер Военно-морских сил Австралии
+      en: Коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бо Мулрэйни
+      en: Beau Mulraney
+    type: individual
+    nationality: AU
+    title:
+      ru: Лейтенант-коммандер Военно-морских сил Австралии
+      en: Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Мерфи
+      en: Michael Murphy
+    type: individual
+    nationality: AU
+    title:
+      ru: Комиссар Управления полиции Северной территории
+      en: Комиссар Управления полиции Северной территории
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Энтони Нэйгл
+      en: Anthony Nagle
+    type: individual
+    nationality: AU
+    title:
+      ru: Коммандер Военно-морских сил Австралии
+      en: Коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт
+      en: Robert Nicholson
+    type: individual
+    nationality: AU
+    title:
+      ru: Николсон Член совета директоров компании Electro Optic Systems
+      en: Николсон Член совета директоров компании Electro Optic Systems
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Ниоа
+      en: Robert Nioa
+    type: individual
+    nationality: AU
+    title:
+      ru: Генеральный директор NIOA Group
+      en: Генеральный директор NIOA Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Патрик О'Брайен
+      en: Patrick O'Brien
+    type: individual
+    nationality: AU
+    title:
+      ru: Член совета директоров компании Micro-X
+      en: Член совета директоров компании Micro-X
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крис Олдфилд
+      en: Chris Oldfield
+    type: individual
+    nationality: AU
+    title:
+      ru: Председатель правления компании Sentinel Boats
+      en: Председатель правления компании Sentinel Boats
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джули Оуэнс
+      en: Julie Owens
+    type: individual
+    nationality: AU
+    title:
+      ru: Бывший проректор по научной работе, профессор Университета Дикина
+      en: Бывший проректор по научной работе, профессор Университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Папалиа
+      en: Paul Papalia
+    type: individual
+    nationality: AU
+    title:
+      ru: Министр по делам исправительных учреждений штата Западная Австралия
+      en: Министр по делам исправительных учреждений штата Западная Австралия
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Керри Паркер
+      en: Kerrie Parker
+    type: individual
+    nationality: AU
+    title:
+      ru: Вице-президент по административным вопросам Университета Дикина
+      en: Вице-президент по административным вопросам Университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Линкольн Паркер
+      en: Lincoln Parker
+    type: individual
+    nationality: AU
+    title:
+      ru: Функционер Либеральной партии Австралии
+      en: Функционер Либеральной партии Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Пэппер
+      en: Andrew Pepper
+    type: individual
+    nationality: AU
+    title:
+      ru: Капитан вооруженных сил Австралии
+      en: Капитан вооруженных сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Поттер
+      en: Robert Potter
+    type: individual
+    nationality: AU
+    title:
+      ru: Соучредитель, генеральный директор компании Internet 2.0 Pty. Ltd.
+      en: Соучредитель, генеральный директор компании Internet 2.0 Pty. Ltd.
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристофер
+      en: Christopher Pyne
+    type: individual
+    nationality: AU
+    title:
+      ru: Пайн Председатель совета директоров NIOA Group
+      en: Пайн Председатель совета директоров NIOA Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Николас Рис
+      en: Nicholas Reece
+    type: individual
+    nationality: AU
+    title:
+      ru: Заместитель лорд-мэра Мельбурна
+      en: Заместитель лорд-мэра Мельбурна
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Брэтт Редди
+      en: Brett Reddy
+    type: individual
+    nationality: AU
+    title:
+      ru: Директор операционной деятельности компании DefendTex
+      en: Директор операционной деятельности компании DefendTex
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Трэвис Редди
+      en: Travis Reddy
+    type: individual
+    nationality: AU
+    title:
+      ru: Исполнительный директор компании DefendTex
+      en: Исполнительный директор компании DefendTex
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Робинсон
+      en: David Robinson
+    type: individual
+    nationality: AU
+    title:
+      ru: Соучредитель, генеральный директор компании Internet 2.0 Pty. Ltd.
+      en: Соучредитель, генеральный директор компании Internet 2.0 Pty. Ltd.
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джош Руз
+      en: Josh Roose
+    type: individual
+    nationality: AU
+    title:
+      ru: Доцент Факультета искусств и педагогики университета Дикина
+      en: Доцент Факультета искусств и педагогики университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Роулэнд
+      en: Peter Rowland
+    type: individual
+    nationality: AU
+    title:
+      ru: Бывший член совета директоров компании Micro-X
+      en: Бывший член совета директоров компании Micro-X
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Брэд Ройс
+      en: Brad Royce
+    type: individual
+    nationality: AU
+    title:
+      ru: Комиссар по делам исправительных учреждений штата Западная Австралия
+      en: Комиссар по делам исправительных учреждений штата Западная Австралия
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард Садлер
+      en: Richard Sadleir
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Директор Департамента по вопросам QUAD, AUKUS и военно-морского кораблестроения Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров (Министерство)
+      en: >-
+        Директор Департамента по вопросам QUAD, AUKUS и военно-морского кораблестроения Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров (Министерство)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристофер
+      en: Christopher Saville
+    type: individual
+    nationality: AU
+    title:
+      ru: Сэвилл Лейтенант-коммандер Военно-морских сил Австралии
+      en: Сэвилл Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кингсли Скарс
+      en: Kingsley Scarce
+    type: individual
+    nationality: AU
+    title:
+      ru: Коммандер Военно-морских сил Австралии
+      en: Коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кин Селуэй
+      en: Kean Selway
+    type: individual
+    nationality: AU
+    title:
+      ru: Вице-президент по развитию университета Дикина
+      en: Вице-президент по развитию университета Дикина
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Том Сеймур
+      en: Tom Seymour
+    type: individual
+    nationality: AU
+    title:
+      ru: Член правления NIOA Group
+      en: Член правления NIOA Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эндрю Шилс
+      en: Andrew Shiels
+    type: individual
+    nationality: AU
+    title:
+      ru: Лейтенант-коммандер Военно-морских сил Австралии
+      en: Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Керри Ли
+      en: Kerri Lee Sinclair
+    type: individual
+    nationality: AU
+    title:
+      ru: Синклер Член совета директоров компании SPEE3D
+      en: Синклер Член совета директоров компании SPEE3D
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Сметерст
+      en: Mark Smethurst
+    type: individual
+    nationality: AU
+    title:
+      ru: Неисполнительный директор компании HighCom, директор компании Kord Defence
+      en: Неисполнительный директор компании HighCom, директор компании Kord Defence
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Люсия Стайн
+      en: Lucia Stein
+    type: individual
+    nationality: AU
+    title:
+      ru: Журналист телерадиовещательной корпорации «Эй-Би-Си»
+      en: Журналист телерадиовещательной корпорации «Эй-Би-Си»
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эдвина Стивенс
+      en: Edwina Stevens
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Начальник Управления Азии Департамента международного сотрудничества Группы международного сотрудничества и безопасности
+        Офиса премьер-министра и кабинета министров
+      en: >-
+        Начальник Управления Азии Департамента международного сотрудничества Группы международного сотрудничества и безопасности
+        Офиса премьер-министра и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Стевенс
+      en: Mark Stevens
+    type: individual
+    nationality: AU
+    title:
+      ru: Неисполнительный директор компании HighCom
+      en: Неисполнительный директор компании HighCom
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Алекс Стивенсон
+      en: Alex Stevenson
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Начальник Управления политики QUAD и AUKUS Департамента  по вопросам QUAD, AUKUS и военно-морского кораблестроения
+        Группы международного сотрудничества и безопасности Офиса премьер-министра и кабинета министров
+      en: >-
+        Начальник Управления политики QUAD и AUKUS Департамента  по вопросам QUAD, AUKUS и военно-морского кораблестроения
+        Группы международного сотрудничества и безопасности Офиса премьер-министра и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Стюарт
+      en: Paul Stewart
+    type: individual
+    nationality: AU
+    title:
+      ru: Комиссар по делам исправительных учреждений штата Квинсленд (2018-настоящее время)
+      en: Комиссар по делам исправительных учреждений штата Квинсленд (2018-настоящее время)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ларисса Стронг
+      en: Larissa Strong
+    type: individual
+    nationality: AU
+    title:
+      ru: Комиссар по делам исправительных учреждений штата Виктория (2022-настоящее время)
+      en: Комиссар по делам исправительных учреждений штата Виктория (2022-настоящее время)
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Уилльям Штольц
+      en: William Stoltz
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Старший советник по государственной политике, приглашенный научный сотрудник колледжа национальной безопасности Австралийского
+        национального университета
+      en: >-
+        Старший советник по государственной политике, приглашенный научный сотрудник колледжа национальной безопасности Австралийского
+        национального университета
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Митчелл
+      en: Mitchell Thomas
+    type: individual
+    nationality: AU
+    title:
+      ru: Томас Лейтенант-коммандер Военно-морских сил Австралии
+      en: Томас Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Аарон
+      en: Aaron Thompson
+    type: individual
+    nationality: AU
+    title:
+      ru: Томпсон Генеральный директор компании Ferra Group
+      en: Томпсон Генеральный директор компании Ferra Group
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кэлвин Тиммс
+      en: Calvin Timms
+    type: individual
+    nationality: AU
+    title:
+      ru: Коммандер Военно-морских сил Австралии
+      en: Коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид
+      en: David Titheridge
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Титеридж Начальник Управления глобальных интересов Департамента международного сотрудничества Группы международного
+        сотрудничества и Офиса премьер-министра и кабинета
+      en: >-
+        Титеридж Начальник Управления глобальных интересов Департамента международного сотрудничества Группы международного
+        сотрудничества и Офиса премьер-министра и кабинета
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джейн Тренери
+      en: Jane Trenery
+    type: individual
+    nationality: AU
+    title:
+      ru: Финансовый директор компании Internet 2.0 Pty. Ltd.
+      en: Финансовый директор компании Internet 2.0 Pty. Ltd.
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Росс Аптон
+      en: Ross Upton
+    type: individual
+    nationality: AU
+    title:
+      ru: Коммандер Военно-морских сил Австралии
+      en: Коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Николас
+      en: Nicholas Walczak
+    type: individual
+    nationality: AU
+    title:
+      ru: Волчек Лейтенант-коммандер Военно-морских сил Австралии
+      en: Волчек Лейтенант-коммандер Военно-морских сил Австралии
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Лиза Уэббер
+      en: Lisa Webber
+    type: individual
+    nationality: AU
+    title:
+      ru: >-
+        Начальник управления внутренней безопасности Департамента национальной безопасности Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров
+      en: >-
+        Начальник управления внутренней безопасности Департамента национальной безопасности Группы международного сотрудничества
+        и безопасности Офиса премьер-министра и кабинета министров
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Андреа Вулферт
+      en: Andrea Wolfert
+    type: individual
+    nationality: AU
+    title:
+      ru: Руководитель управления программами компании Sentinel Boats
+      en: Руководитель управления программами компании Sentinel Boats
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марджолин
+      en: Marjolijn Woods
+    type: individual
+    nationality: AU
+    title:
+      ru: Вудс Директор по персоналу компании Codan Ltd
+      en: Вудс Директор по персоналу компании Codan Ltd
+    effective_date: '2024-10-29'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности австралийского правительства.
+      en: For participation in anti-Russian activities of the Australian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

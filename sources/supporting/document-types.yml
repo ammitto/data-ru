@@ -1,0 +1,10 @@
+---
+document_types:
+- id: ru/ministry-of-foreign-affairs-announcement
+  name:
+    ru: Объявление Министерства иностранных дел Российской Федерации
+    en: Announcement of the Ministry of Foreign Affairs of the Russian Federation
+- id: ru/federal-law
+  name:
+    ru: Федеральный закон Российской Федерации
+    en: Federal Law of the Russian Federation

@@ -1,0 +1,1584 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России о введении персональных санкций в отношении канадских сенаторов
+    en: Foreign Ministry statement on introducing personal sanctions as regards Canadian senators
+  url: https://mid.ru/en/foreign_policy/news/1809221/
+  lang: ru
+  publish_date: '2022-04-13'
+  publish_time: '21:09'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 807-13-04-2022
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В связи с решением властей Канады, объявивших 24 марта с.г. о внесении всего состава Совета Федерации Федерального Собрания Российской Федерации в «черный список» лиц, на которых распространяются санкционные ограничения, включая запрет на въезд в страну, на основе взаимности вводятся контрмеры против действующих сенаторов канадского Парламента.
+
+      Указанные лица внесены на постоянной основе в российский «стоп-лист» в порядке реакции на враждебные шаги, предпринимаемые Оттавой, которая вопреки национальным интересам пытается быть в авангарде русофобского курса нынешней Администрации США.
+
+      Продолжение этой недальновидной линии, отражающей несостоятельность и зависимый характер канадской внешней политики, способно лишь умножить ущерб, наносимый самой Канаде и ее отношениям с Россией, принимая во внимание неизбежные российские ответные меры.
+
+      <list>
+    en: |
+      On February 24, 2022, the Canadian authorities decided to blacklist all members of the Federation Council of the Federal Assembly of the Russian Federation and impose sanctions restrictions on them, including a ban on their entry into the country. In this connection, we are introducing countermeasures against the current senators of the Canadian Parliament.
+
+      The said persons are put on Russia’s permanent stop list in response to the hostile actions by Ottawa, which, contrary to its own national interests, is trying to be in the vanguard of the Russophobic course of the current US administration.
+
+      The continuation of this myopic policy that reflects Canada’s inadequate and dependent foreign policy can only increase the damage done to Canada itself and its relations with Russia, considering Russia’s inevitable countermeasures. The names of blacklisted Canadian senators are as follows:
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Маргарет Андерсон
+      en: Margaret Dawn Anderson
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Арно
+      en: David M. Arnot
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сальма Атауллахжан
+      en: Salma Ataullahjan
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дайана Беллемар
+      en: Diane Bellemare
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ванда Бернард
+      en: Wanda Thomas Bernard
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Бим
+      en: Peter M. Boehm
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберт Блэк
+      en: Robert Black
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Патриция Бовей
+      en: Patricia Bovey
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ивонн Бойер
+      en: Yvonne Boyer
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Гвен Бонифас
+      en: Gwen Boniface
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Патрик Бразо
+      en: Patrick Brazeau
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пьер-Хьюз Буавеню
+      en: Pierre-Hugues Boisvenu
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Беверли Буссон
+      en: Beverley Busson
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дениз Бэттерс
+      en: Denise Batters
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Жозе Вернер
+      en: Josée Verner
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Говард Ветстон
+      en: Howard Wetston
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Юен Пау Ву
+      en: Yuen Pau Woo
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роза Галвез
+      en: Rosa Galvez
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Раймонда Ганье
+      en: Raymonde Gagné
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Амина Герба
+      en: Amina Gerba
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марк Голд
+      en: Marc Gold
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дайана Гриффин
+      en: Diane F. Griffin
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Жан-Ги Дажене
+      en: Jean-Guy Dagenais
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пьер Дальфон
+      en: Pierre J. Dalphond
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пэт Данкан
+      en: Pat Duncan
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Донна Даско
+      en: Donna Dasko
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мобина Джаффер
+      en: Mobina S. B. Jaffer
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Колин Дикон
+      en: Colin Deacon
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марти Дикон
+      en: Marty Deacon
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Деннис Доусон
+      en: Dennis Dawson
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рене Дюпюи
+      en: Renée Dupuis
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Клеман Жиньяк
+      en: Clément Gignac
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Клод Кариньян
+      en: Claude Carignan
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Марти Клайн
+      en: Marty Klyne
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бернадетт Клемент
+      en: Bernadette Clement
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэри Койл
+      en: Mary Coyle
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джейн Корди
+      en: Jane Cordy
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рене Кормье
+      en: René Cormier
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Брент Коттер
+      en: Brent Cotter
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэниел Кристмас
+      en: Daniel Christmas
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джим Куинн
+      en: Jim Quinn
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Стэн Кутчер
+      en: Stan Kutcher
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ларри Кэмпбелл
+      en: Larry W. Campbell
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Франсес Ланкин
+      en: Frances Lankin
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сандра Лавлейс Николас
+      en: Sandra M. Lovelace Nicholas
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тони Лоффреда
+      en: Tony Loffreda
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Патти Лабукан-Бенсон
+      en: Patti LaBoucane-Benson
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл МакДональд
+      en: Michael L. MacDonald
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэри Джейн Маккаллум
+      en: Mary Jane McCallum
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэрилу Макфедран
+      en: Marilou McPhedran
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Саби Марва
+      en: Sabi Marwah
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Йона Мартин
+      en: Yonah Martin
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Элизабет Маршал
+      en: Elizabeth Marshall
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Массикотт
+      en: Paul J. Massicotte
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мари-Франсуа.Межи
+      en: Marie-Françoise Mégie
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Терри Мерсер
+      en: Terry M. Mercer
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Жюли Мивилль-Дешен
+      en: Julie Miville-Dechêne
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Перси Моклер
+      en: Percy Mockler
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Люси Монсьон
+      en: Lucie Moncion
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Розмари Муди
+      en: Rosemary Moodie
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Фабиан Мэннинг
+      en: Fabian Manning
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мишель Одетт
+      en: Michèle Audette
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ратна Омидвар
+      en: Ratna Omidvar
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Виктор Оу
+      en: Victor Oh
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Деннис Паттерсон
+      en: Dennis Glen Patterson
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Шанталь Петиклер
+      en: Chantal Petitclerc
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дональд Плетт
+      en: Donald Neil Plett
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роуз-Мэй Пуарье
+      en: Rose-May Poirier
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ким Пэйт
+      en: Kim Pate
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мохаммед-Икбал Равалиа
+      en: Mohamed-Iqbal Ravalia
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пьеретт Рингетт
+      en: Pierrette Ringuette
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид Ричардс
+      en: David Richards
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Паула Саймонс
+      en: Paula Simons
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джуди Сейдман
+      en: Judith G. Seidman
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Раймонда Сен-Жермен
+      en: Raymonde Saint-Germain
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ларри Смит
+      en: Larry W. Smith
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Карен Соренсен
+      en: Karen Sorensen
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Скотт Таннас
+      en: Scott Tannas
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Вернон Уайт
+      en: Vernon White
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Памела Уоллин
+      en: Pamela Wallin
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эрик Форест
+      en: Éric Forest
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Брайан Фрэнсис
+      en: Brian Francis
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джордж Фьюри
+      en: George J. Furey
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Хардер
+      en: Peter Harder
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Нэнси Хартлинг
+      en: Nancy J. Hartling
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Лео Хусакос
+      en: Leo Housakos
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2022-04-13'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

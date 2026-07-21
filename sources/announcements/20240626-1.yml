@@ -1,0 +1,687 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России о персональных санкциях в отношении антироссийски настроенных граждан Новой Зеландии
+    en: >-
+      Foreign Ministry statement on introducing personal sanctions against citizens of New Zealand sharing anti-Russia sentiments
+  url: https://www.mid.ru/ru/foreign_policy/news/1959715/
+  lang: ru
+  publish_date: '2024-06-26'
+  publish_time: '21:07'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 1225-26-06-2024
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В ответ на политически мотивированные санкции против российских физических и юридических лиц со стороны правительства Новой Зеландии, вводимые в рамках русофобской кампании «коллективного Запада», въезд в нашу страну на бессрочной основе закрывается дополнительно для 36 новозеландцев из числа политических деятелей, руководителей силовых структур, преподавателей высших учебных заведений, журналистов и общественных деятелей, формирующих в этой стране антироссийскую повестку дня (ниже следует поименный перечень).
+
+      С учетом того, что официальный Веллингтон не намерен отказываться от антироссийского курса и продолжает принимать новые санкционные меры, работа над актуализацией российского «стоп-листа» будет продолжена.
+
+      <list>
+    en: |
+      In response to the politically motivated sanctions against Russian individuals and legal entities, introduced by the Government of New Zealand as part of the collective West’s Russophobic campaign, entry to the Russian Federation shall be additionally closed in perpetuity to 36 New Zealand citizens, including politicians, heads of security agencies, university teachers, journalists and public figures shaping an anti-Russia agenda in that country (following below is a list of names).
+
+      Considering that Wellington does not intend to renounce its anti-Russia policy and continues to approve new sanctions, the work to update the Russian stop list will be continued.
+
+      №
+
+      Name, Family name
+
+      Place of employment / Position
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Джон Баттерсби
+      en: John Battersby
+    type: individual
+    nationality: NZ
+    title:
+      ru: преподаватель Центра оборонных и стратегических исследований Университета Мэсси
+      en: преподаватель Центра оборонных и стратегических исследований Университета Мэсси
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мэтт Блейк
+      en: Matt Blake
+    type: individual
+    nationality: NZ
+    title:
+      ru: майор, старший офицер контингента BC НЗ по подготовке ВСУ в Великобритании
+      en: майор, старший офицер контингента BC НЗ по подготовке ВСУ в Великобритании
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Пол Бьюкенен
+      en: Paul Buchanan
+    type: individual
+    nationality: NZ
+    title:
+      ru: директор компании 36th Parallel Assessment
+      en: директор компании 36th Parallel Assessment
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дел Карлини
+      en: Del Carlini
+    type: individual
+    nationality: NZ
+    title:
+      ru: обозреватель вопросов геополитики
+      en: обозреватель вопросов геополитики
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Шарлотта Кук
+      en: Charlotte Cook
+    type: individual
+    nationality: NZ
+    title:
+      ru: журналист, продюсер государственной радиокомпании «Рэдио Нью Зиланд»
+      en: журналист, продюсер государственной радиокомпании «Рэдио Нью Зиланд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Майкл Кропп
+      en: Michael Cropp
+    type: individual
+    nationality: NZ
+    title:
+      ru: ведущий продюсер радиокомпании «Рэдио Нью Зиланд»
+      en: ведущий продюсер радиокомпании «Рэдио Нью Зиланд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Рейчел Хейлер Доналдрон
+      en: Rachel Heyler Donaldron
+    type: individual
+    nationality: NZ
+    title:
+      ru: репортер государственной радиокомпании «Рэдио Нью Зиланд»
+      en: репортер государственной радиокомпании «Рэдио Нью Зиланд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бронуин Эванс-Кент
+      en: Bronwyn
+    type: individual
+    nationality: NZ
+    title:
+      ru: начальник управления по оборонной политике Министерства обороны
+      en: начальник управления по оборонной политике Министерства обороны
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Чарли Гейтс
+      en: Charlie Gates
+    type: individual
+    nationality: NZ
+    title:
+      ru: старший репортер медиакомпании «Стафф»
+      en: старший репортер медиакомпании «Стафф»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джаррод Гилберт
+      en: Jarrod Gilbert
+    type: individual
+    nationality: NZ
+    title:
+      ru: социолог, Университет Кентербери
+      en: социолог, Университет Кентербери
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс Халпин
+      en: James Halpin
+    type: individual
+    nationality: NZ
+    title:
+      ru: корреспондент медиакомпании «Стафф»
+      en: корреспондент медиакомпании «Стафф»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тони Харрис
+      en: Tony Harris
+    type: individual
+    nationality: NZ
+    title:
+      ru: майор, старший офицер контингента BC НЗ по подготовке ВСУ в Великобритании
+      en: майор, старший офицер контингента BC НЗ по подготовке ВСУ в Великобритании
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Нил Холден
+      en: Neil Holden
+    type: individual
+    nationality: NZ
+    title:
+      ru: мэр г.Нью-Плимут
+      en: мэр г.Нью-Плимут
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Томас Келли
+      en: Thomas Kelly
+    type: individual
+    nationality: NZ
+    title:
+      ru: майор, старший офицер контингента вооруженных сил Новой Зеландии по подготовке ВСУ в Великобритании
+      en: майор, старший офицер контингента вооруженных сил Новой Зеландии по подготовке ВСУ в Великобритании
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Питер Мэки
+      en: Peter Macky
+    type: individual
+    nationality: NZ
+    title:
+      ru: блогер, публицист
+      en: блогер, публицист
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сара Минсон
+      en: Sarah Minson
+    type: individual
+    nationality: NZ
+    title:
+      ru: заместитель Министра обороны по тыловому обеспечениию
+      en: заместитель Министра обороны по тыловому обеспечениию
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Том Матч
+      en: Tom Mutch
+    type: individual
+    nationality: NZ
+    title:
+      ru: фотожурналист газеты «Нью Зиланд Геральд»
+      en: фотожурналист газеты «Нью Зиланд Геральд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Расселл Палмер
+      en: Russell Palmer
+    type: individual
+    nationality: NZ
+    title:
+      ru: журналист радиокомпании «Рэдио Нью Зиланд»
+      en: журналист радиокомпании «Рэдио Нью Зиланд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джейн Паттерсон
+      en: Jane Patterson
+    type: individual
+    nationality: NZ
+    title:
+      ru: политический редактор государственной радиокомпании «Рэдио Нью Зиланд»
+      en: политический редактор государственной радиокомпании «Рэдио Нью Зиланд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кэтлин Пирс
+      en: Kathleen Pearc
+    type: individual
+    nationality: NZ
+    title:
+      ru: начальник международного управления Министерства обороны
+      en: начальник международного управления Министерства обороны
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Том Пуллар
+      en: Tom Pullar
+    type: individual
+    nationality: NZ
+    title:
+      ru: корреспондент газеты «Пост»
+      en: корреспондент газеты «Пост»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Роберто Рэбел
+      en: Roberto Rabel
+    type: individual
+    nationality: NZ
+    title:
+      ru: профессор Центра стратегических исследований Университета Виктории
+      en: профессор Центра стратегических исследований Университета Виктории
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Данкан Джордж Рой
+      en: Duncan George Roy
+    type: individual
+    nationality: NZ
+    title:
+      ru: полковник, командующий наземным компонентом сухопутных войск вооруженных сил Новой Зеландии
+      en: полковник, командующий наземным компонентом сухопутных войск вооруженных сил Новой Зеландии
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джон Роуган
+      en: John Roughan
+    type: individual
+    nationality: NZ
+    title:
+      ru: журналист газеты «Нью Зиланд Геральд»
+      en: журналист газеты «Нью Зиланд Геральд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кэти Скотчер
+      en: Kathie Scotcher
+    type: individual
+    nationality: NZ
+    title:
+      ru: репортер радиокомпании «Рэдио Нью Зиланд»
+      en: репортер радиокомпании «Рэдио Нью Зиланд»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Грант Смит
+      en: Grant Smith
+    type: individual
+    nationality: NZ
+    title:
+      ru: мэр г.Палмерстон-Норт
+      en: мэр г.Палмерстон-Норт
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ник Смит
+      en: Nick Smith
+    type: individual
+    nationality: NZ
+    title:
+      ru: мэр г.Нельсон
+      en: мэр г.Нельсон
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Паула Саутгейт
+      en: Paula Southgate
+    type: individual
+    nationality: NZ
+    title:
+      ru: мэр г.Гамильтон
+      en: мэр г.Гамильтон
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джош Салливан
+      en: Josh Sullivan
+    type: individual
+    nationality: NZ
+    title:
+      ru: майор, командир подразделения вооруженных сил Новой Зеландии по подготовке ВСУ в Великобритании
+      en: майор, командир подразделения вооруженных сил Новой Зеландии по подготовке ВСУ в Великобритании
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мелисса Торн
+      en: Melissa Thorn
+    type: individual
+    nationality: NZ
+    title:
+      ru: главный советник по кадрам Министерства обороны
+      en: главный советник по кадрам Министерства обороны
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кейт Турска
+      en: Kate Turska
+    type: individual
+    nationality: NZ
+    title:
+      ru: представитель проукраинской НКО «Махи фо Укрэин»
+      en: представитель проукраинской НКО «Махи фо Укрэин»
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Софи Викерс
+      en: Sophie Vickers
+    type: individual
+    nationality: NZ
+    title:
+      ru: начальник международного управления Министерства обороны
+      en: начальник международного управления Министерства обороны
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Тори Фанау
+      en: Tory Whanau
+    type: individual
+    nationality: NZ
+    title:
+      ru: мэр г.Веллингтон
+      en: мэр г.Веллингтон
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кирстен Вайз
+      en: Kirsten Wise
+    type: individual
+    nationality: NZ
+    title:
+      ru: мэр г.Нейпир
+      en: мэр г.Нейпир
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Хантли Райт
+      en: Huntley Wright
+    type: individual
+    nationality: NZ
+    title:
+      ru: помощник Министра обороны по тыловому обеспечению
+      en: помощник Министра обороны по тыловому обеспечению
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Антон Янгмэн
+      en: Anton Youngman
+    type: individual
+    nationality: NZ
+    title:
+      ru: заместитель Министра обороны по тыловому обеспечению
+      en: заместитель Министра обороны по тыловому обеспечению
+    effective_date: '2024-06-26'
+    sanction_list: черного списка
+    reason:
+    - ru: За антироссийскую деятельность.
+      en: For anti-Russian activities.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

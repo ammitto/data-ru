@@ -1,0 +1,283 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Граждане Великобритании, находящиеся под персональными санкциями, включая запрет на въезд в Российскую Федерацию
+    en: Граждане Великобритании, находящиеся под персональными санкциями, включая запрет на въезд в Российскую Федерацию
+  url: https://www.mid.ru/ru/detail-material-page/1817739/
+  lang: ru
+  publish_date: '2022-08-01'
+  publish_time: '10:37'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: По состоянию на 10 апреля 2024 года
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |2
+
+
+      <list>
+    en: ''
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Борис ДЖОНСОН
+      en: Alexander Boris de Pfeffel JOHNSON
+    type: individual
+    nationality: GB
+    title:
+      ru: премьер-министр
+      en: премьер-министр
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Доминик РААБ
+      en: Dominic Rennie RAAB
+    type: individual
+    nationality: GB
+    title:
+      ru: заместитель премьер-министра, министр юстиции
+      en: заместитель премьер-министра, министр юстиции
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Элизабет ТРАСС
+      en: Elizabeth Mary TRUSS
+    type: individual
+    nationality: GB
+    title:
+      ru: министр иностранных дел
+      en: министр иностранных дел
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Бен УОЛЛЕС
+      en: Ben WALLACE
+    type: individual
+    nationality: GB
+    title:
+      ru: министр обороны
+      en: министр обороны
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Грант ШАППС
+      en: Grant SHAPPS
+    type: individual
+    nationality: GB
+    title:
+      ru: министр транспорта
+      en: министр транспорта
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Прити ПАТЕЛ
+      en: Priti PATEL
+    type: individual
+    nationality: GB
+    title:
+      ru: министр внутренних дел
+      en: министр внутренних дел
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Риши СУНАК
+      en: Rishi SUNAK
+    type: individual
+    nationality: GB
+    title:
+      ru: министр финансов
+      en: министр финансов
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Квази КВАРТЕНГ
+      en: Kwasi KWARTENG
+    type: individual
+    nationality: GB
+    title:
+      ru: министр предпринимательства, энергетики и промышленной стратегии
+      en: министр предпринимательства, энергетики и промышленной стратегии
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Надин ДОРРИС
+      en: Nadine Vanessa DORRIES
+    type: individual
+    nationality: GB
+    title:
+      ru: министр цифровизации, культуры, СМИ и спорта
+      en: министр цифровизации, культуры, СМИ и спорта
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Джеймс ХИППИ
+      en: James HEAPPEY
+    type: individual
+    nationality: GB
+    title:
+      ru: заместитель министра обороны
+      en: заместитель министра обороны
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Никола СТЕРДЖЕН
+      en: Nicola Ferguson STURGEON
+    type: individual
+    nationality: GB
+    title:
+      ru: первый министр Шотландии
+      en: первый министр Шотландии
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Суэлла БРАВЕРМАН
+      en: Suella BRAVERMAN
+    type: individual
+    nationality: GB
+    title:
+      ru: генеральный прокурор Англии и Уэльса
+      en: генеральный прокурор Англии и Уэльса
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+        Тереза МЭЙ
+      en: Theresa MAY
+    type: individual
+    nationality: GB
+    title:
+      ru: депутат парламента от консервативной партии, бывшая премьер-министр Великобритании,
+      en: депутат парламента от консервативной партии, бывшая премьер-министр Великобритании,
+    effective_date: '2022-08-01'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

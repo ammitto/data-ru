@@ -1,0 +1,6 @@
+{
+  "@context": "https://www.ammitto.org/ontology/context.jsonld",
+  "@id": "https://www.ammitto.org/regime/ru_",
+  "@type": "SanctionRegime",
+  "code": "RU_"
+}

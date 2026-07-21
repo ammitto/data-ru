@@ -1,0 +1,533 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России о введении персональных санкций в отношении ряда граждан Канады
+    en: Заявление МИД России о введении персональных санкций в отношении ряда граждан Канады
+  url: https://www.mid.ru/ru/maps/ca/1814238/
+  lang: ru
+  publish_date: '2022-05-21'
+  publish_time: '13:45'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 1080-21-05-2022
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В ответ на объявленные властями Канады очередные антироссийские санкции, затронувшие не только представителей руководства, военных и деловых кругов, но в ряде случаев ближайших родственников тех, кто стал фигурантом «черного списка», въезд в Россию закрывается на постоянной основе для аналогичной категории канадских граждан.
+
+      Речь идет о высших чиновниках, их родных и близких, топ-менеджерах ВПК и судостроительной отрасли, командовании вооруженных сил. Вслед за обнародованием данного перечня его фигуранты будут внесены в общий список канадских «закрытников», размещенный на сайте МИД:
+
+      <list>
+    en: ''
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Софи Трюдо
+      en: Sophie Gregoire Trudeau
+    type: individual
+    nationality: CA
+    title:
+      ru: супруга премьер-министра Дж.Трюдо
+      en: супруга премьер-министра Дж.Трюдо
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Грэм Боули
+      en: Graham Bowley
+    type: individual
+    nationality: CA
+    title:
+      ru: супруг вице-премьера Х.Фриланд
+      en: супруг вице-премьера Х.Фриланд
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Феликс Марцел
+      en: Felix Marzell
+    type: individual
+    nationality: CA
+    title:
+      ru: партнер мининдел М.Джоли
+      en: партнер мининдел М.Джоли
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Зенон Потичный
+      en: Zenon Potichny
+    type: individual
+    nationality: CA
+    title:
+      ru: президент Канадско-украинской торговой палаты, член Совета директоров Всемирного конгресса украинцев
+      en: президент Канадско-украинской торговой палаты, член Совета директоров Всемирного конгресса украинцев
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        Marie Bountrogianni), – глава канадской благотворительной организации «Help us help», бывший член кабинета министров провинции Онтарио;
+         Джослин «Джо» Пол
+      en: Jocelyn J.M.M.Paul
+    type: individual
+    nationality: CA
+    title:
+      ru: командующий Сухопутными войсками Канады, генерал-лейтенант
+      en: командующий Сухопутными войсками Канады, генерал-лейтенант
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Эрик Джин Кенни
+      en: Eric Jean Kenny
+    type: individual
+    nationality: CA
+    title:
+      ru: командующий ВВС Канады, генерал-лейтенант
+      en: командующий ВВС Канады, генерал-лейтенант
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Ангус Иан Топши
+      en: Angus Ian Topshee
+    type: individual
+    nationality: CA
+    title:
+      ru: командующий ВМС Канады, вице-адмирал
+      en: командующий ВМС Канады, вице-адмирал
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Поль Демарэ-младший
+      en: Paul Desmarais Jr.
+    type: individual
+    nationality: CA
+    title:
+      ru: председатель Совета директоров Quebec Power Corporation of Canada
+      en: председатель Совета директоров Quebec Power Corporation of Canada
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Андрэ Демарэ
+      en: Andre Desmarais
+    type: individual
+    nationality: CA
+    title:
+      ru: заместитель председателя Совета директоров Quebec Power Corporation of Canada
+      en: заместитель председателя Совета директоров Quebec Power Corporation of Canada
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Лорейн Бен
+      en: Lorraine Ben
+    type: individual
+    nationality: CA
+    title:
+      ru: генеральный директор компании Lockheed Martin Canada
+      en: генеральный директор компании Lockheed Martin Canada
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Эндрю Коутс
+      en: Andrew Coates
+    type: individual
+    nationality: CA
+    title:
+      ru: менеджер Lockheed Martin Canada
+      en: менеджер Lockheed Martin Canada
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Ричард Фостер
+      en: Richard Foster
+    type: individual
+    nationality: CA
+    title:
+      ru: >-
+        генеральный директор и вице-президент L3Harris Technologies Canada, председатель Совета директоров Ассоциации предприятий
+        аэрокосмической промышленности Канады (AIAC)
+      en: >-
+        генеральный директор и вице-президент L3Harris Technologies Canada, председатель Совета директоров Ассоциации предприятий
+        аэрокосмической промышленности Канады (AIAC)
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Марк Пэрент
+      en: Marc Parent
+    type: individual
+    nationality: CA
+    title:
+      ru: генеральный директор CAE Inc.
+      en: генеральный директор CAE Inc.
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Кевин Муни
+      en: Kevin Mooney
+    type: individual
+    nationality: CA
+    title:
+      ru: президент судостроительной компании Irving Shipbuilding Inc.
+      en: президент судостроительной компании Irving Shipbuilding Inc.
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Джеймс Д. Ирвинг
+      en: James D.Irving
+    type: individual
+    nationality: CA
+    title:
+      ru: генеральный директор судостроительной компании Irving Shipbuilding Inc.
+      en: генеральный директор судостроительной компании Irving Shipbuilding Inc.
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Майк Гринли
+      en: Mike Greenley
+    type: individual
+    nationality: CA
+    title:
+      ru: генеральный директор компании MDA Ltd.
+      en: генеральный директор компании MDA Ltd.
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Шон Гринвуд
+      en: Sean Greenwood
+    type: individual
+    nationality: CA
+    title:
+      ru: президент компании Canadian UAVs
+      en: президент компании Canadian UAVs
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Терри Мэнион
+      en: Terry Manion
+    type: individual
+    nationality: CA
+    title:
+      ru: генеральный управляющий и вице-президент компании Raytheon - Raytheon Canada Ltd.
+      en: генеральный управляющий и вице-президент компании Raytheon - Raytheon Canada Ltd.
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Кристин Чанфарани
+      en: Cristyn Cianfarani
+    type: individual
+    nationality: CA
+    title:
+      ru: президент и генеральный директор Канадской ассоциации предприятий сектора обороны и безопасности (CADSI)
+      en: президент и генеральный директор Канадской ассоциации предприятий сектора обороны и безопасности (CADSI)
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Кевин Форд
+      en: Kevin Ford
+    type: individual
+    nationality: CA
+    title:
+      ru: >-
+        президент и генеральный директор компании Calian Group Ltd., председатель Совета директоров Канадской ассоциации предприятий
+        сектора обороны и безопасности (CADSI)
+      en: >-
+        президент и генеральный директор компании Calian Group Ltd., председатель Совета директоров Канадской ассоциации предприятий
+        сектора обороны и безопасности (CADSI)
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Майк Мюллер
+      en: Mike Mueller
+    type: individual
+    nationality: CA
+    title:
+      ru: президент и генеральный директор Ассоциации предприятий аэрокосмической промышленности Канады (AIAC)
+      en: президент и генеральный директор Ассоциации предприятий аэрокосмической промышленности Канады (AIAC)
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Дуглас Харрисон
+      en: Douglas Harrison
+    type: individual
+    nationality: CA
+    title:
+      ru: председатель Совета директоров Канадской коммерческой корпорации (ССС)
+      en: председатель Совета директоров Канадской коммерческой корпорации (ССС)
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Роберт Квон
+      en: Robert Kwon
+    type: individual
+    nationality: CA
+    title:
+      ru: президент и генеральный директор Канадской коммерческой корпорации (ССС)
+      en: президент и генеральный директор Канадской коммерческой корпорации (ССС)
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Джеймс Дэвис
+      en: James Davies
+    type: individual
+    nationality: CA
+    title:
+      ru: президент, генеральный директор и совладелец судостроительной компании Chantier Davie Canada Inc.
+      en: президент, генеральный директор и совладелец судостроительной компании Chantier Davie Canada Inc.
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: |-
+        ;
+         Стивен Матье
+      en: Stephen Matier
+    type: individual
+    nationality: CA
+    title:
+      ru: президент Maritime Launch Services, организатор и генподрядчик канадско-украинского космодрома в Новой Шотландии.
+      en: президент Maritime Launch Services, организатор и генподрядчик канадско-украинского космодрома в Новой Шотландии.
+    effective_date: '2022-05-21'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

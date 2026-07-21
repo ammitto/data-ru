@@ -1,0 +1,23 @@
+{
+  "id": "https://www.ammitto.org/entry/ru/stop-list/ru-unknown",
+  "entity_id": "https://www.ammitto.org/entity/ru/ru-unknown",
+  "authority": {
+    "@id": "https://www.ammitto.org/authority/ru"
+  },
+  "regime": {
+    "@id": "https://www.ammitto.org/regime/ru_"
+  },
+  "effects": [
+    {
+      "effect_type": "entry_ban",
+      "scope": "full"
+    }
+  ],
+  "status": "active",
+  "reference_number": "RU-unknown",
+  "raw_source_data": {
+    "source_format": "html",
+    "source_specific_fields": {}
+  },
+  "@context": "https://www.ammitto.org/ontology/context.jsonld"
+}

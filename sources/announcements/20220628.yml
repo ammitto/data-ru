@@ -1,0 +1,492 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: Заявление МИД России в связи с введением персональных санкций в отношении граждан США
+    en: Foreign Ministry statement on introducing personal sanctions as regards American citizens
+  url: https://www.mid.ru/ru/foreign_policy/news/1819686/
+  lang: ru
+  publish_date: '2022-06-28'
+  publish_time: '11:44'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 1345-28-06-2022
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В качестве ответа на постоянно расширяющиеся санкции США против российских политических и общественных деятелей, в «стоп-лист» вносятся 25 американских граждан из числа ответственных за формирование русофобского курса сенаторов, участников т.н. группы «Макфол-Ермак», которая занимается разработкой рекомендаций относительно антироссийских рестрикций, а также членов семьи Президента Дж.Байдена.
+
+      <list>
+    en: |
+      In response to the constantly expanding US sanctions against Russian politicians and public figures, the stop list shall include 25 American citizens, including senators responsible for formulating the Russophobic policy, members of the so-called McFaul-Yermak International Expert Group, which drafts recommendations concerning anti-Russia restrictions, as well as family members of US President Joe Biden.
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Джилл БАЙДЕН
+      en: Jill Tracy Jacobs Biden
+    type: individual
+    nationality: US
+    title:
+      ru: супруга Президента США Дж.Байдена
+      en: The wife of US President Joe Biden
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эшли БАЙДЕН
+      en: Ashley Blazer Biden
+    type: individual
+    nationality: US
+    title:
+      ru: дочь Дж.Байдена
+      en: The daughter of US President Joe Biden
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Чарльз ГРАССЛИ
+      en: Charles Ernest Grassley
+    type: individual
+    nationality: US
+    title:
+      ru: член Сената Конгресса США от Республиканской партии (шт. Айова)
+      en: US Senator from Iowa (Republican)
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ларри ДАЙМОНД
+      en: Larry Jay Diamond
+    type: individual
+    nationality: US
+    title:
+      ru: профессор Стэнфордского университета
+      en: Professor, Stanford University
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кирстен ДЖИЛЛИБРАНД
+      en: Kirsten Elizabeth Rutnik Gillibrand
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        член Сената от Демократической партии
+        (шт. Нью-Йорк)
+      en: US Senator from New York (Democrat)
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеффри ЗОННЕНФЕЛЬД
+      en: Jeffrey Sonnenfeld
+    type: individual
+    nationality: US
+    title:
+      ru: основатель Института по вопросам лидерства при Йельском университете
+      en: Founder and CEO of the Yale Chief Executive Leadership Institute
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бронте КААС
+      en: Bronte Kaas
+    type: individual
+    nationality: US
+    title:
+      ru: менеджер программы Института международных исследований Фримана Спогли, Стэнфордский университет
+      en: Programme Manager, Freeman Spogli Institute for International Studies at Stanford University
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Крейг КЕННЕДИ
+      en: Craig Kennedy
+    type: individual
+    nationality: US
+    title:
+      ru: юрист Центра российских и евразийских исследований, Гарвардский университет
+      en: Lawyer at Davis Centre for Russian and Eurasian Studies, Harvard University
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Энн КЛАНАН
+      en: Ann Clanan
+    type: individual
+    nationality: US
+    title:
+      ru: доцент Центра международной безопасности и сотрудничества, Стэнфордский университет
+      en: Adjunct Professor, Stanford Centre for International Security and Cooperation
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Сьюзан КОЛЛИНЗ
+      en: Susan Margaret Collins
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        член Сената от Республиканской партии
+        (шт. Мэн)
+      en: US Senator from Maine (Republican)
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Дэвид КРАМЕР
+      en: David J. Kramer
+    type: individual
+    nationality: US
+    title:
+      ru: бывший заместитель Государственного секретаря по вопросам демократии, прав человека и труда
+      en: Former Assistant Secretary of State for Democracy, Human Rights, and Labour
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Лестер КРАУН
+      en: Lester Crown
+    type: individual
+    nationality: US
+    title:
+      ru: профессор Йельского университета
+      en: Professor, Yale University
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Митч МАККОННЕЛЛ
+      en: Addison Mitchell Mcconnell III
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        член Сената от Республиканской партии
+        (шт. Кентукки)
+      en: US Senator from Kentucky (Republican)
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кристофер МИЛЛЕР
+      en: Christopher Miller
+    type: individual
+    nationality: US
+    title:
+      ru: доцент школы Флэтчера, университет Тафтса
+      en: Adjunct Professor at Fletcher School, Tufts University
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Динша МИСТРИ
+      en: Dinshaw Mistry
+    type: individual
+    nationality: US
+    title:
+      ru: аспирант Института Гувера и Стэнфордской школы права
+      en: Postgraduate Student, Hoover Institution and Stanford Law School
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард МОРНИНГСТАР
+      en: Richard L. Morningstar
+    type: individual
+    nationality: US
+    title:
+      ru: бывший Посол США в Азербайджане и Специальный представитель по евразийской энергетике
+      en: Former US Ambassador to Azerbaijan and Special Envoy of the United States Secretary of State for Eurasian Energy
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джейкоб НЕЛЛ
+      en: Jacob Nell
+    type: individual
+    nationality: US
+    title:
+      ru: бывший главный экономист по России и руководитель отдела европейской экономики компании «Морган Стэнли»
+      en: бывший главный экономист по России и руководитель отдела европейской экономики компании «Морган Стэнли»
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Ричард НЕФЬЮ
+      en: Richard Nephew
+    type: individual
+    nationality: US
+    title:
+      ru: старший научный сотрудник Центра глобальной энергетической политики, Колумбийский университет
+      en: старший научный сотрудник Центра глобальной энергетической политики, Колумбийский университет
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бенджамин САСС
+      en: Benjamin Eric Sass
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        член Сената от Республиканской партии
+        (шт. Небраска)
+      en: |-
+        член Сената от Республиканской партии
+        (шт. Небраска)
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Кэтрин СТОУНЕР
+      en: Kathryn Stoner
+    type: individual
+    nationality: US
+    title:
+      ru: профессор Стэнфордского университета
+      en: профессор Стэнфордского университета
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Эдвард ФИШМАН
+      en: Edward Fishman
+    type: individual
+    nationality: US
+    title:
+      ru: бывший руководитель Управления политики и внедрения экономических санкций Государственного департамента
+      en: бывший руководитель Управления политики и внедрения экономических санкций Государственного департамента
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Фрэнсис ФУКУЯМА
+      en: Yoshiro Francis Fukuyama
+    type: individual
+    nationality: US
+    title:
+      ru: профессор Стэнфордского университета
+      en: профессор Стэнфордского университета
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Мартин ХАЙНРИХ
+      en: Martin Trevor Heinrich
+    type: individual
+    nationality: US
+    title:
+      ru: |-
+        член Сената от Демократической партии
+        (шт. Нью-Мексико)
+      en: |-
+        член Сената от Демократической партии
+        (шт. Нью-Мексико)
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Джеймс ХОДСОН
+      en: James Hodson
+    type: individual
+    nationality: US
+    title:
+      ru: главный исполнительный директор компании «Эй-ай фор гуд фаундэйшн», соорганизатор группы «Экономисты за Украину»
+      en: главный исполнительный директор компании «Эй-ай фор гуд фаундэйшн», соорганизатор группы «Экономисты за Украину»
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Бенджамин ШМИДТ
+      en: Benjamin Schmidt
+    type: individual
+    nationality: US
+    title:
+      ru: специалист по разработке проектов в Гарвардском университете
+      en: специалист по разработке проектов в Гарвардском университете
+    effective_date: '2022-06-28'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в формировании русофобского курса США.
+      en: For participation in formulating the Russophobic policy of the United States.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.

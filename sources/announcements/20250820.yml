@@ -1,0 +1,119 @@
+# yaml-language-server: $schema=../../schemas/announcement-schema.yml
+---
+announcement:
+  title:
+    ru: >-
+      Заявление МИД России об ответных персональных санкциях в отношении представителей СМИ, НПО, консалтинговых структур
+      и экспертного сообщества Великобритании
+    en: >-
+      Foreign Ministry statement on retaliatory personal sanctions against representatives of the UK media, NGOs, consulting
+      agencies and expert community
+  url: https://mid.ru/ru/foreign_policy/news/2042119/
+  lang: ru
+  publish_date: '2025-08-20'
+  publish_time: '16:22'
+  authority: ru/ministry-of-foreign-affairs
+  publisher: ru/ministry-of-foreign-affairs
+  type: ru/ministry-of-foreign-affairs-announcement
+  document_id: 1348-20-08-2025
+  signatory: ru/ministry-of-foreign-affairs
+  content:
+    ru: |
+      В ответ на продолжающийся конфронтационный курс Лондона, в рамках которого предпринимаются усилия по демонизации нашей страны, активно фабрикуются антироссийские нарративы в целях снижения влияния Москвы на международной арене, а также ведется дальнейшее накачивание оружием неонацистского режима в Киеве, принято решение о включении в российский «стоп-лист» ряда представителей СМИ, НПО, консалтинговых структур и экспертного сообщества Великобритании.
+
+      В их числе лица, распространяющие дезинформацию и голословные обвинения в адрес России в контексте СВО и осуществляющие враждебную лоббистскую деятельность, в том числе ратующие за ужесточение антироссийской политики Запада и усиление поддержки киевского режима.
+
+      Усилия британских пропагандистов носят безответственный характер, способствуют увеличению рисков дестабилизации мирового энергетического рынка и перенаправлению ресурсов Запада с содействия международному развитию на подпитку милитаристских устремлений Киева и поддержку собственного ВПК. В свою очередь, это бьет по странам Глобального Юга, который и без того испытывает на себе исторические последствия колониализма и империализма, а теперь еще и стал объектом неоколониальных устремлений Запада. Подобный «сопутствующий ущерб» отнюдь не беспокоит Лондон и его союзников, на словах выступающих за защиту общечеловеческих ценностей в украинском конфликте.
+
+      Быстрота, с которой после начала СВО англичане вывели на новый уровень антироссийскую информационную кампанию, и примеры их нападок на другие страны свидетельствуют о том, что схожие пропагандистские рычаги могут быть применены против любого международного субъекта, действия которого перестают отвечать интересам «коллективного Запада».
+      Иэн Роланд ГАРНЕР (Ian Roland Garner), научный сотрудник Института Пилецкого (Pilecki Institute, Польша) и Центра международной и оборонной политики Университета Куинс (Канада);
+
+      <list>
+    en: |
+      In response to London’s continued confrontational course, including its efforts to demonise our country, actively fabricate anti-Russia narratives to diminish Moscow’s international influence, and its ongoing supply of weapons to the neo-Nazi Kiev regime, a decision has been made to add a number of British representatives from the media, non-governmental organisations, consulting agencies, and expert community to Russia’s “stop list.”
+
+      This list includes individuals engaged in spreading disinformation and levelling unfounded accusations against Russia in relation to the special military operation. They are also involved in hostile lobbying activities, such as advocating for a tougher anti-Russia policy from the West and increased support for the Kiev regime.
+
+      The actions of these British propagandists are irresponsible. They contribute to the destabilisation of global energy markets and divert Western resources from international development to fuelling Kiev’s militaristic ambitions and subsidising the Western defence industry. This, in turn, negatively impacts nations in the Global South, which already bear the historical burden of colonialism and imperialism and are now the target of Western neocolonial pursuits. London and its allies appear unbothered by this “collateral damage,” even as they posture as defenders of universal values in the Ukrainian conflict.
+
+      Shortly after the commencement of Russia’s special military operation, the British government escalated its anti-Russia information campaign to a new level. This approach, which includes attacks on other nations, demonstrates that similar propaganda tactics could be employed against any international actor whose actions are deemed contrary to the interests of the collective West.
+
+      The following is a list of British nationals, as well as third-country nationals collaborating with destructive British media and consulting agencies, who are now barred from entering the Russian Federation:
+
+      <list>
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Imogen PAYTER), руководитель НПО «Британские друзья Украины»
+      en: UK Friends of Ukraine
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2025-08-20'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Democratic Strategy Initiative, ФРГ) и руководящий сотрудник компании «Хелсинг»
+      en: Helsing, ФРГ
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2025-08-20'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Torrin Mark WILKINS), директор НПО «Мозговой трест «Центр»
+      en: Centre Think Tank Foundation
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2025-08-20'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
+  - name:
+      ru: Adrian David GOLDBERG), редактор и продюсер телеканала «Байлайн ТВ»
+      en: Byline TV, Великобритания
+    type: individual
+    nationality: GB
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2025-08-20'
+    sanction_list: черного списка
+    reason:
+    - ru: За сотрудничество с деструктивными британскими аналитическими и консалтинговыми центрами.
+      en: For collaborating with destructive British analytical and consulting agencies.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
