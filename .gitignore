@@ -26,6 +26,9 @@ CLAUDE.md
 downloaded/*
 !downloaded/.gitkeep
 
-# Processed data (keep directory)
-processed/*
-!processed/.gitkeep
+# processed/ is deliberately NOT ignored. It holds this repository's
+# per-entity YAML, which is what the harmonizer reads; ignoring it meant
+# nothing could ever be committed here and the source published nothing.
+# Unlike downloaded/, which caches the raw upstream payload, processed/
+# is the product. RU has no automated fetch (mid.ru serves an anti-bot
+# challenge), so this corpus is curated and its history is the record.
