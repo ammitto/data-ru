@@ -31,11 +31,29 @@ jobs:
           bundler-cache: true
 
       - name: Fetch data
+        id: fetch
         run: |
           # TODO: Implement RU source fetcher
           # Russia sanctions require HTML parsing from mid.ru
-          echo "RU source not yet implemented"
-          ammitto fetch ru --format yaml --output-dir processed --verbose || true
+          #
+          # The gem refuses this source outright — mid.ru serves an
+          # anti-bot challenge the scraper cannot pass, and
+          # FETCHABLE_SOURCES excludes ru — so this exits nonzero on every
+          # run by design. The failure is recorded rather than swallowed:
+          # `|| true` alone would let a LATER partial harvest be committed,
+          # because a fetch that writes some files and then dies still
+          # leaves changes for `git status` to find.
+          #
+          # The commit step below requires succeeded=true, so nothing
+          # reaches the repository unless the fetch itself reported
+          # success. That holds without anyone remembering to remove a
+          # suffix when the real fetcher lands.
+          if bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose; then
+            echo "succeeded=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "succeeded=false" >> "$GITHUB_OUTPUT"
+            echo "RU fetch refused; nothing will be committed."
+          fi
 
       - name: Check for changes
         id: check_changes
@@ -47,7 +65,10 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: >-
+          github.ref_name == github.event.repository.default_branch &&
+          steps.fetch.outputs.succeeded == 'true' &&
+          steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -55,8 +76,15 @@ jobs:
           git commit -m "chore: update Russia sanctions data ($(date +%Y-%m-%d))"
           git push
 
+      # `failure()` is true only when a step actually failed. The fetch
+      # step above catches its own nonzero exit, so today's by-design RU
+      # refusal raises nothing here and files no issue. Keying this on
+      # `succeeded != 'true'` instead would open an issue every day for a
+      # source already known not to work. When a real fetcher lands and a
+      # refusal stops being the expected outcome, this condition is the
+      # line that has to change.
       - name: Create issue on failure
-        if: failure()
+        if: github.ref_name == github.event.repository.default_branch && failure()
         uses: actions/github-script@v7
         with:
           script: |
