@@ -33,39 +33,28 @@ jobs:
       - name: Fetch data
         id: fetch
         run: |
-          # TODO: Implement RU source fetcher
-          # Russia sanctions require HTML parsing from mid.ru
+          set -euo pipefail
+          # Do not ask the gem to fetch a source it declares it cannot fetch.
           #
-          # The gem refuses this source outright — mid.ru serves an
-          # anti-bot challenge the scraper cannot pass, and
-          # FETCHABLE_SOURCES excludes ru — so this exits nonzero on every
-          # run by design. The failure is recorded rather than swallowed:
-          # `|| true` alone would let a LATER partial harvest be committed,
-          # because a fetch that writes some files and then dies still
-          # leaves changes for `git status` to find.
+          # `FETCHABLE_SOURCES` is `ALL_SOURCES - %i[cn ru jp]`
+          # (lib/ammitto/config/defaults.rb:72): mid.ru serves an anti-bot
+          # challenge the scraper cannot pass, so ru is excluded by design and
+          # the extractor refuses. The refusal is NOT distinguishable from a
+          # real failure by exit status -- `fetch_command.rb:856` converts
+          # every error into one Thor::Error, so a genuine fault on a
+          # SUPPORTED source exits 1 as well. An earlier revision caught
+          # exit 1 and would have swallowed exactly that.
           #
-          # The commit step below requires succeeded=true, so nothing
-          # reaches the repository unless the fetch itself reported
-          # success. That holds without anyone remembering to remove a
-          # suffix when the real fetcher lands.
-          if bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose; then
+          # So: ask whether the source is fetchable, and only then fetch. When
+          # it is not, say so and commit nothing. When it becomes fetchable,
+          # every nonzero exit fails this step, `failure()` turns true and the
+          # issue below is filed.
+          if bundle exec ruby -e 'require "ammitto"; exit(Ammitto::Config::Defaults::FETCHABLE_SOURCES.include?(:ru) ? 0 : 1)'; then
+            bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose
             echo "succeeded=true" >> "$GITHUB_OUTPUT"
           else
-            status=$?
             echo "succeeded=false" >> "$GITHUB_OUTPUT"
-            # ONLY the expected refusal is caught. `Ammitto::CLI` sets
-            # `exit_on_failure? = true`, so a refusal surfaces as a
-            # Thor::Error and exit 1. Anything else -- 127 for a gem that
-            # did not install, a Ruby crash, a write failure -- is
-            # re-raised so the step actually fails, `failure()` becomes
-            # true, and the issue below gets filed. Swallowing every
-            # nonzero was the original defect here; catching every nonzero
-            # would be the same defect wearing a step output.
-            if [ "$status" -ne 1 ]; then
-              echo "::error::ru fetch exited ${status}, not the expected refusal (1)"
-              exit "$status"
-            fi
-            echo "RU fetch refused (exit 1); nothing will be committed."
+            echo "ru is not in FETCHABLE_SOURCES; nothing fetched, nothing to commit."
           fi
 
       - name: Check for changes
@@ -92,7 +81,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          # A fetch writes processed/ and nothing else. Staging the whole
+          # checkout would let an unrelated eligible file ride along on a
+          # harvest commit.
+          git add -A -- processed/
           git commit -m "chore: update Russia sanctions data ($(date +%Y-%m-%d))"
           git push
 
