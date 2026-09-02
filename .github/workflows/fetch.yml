@@ -49,13 +49,29 @@ jobs:
           # it is not, say so and commit nothing. When it becomes fetchable,
           # every nonzero exit fails this step, `failure()` turns true and the
           # issue below is filed.
-          if bundle exec ruby -e 'require "ammitto"; exit(Ammitto::Config::Defaults::FETCHABLE_SOURCES.include?(:ru) ? 0 : 1)'; then
-            bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose
-            echo "succeeded=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "succeeded=false" >> "$GITHUB_OUTPUT"
-            echo "ru is not in FETCHABLE_SOURCES; nothing fetched, nothing to commit."
-          fi
+          # The probe answers with a distinct status for each outcome, so a
+          # broken probe -- a LoadError, a bundler fault, a gem that did not
+          # install -- cannot be read as "not fetchable" and go green. Only
+          # 10 and 20 are answers; anything else is a fault and fails the step.
+          set +e
+          bundle exec ruby -e 'require "ammitto"; exit(Ammitto::Config::Defaults::FETCHABLE_SOURCES.include?(:ru) ? 10 : 20)'
+          probe=$?
+          set -e
+
+          case "$probe" in
+            10)
+              bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose
+              echo "succeeded=true" >> "$GITHUB_OUTPUT"
+              ;;
+            20)
+              echo "succeeded=false" >> "$GITHUB_OUTPUT"
+              echo "ru is not in FETCHABLE_SOURCES; nothing fetched, nothing to commit."
+              ;;
+            *)
+              echo "::error::fetchability probe exited $probe; it answers 10 or 20"
+              exit "$probe"
+              ;;
+          esac
 
       - name: Check for changes
         id: check_changes
@@ -66,7 +82,10 @@ jobs:
           # string, which reads as "no changes" and exits 0. That is
           # another quiet no-commit path, which is what this whole file
           # is about. Under `set -e` a failed assignment fails the step.
-          changes="$(git status --porcelain)"
+          # Scoped to processed/, because that is all the commit stages. A
+          # repo-wide check would report a change elsewhere and then fail the
+          # commit with "nothing to commit".
+          changes="$(git status --porcelain -- processed/)"
           if [ -z "$changes" ]; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
