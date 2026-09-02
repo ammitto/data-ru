@@ -51,14 +51,34 @@ jobs:
           if bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose; then
             echo "succeeded=true" >> "$GITHUB_OUTPUT"
           else
+            status=$?
             echo "succeeded=false" >> "$GITHUB_OUTPUT"
-            echo "RU fetch refused; nothing will be committed."
+            # ONLY the expected refusal is caught. `Ammitto::CLI` sets
+            # `exit_on_failure? = true`, so a refusal surfaces as a
+            # Thor::Error and exit 1. Anything else -- 127 for a gem that
+            # did not install, a Ruby crash, a write failure -- is
+            # re-raised so the step actually fails, `failure()` becomes
+            # true, and the issue below gets filed. Swallowing every
+            # nonzero was the original defect here; catching every nonzero
+            # would be the same defect wearing a step output.
+            if [ "$status" -ne 1 ]; then
+              echo "::error::ru fetch exited ${status}, not the expected refusal (1)"
+              exit "$status"
+            fi
+            echo "RU fetch refused (exit 1); nothing will be committed."
           fi
 
       - name: Check for changes
         id: check_changes
         run: |
-          if [ -z "$(git status --porcelain)" ]; then
+          set -euo pipefail
+          # Assign first. Inside `[ -z "$(git status)" ]` a failing
+          # git -- a broken checkout, a bad index -- yields an empty
+          # string, which reads as "no changes" and exits 0. That is
+          # another quiet no-commit path, which is what this whole file
+          # is about. Under `set -e` a failed assignment fails the step.
+          changes="$(git status --porcelain)"
+          if [ -z "$changes" ]; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
@@ -66,7 +86,7 @@ jobs:
 
       - name: Commit and push changes
         if: >-
-          github.ref_name == github.event.repository.default_branch &&
+          github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
           steps.fetch.outputs.succeeded == 'true' &&
           steps.check_changes.outputs.has_changes == 'true'
         run: |
@@ -84,7 +104,7 @@ jobs:
       # refusal stops being the expected outcome, this condition is the
       # line that has to change.
       - name: Create issue on failure
-        if: github.ref_name == github.event.repository.default_branch && failure()
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && failure()
         uses: actions/github-script@v7
         with:
           script: |
