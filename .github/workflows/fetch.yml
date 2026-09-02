@@ -31,32 +31,91 @@ jobs:
           bundler-cache: true
 
       - name: Fetch data
+        id: fetch
         run: |
-          # TODO: Implement RU source fetcher
-          # Russia sanctions require HTML parsing from mid.ru
-          echo "RU source not yet implemented"
-          ammitto fetch ru --format yaml --output-dir processed --verbose || true
+          set -euo pipefail
+          # Do not ask the gem to fetch a source it declares it cannot fetch.
+          #
+          # `FETCHABLE_SOURCES` is `ALL_SOURCES - %i[cn ru jp]`
+          # (lib/ammitto/config/defaults.rb:72): mid.ru serves an anti-bot
+          # challenge the scraper cannot pass, so ru is excluded by design and
+          # the extractor refuses. The refusal is NOT distinguishable from a
+          # real failure by exit status -- `fetch_command.rb:856` converts
+          # every error into one Thor::Error, so a genuine fault on a
+          # SUPPORTED source exits 1 as well. An earlier revision caught
+          # exit 1 and would have swallowed exactly that.
+          #
+          # So: ask whether the source is fetchable, and only then fetch. When
+          # it is not, say so and commit nothing. When it becomes fetchable,
+          # every nonzero exit fails this step, `failure()` turns true and the
+          # issue below is filed.
+          # The probe answers with a distinct status for each outcome, so a
+          # broken probe -- a LoadError, a bundler fault, a gem that did not
+          # install -- cannot be read as "not fetchable" and go green. Only
+          # 10 and 20 are answers; anything else is a fault and fails the step.
+          set +e
+          bundle exec ruby -e 'require "ammitto"; exit(Ammitto::Config::Defaults::FETCHABLE_SOURCES.include?(:ru) ? 10 : 20)'
+          probe=$?
+          set -e
+
+          case "$probe" in
+            10)
+              bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose
+              echo "succeeded=true" >> "$GITHUB_OUTPUT"
+              ;;
+            20)
+              echo "succeeded=false" >> "$GITHUB_OUTPUT"
+              echo "ru is not in FETCHABLE_SOURCES; nothing fetched, nothing to commit."
+              ;;
+            *)
+              echo "::error::fetchability probe exited $probe; it answers 10 or 20"
+              exit "$probe"
+              ;;
+          esac
 
       - name: Check for changes
         id: check_changes
         run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+          set -euo pipefail
+          # Assign first. Inside `[ -z "$(git status)" ]` a failing
+          # git -- a broken checkout, a bad index -- yields an empty
+          # string, which reads as "no changes" and exits 0. That is
+          # another quiet no-commit path, which is what this whole file
+          # is about. Under `set -e` a failed assignment fails the step.
+          # Scoped to processed/, because that is all the commit stages. A
+          # repo-wide check would report a change elsewhere and then fail the
+          # commit with "nothing to commit".
+          changes="$(git status --porcelain -- processed/)"
+          if [ -z "$changes" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: >-
+          github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+          steps.fetch.outputs.succeeded == 'true' &&
+          steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          # A fetch writes processed/ and nothing else. Staging the whole
+          # checkout would let an unrelated eligible file ride along on a
+          # harvest commit.
+          git add -A -- processed/
           git commit -m "chore: update Russia sanctions data ($(date +%Y-%m-%d))"
           git push
 
+      # `failure()` is true only when a step actually failed. The fetch
+      # step above catches its own nonzero exit, so today's by-design RU
+      # refusal raises nothing here and files no issue. Keying this on
+      # `succeeded != 'true'` instead would open an issue every day for a
+      # source already known not to work. When a real fetcher lands and a
+      # refusal stops being the expected outcome, this condition is the
+      # line that has to change.
       - name: Create issue on failure
-        if: failure()
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && failure()
         uses: actions/github-script@v7
         with:
           script: |
