@@ -25,7 +25,3 @@ CLAUDE.md
 # Downloaded data (keep directory)
 downloaded/*
 !downloaded/.gitkeep
-
-# Processed data (keep directory)
-processed/*
-!processed/.gitkeep

@@ -31,32 +31,116 @@ jobs:
           bundler-cache: true
 
       - name: Fetch data
+        id: fetch
         run: |
-          # TODO: Implement RU source fetcher
-          # Russia sanctions require HTML parsing from mid.ru
-          echo "RU source not yet implemented"
-          ammitto fetch ru --format yaml --output-dir processed --verbose || true
+          set -euo pipefail
+          # Do not ask the gem to fetch a source it declares it cannot fetch.
+          #
+          # `FETCHABLE_SOURCES` is `ALL_SOURCES - %i[cn ru jp]`
+          # (lib/ammitto/config/defaults.rb:72): mid.ru serves an anti-bot
+          # challenge the scraper cannot pass, so ru is excluded by design and
+          # the extractor refuses. The refusal is NOT distinguishable from a
+          # real failure by exit status -- `enforce_exit_status`
+          # (fetch_command.rb:856) collapses every FAILED SOURCE into one
+          # Thor::Error at :860, so a genuine fault on a SUPPORTED source
+          # exits 1 as well. It does not catch everything: an exception
+          # raised outside that path, an Interrupt say, never reaches it.
+          # An earlier revision caught exit 1 and would have swallowed
+          # exactly the supported-source fault.
+          #
+          # So: ask whether the source is fetchable, and only then fetch. When
+          # it is not, say so and commit nothing. When it becomes fetchable,
+          # every nonzero exit fails this step, `failure()` turns true and the
+          # issue below is filed.
+          #
+          # The answer travels on stdout, never on exit status: exit codes
+          # are not a namespace the probe owns. `bundle exec` itself can exit
+          # 10 (GemfileNotFound) or 20 (LockfileError) before the Ruby code
+          # even runs -- see bundler/errors.rb -- so a malformed lockfile
+          # would have been misread as "not fetchable" under a scheme keyed
+          # off those two exit codes, and the job would go green having
+          # fetched nothing. Any exit other than 0, or any token besides the
+          # two expected words, is a probe fault and fails the step.
+          # stderr is deliberately NOT redirected. Command substitution
+          # captures stdout only, so letting it through costs the probe
+          # nothing and puts the actual Bundler or Ruby error in the step
+          # log. Suppressing it left a bare exit code to diagnose from,
+          # which is the same "fault you cannot see" this file exists to
+          # remove.
+          set +e
+          probe_out="$(bundle exec ruby -e '
+            require "ammitto"
+            fetchable = Ammitto::Config::Defaults::FETCHABLE_SOURCES.include?(:ru)
+            puts(fetchable ? "fetchable" : "unfetchable")
+          ')"
+          probe_rc=$?
+          set -e
+
+          if [ "$probe_rc" -ne 0 ]; then
+            echo "::error::fetchability probe exited $probe_rc"
+            exit 1
+          fi
+
+          case "$probe_out" in
+            fetchable)
+              bundle exec ammitto fetch ru --format yaml --output-dir processed --verbose
+              echo "succeeded=true" >> "$GITHUB_OUTPUT"
+              ;;
+            unfetchable)
+              echo "succeeded=false" >> "$GITHUB_OUTPUT"
+              echo "ru is not in FETCHABLE_SOURCES; nothing fetched, nothing to commit."
+              ;;
+            *)
+              echo "::error::fetchability probe answered '$probe_out'"
+              exit 1
+              ;;
+          esac
 
       - name: Check for changes
         id: check_changes
         run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+          set -euo pipefail
+          # Assign first. Inside `[ -z "$(git status)" ]` a failing
+          # git -- a broken checkout, a bad index -- yields an empty
+          # string, which reads as "no changes" and exits 0. That is
+          # another quiet no-commit path, which is what this whole file
+          # is about. Under `set -e` a failed assignment fails the step.
+          # Scoped to processed/, because that is all the commit stages. A
+          # repo-wide check would report a change elsewhere and then fail the
+          # commit with "nothing to commit".
+          changes="$(git status --porcelain -- processed/)"
+          if [ -z "$changes" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: >-
+          github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+          steps.fetch.outputs.succeeded == 'true' &&
+          steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          # A fetch writes processed/ and nothing else. Staging the whole
+          # checkout would let an unrelated eligible file ride along on a
+          # harvest commit.
+          git add -A -- processed/
           git commit -m "chore: update Russia sanctions data ($(date +%Y-%m-%d))"
           git push
 
+      # `failure()` is true only when a step actually failed, and after the
+      # rewrite above that is exactly the right trigger. An `unfetchable`
+      # answer is not a failure: the step writes succeeded=false and exits 0,
+      # so today's by-design RU refusal files no issue. A probe fault or a
+      # fetch that actually fails DOES fail the step, so either files one.
+      # Keying this on `succeeded != 'true'` instead would open an issue
+      # every day for a source already known not to work. Nothing here needs
+      # changing when a real fetcher lands: a fetch that fails then already
+      # fails the step, and this condition already catches it.
       - name: Create issue on failure
-        if: failure()
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && failure()
         uses: actions/github-script@v7
         with:
           script: |
