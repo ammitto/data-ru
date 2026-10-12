@@ -2,7 +2,7 @@
 
 == Purpose
 
-This repository stores downloaded and processed sanctions data from the
+This repository stores curated sanctions data from the
 Russian Federation government sanctions announcements.
 
 The data is maintained by the Ammitto project and used by the `ammitto` Ruby
@@ -40,15 +40,12 @@ Russia maintains sanctions lists through:
 
 ```
 .
-├── downloaded/           # Raw HTML pages from Russian government websites
-│   └── *.html
-├── processed/            # Individual YAML files per sanction entity
-│   └── {name}-{index}.yaml
+├── sources/              # Hand-maintained YAML data
+├── scripts/              # Helper scripts for manual updates
+├── processed/            # Empty (only .gitkeep)
 ├── reference-docs/       # Reference documentation
-├── .github/workflows/    # GitHub Actions for automated updates
-├── README.adoc           # This file
-├── CLAUDE.md             # Guidance for Claude Code
-└── update.log            # Timestamps of data updates
+├── .github/workflows/    # GitHub Actions
+└── README.adoc           # This file
 ```
 
 == Special Considerations
@@ -60,66 +57,56 @@ Russia maintains sanctions lists through:
 
 == Directory Descriptions
 
-downloaded/:: Contains raw HTML pages downloaded from Russian government
-websites. Data must be parsed from official announcements.
-
-processed/:: Contains individual YAML files, one per sanction entity.
-Files are named using the pattern `{primary-name}-{index}.yaml` where
-index ensures uniqueness for entities with similar names.
+processed/:: Holds only `.gitkeep`. The data is the YAML under `sources/`.
 
 reference-docs/:: Contains reference documentation and translations.
 
-update.log:: Log file tracking when data was last updated with timestamps.
-
 == Updating Data
 
-Data is automatically updated daily via GitHub Actions.
-
-To manually update using the ammitto gem:
-
-[source,shell]
-----
-# From the ammitto gem directory
-bundle exec ruby exe/ammitto fetch ru --format yaml --output-dir ./processed
-----
-
-Or via the adapters repository:
+The YAML under `sources/` is maintained by hand in this repository, with
+the help of the scripts in `scripts/`:
 
 [source,shell]
 ----
-# From the adapters/ directory
-ruby adapter.rb
+# Fetch a legal instrument from kremlin.ru and convert it to YAML
+bundle exec ruby scripts/fetch_legal_instrument.rb <kremlin_print_url>
+
+# Validate the YAML against the schemas
+ruby scripts/validate.rb
 ----
 
 == Source Data Format
 
-The processed YAML files in `processed/` follow this structure:
+`processed/` holds only `.gitkeep`. The data is the YAML under `sources/`,
+maintained by hand. Each file under `sources/announcements/` holds an
+`announcement` block and a `sanction_details` block, whose `entities` list
+carries one entry per sanctioned person
+(schema: `schemas/announcement-schema.yml`):
 
-=== Person Entity
 [source,yaml]
 ----
-names:
-  - "PRIMARY NAME (Кириллица)"
-  - "PRIMARY NAME (Latin)"
-entity_type: person
-source: ru
-country: Country Name
-list_type: "stop-list"
-sanction_measures:
-  - "Entry ban"
-----
-
-=== Organization Entity
-[source,yaml]
-----
-names:
-  - "ORGANIZATION NAME"
-entity_type: organization
-source: ru
-country: Country Name
-list_type: "stop-list"
-sanction_measures:
-  - "Financial restrictions"
+sanction_details:
+  instruments:
+  - id: ru/federal-law-114
+  entities:
+  - name:
+      ru: Мэри Саймон
+      en: Mary Jeannie May Simon
+    type: individual
+    nationality: CA
+    title:
+      ru: без должности
+      en: no title
+    effective_date: '2023-04-12'
+    sanction_list: черного списка
+    reason:
+    - ru: За участие в антироссийской деятельности канадского правительства.
+      en: For participation in anti-Russian activities of the Canadian government.
+    measures:
+    - type:
+      - entry_ban
+      ru: Запрещен въезд в Российскую Федерацию.
+      en: Entry into the Russian Federation is prohibited.
 ----
 
 === Field Definitions
@@ -128,25 +115,34 @@ sanction_measures:
 |===
 | Field | Description
 
-| `names`
-| Array of name variants (may include Cyrillic and Latin scripts)
+| `name`
+| Name keyed by language (`ru`, `en`)
 
-| `entity_type`
-| Entity type: person or organization
+| `type`
+| Entity type; every current entry is `individual`
 
-| `source`
-| Source code: ru
+| `nationality`
+| Two-letter country code, e.g. `CA`
 
-| `country`
-| Country associated with the entity
+| `title`
+| Position or description, keyed by language
 
-| `list_type`
-| Type of Russian sanctions list: stop-list, central-bank, government
+| `effective_date`
+| Date the entry ban takes effect
 
-| `sanction_measures`
-| Array of sanction measures applied
+| `sanction_list`
+| The list named in the announcement, as written there
 
+| `reason`
+| Array of reasons, each keyed by language
+
+| `measures`
+| Array of measures: `type` codes plus the measure text keyed by language
 |===
+
+`sources/legal-instruments/` holds the legal basis (Federal Law No. 114-FZ)
+and `sources/supporting/` the organizations, document types and sanction
+lists the announcements refer to.
 
 == Harmonized Data Format
 
@@ -208,22 +204,7 @@ Organization:: Legal entities, companies, and organizations
 
 == Knowledge Graph Integration
 
-This repository's processed YAML data feeds into the Ammitto knowledge graph.
-
-When the harmonization process runs:
-
-[source,shell]
-----
-# Auto-detect all data-* repos and harmonize
-ammitto harmonize --scan --sources-dir /path/to/repos --output-dir ./api/v1
-----
-
-The ru data is transformed into:
-
-* Individual JSON-LD nodes in `api/v1/node/entity/ru/{id}.jsonld`
-* Sanction entries in `api/v1/node/entry/ru/{id}.jsonld`
-* Lightweight search index entries
-* Facet counts for filtering
+This repository's YAML data feeds into the Ammitto knowledge graph.
 
 == Related Repositories
 
