@@ -1,218 +1,135 @@
-= Ammitto Russia Sanctions Data Repository
+= Ammitto Russia entry-ban data
 
-== Purpose
+This repository maintains Russian Ministry of Foreign Affairs entry-ban
+statements as YAML for Ammitto. The statements bar named foreign nationals
+from entering Russia; contributors record one statement and its source URL
+per file in `sources/announcements/`, with reference copies in
+`reference-docs/`.
 
-This repository stores curated sanctions data from the
-Russian Federation government sanctions announcements.
+== Source
 
-The data is maintained by the Ammitto project and used by the `ammitto` Ruby
-gem for querying international sanctions information.
+* Publisher: Ministry of Foreign Affairs of the Russian Federation
+* Website: https://mid.ru/
 
-== Legal Basis
+The ministry announces these measures as statements on its website, not as a
+downloadable list. Each file here records the URL of the statement it was
+transcribed from (`announcement.url`).
 
-Russia maintains sanctions and restrictive measures lists through:
+== Contents
 
-* **Стоп-лист (Stop-list)** - Ministry of Foreign Affairs (MID)
-* **Central Bank Sanctions** - Central Bank of Russia (CBR)
-* **Government Decrees** - Постановления
+The data is in `sources/announcements/`, one file per statement, named after
+a date, usually its publication date (`sources/announcements/20250820.yml`), with a suffix
+when there are several on one day (`20220413-1.yml`).
 
-These are implemented through federal laws and government decrees
-authorizing reciprocal sanctions against foreign persons and entities.
+`sources/legal-instruments/` holds the law the statements cite, in Russian and
+English; `sources/supporting/` holds identifiers for lists, publishing bodies
+and document types; `schemas/` holds the schemas. `reference-docs/` holds
+copies of the statements and of the ministry's full lists for some countries,
+and of the law. `processed/` is empty.
 
-== Data Source
+Each statement file:
 
-Russia maintains sanctions lists through:
+[cols="1,1,3"]
+|===
+| Key | Type | Meaning
 
-.Stop-list (Стоп-лист)
-* **Authority**: Ministry of Foreign Affairs (МИД России)
-* **URL**: https://mid.ru
-* **Effects**: Entry bans on foreign persons
+| `announcement.title` | map | Title in Russian (`ru`) and English (`en`)
+| `announcement.url` | string | URL of the statement on mid.ru
+| `announcement.publish_date`, `publish_time` | string | Publication date (`YYYY-MM-DD`) and time
+| `announcement.authority`, `publisher`, `signatory` | string | Issuing body, as an identifier from `sources/supporting/organizations.yml`
+| `announcement.type` | string | Document type
+| `announcement.document_id` | string | The ministry's document number, as transcribed
+| `announcement.lang` | string | Language of the original, `ru`
+| `announcement.content` | map | Full text in Russian and English
+| `sanction_details.instruments` | list | Laws cited, by `id`
+| `sanction_details.entities` | list | The people named, described below
+|===
 
-.Central Bank Sanctions
-* **Authority**: Central Bank of Russia (ЦБ РФ)
-* **Effects**: Financial sanctions
+Each entry in `sanction_details.entities`:
 
-.Government Decrees
-* **Authority**: Government of Russia
-* **Effects**: Various economic restrictions
+[cols="1,1,3"]
+|===
+| Key | Type | Meaning
 
-== Directory Structure
+| `name` | map | Name in Russian and English
+| `type` | string | `individual`
+| `nationality` | string | Country code, such as `US` or `GB`
+| `title` | map | Position as stated, in Russian and English
+| `effective_date` | string | Date the ban applies from
+| `sanction_list` | string | The list, as named in the statement
+| `reason` | list | Reason given, in Russian and English
+| `measures` | list | The measure, in Russian and English, with a `type`, which is itself a list of codes, such as `[entry_ban]`
+|===
 
-```
-.
-├── sources/              # Hand-maintained YAML data
-├── scripts/              # Helper scripts for manual updates
-├── processed/            # Empty (only .gitkeep)
-├── reference-docs/       # Reference documentation
-├── .github/workflows/    # GitHub Actions
-└── README.adoc           # This file
-```
+== Using the data
 
-== Special Considerations
+Clone or download this repository and run either example from its root
+directory. The Python example requires PyYAML
+(`python3 -m pip install PyYAML`).
 
-* **Format**: HTML announcements (not structured XML/JSON)
-* **Language**: Russian with English transliterations
-* **Parsing**: Requires HTML extraction from official announcements
-* **Encoding**: UTF-8 with Cyrillic characters
+Ruby:
 
-== Directory Descriptions
+[source,ruby]
+----
+require "yaml"
 
-processed/:: Holds only `.gitkeep`. The data is the YAML under `sources/`.
+Dir.glob("sources/announcements/*.yml").sort.each do |path|
+  doc = YAML.safe_load_file(path, aliases: true)
+  date = doc["announcement"]["publish_date"]
+  doc["sanction_details"]["entities"].each do |entity|
+    puts [date, entity["nationality"], entity["name"]["en"].split.join(" ")].join("\t")
+  end
+end
+----
 
-reference-docs/:: Contains reference documentation and translations.
+Python:
 
-== Updating Data
+[source,python]
+----
+import glob
+import yaml
 
-The YAML under `sources/` is maintained by hand in this repository, with
-the help of the scripts in `scripts/`:
+for path in sorted(glob.glob("sources/announcements/*.yml")):
+    with open(path, encoding="utf-8") as f:
+        doc = yaml.safe_load(f)
+    date = doc["announcement"]["publish_date"]
+    for entity in doc["sanction_details"]["entities"]:
+        print(date, entity["nationality"], " ".join(entity["name"]["en"].split()), sep="\t")
+----
+
+== Updates
+
+This repository is maintained by hand: a statement is copied as Markdown into
+`reference-docs/announcements/` and converted with
+`scripts/parse_announcements.rb`; `scripts/validate.rb` checks the result
+against the schemas.
+
+== Maintaining the data
+
+Use Ruby and Bundler to install the link:Gemfile[Gemfile] dependencies. From
+the repository root, convert a saved statement into `sources/announcements/`
+and validate the source files:
 
 [source,shell]
 ----
-# Fetch a legal instrument from kremlin.ru and convert it to YAML
-bundle exec ruby scripts/fetch_legal_instrument.rb <kremlin_print_url>
-
-# Validate the YAML against the schemas
-ruby scripts/validate.rb
+bundle install
+bundle exec ruby scripts/parse_announcements.rb --output-dir sources/announcements reference-docs/announcements/YYYYMMDD.md --validate
+bundle exec ruby scripts/validate.rb
 ----
 
-== Source Data Format
-
-`processed/` holds only `.gitkeep`. The data is the YAML under `sources/`,
-maintained by hand. Each file under `sources/announcements/` holds an
-`announcement` block and a `sanction_details` block, whose `entities` list
-carries one entry per sanctioned person
-(schema: `schemas/announcement-schema.yml`):
-
-[source,yaml]
-----
-sanction_details:
-  instruments:
-  - id: ru/federal-law-114
-  entities:
-  - name:
-      ru: Мэри Саймон
-      en: Mary Jeannie May Simon
-    type: individual
-    nationality: CA
-    title:
-      ru: без должности
-      en: no title
-    effective_date: '2023-04-12'
-    sanction_list: черного списка
-    reason:
-    - ru: За участие в антироссийской деятельности канадского правительства.
-      en: For participation in anti-Russian activities of the Canadian government.
-    measures:
-    - type:
-      - entry_ban
-      ru: Запрещен въезд в Российскую Федерацию.
-      en: Entry into the Russian Federation is prohibited.
-----
-
-=== Field Definitions
-
-[cols="1,4"]
-|===
-| Field | Description
-
-| `name`
-| Name keyed by language (`ru`, `en`)
-
-| `type`
-| Entity type; every current entry is `individual`
-
-| `nationality`
-| Two-letter country code, e.g. `CA`
-
-| `title`
-| Position or description, keyed by language
-
-| `effective_date`
-| Date the entry ban takes effect
-
-| `sanction_list`
-| The list named in the announcement, as written there
-
-| `reason`
-| Array of reasons, each keyed by language
-
-| `measures`
-| Array of measures: `type` codes plus the measure text keyed by language
-|===
-
-`sources/legal-instruments/` holds the legal basis (Federal Law No. 114-FZ)
-and `sources/supporting/` the organizations, document types and sanction
-lists the announcements refer to.
-
-== Harmonized Data Format
-
-After harmonization, entities are transformed into JSON-LD format:
-
-=== Entity (JSON-LD)
-[source,json]
-----
-{
-  "@context": "https://www.ammitto.org/schema/v1/context.jsonld",
-  "@id": "https://www.ammitto.org/entity/ru/001",
-  "@type": "PersonEntity",
-  "names": [
-    {
-      "@type": "NameVariant",
-      "fullName": "PRIMARY NAME (Кириллица)",
-      "script": "Cyrl",
-      "isPrimary": true
-    },
-    {
-      "@type": "NameVariant",
-      "fullName": "PRIMARY NAME (Latin)",
-      "script": "Latn",
-      "isPrimary": false
-    }
-  ],
-  "sanctionEntries": [
-    {
-      "@id": "https://www.ammitto.org/entry/ru/001",
-      "@type": "SanctionEntry",
-      "authority": {
-        "@id": "https://www.ammitto.org/authority/ru",
-        "name": "Russia"
-      },
-      "regime": {
-        "@type": "SanctionRegime",
-        "code": "STOP_LIST",
-        "name": "Stop List"
-      },
-      "effects": [
-        {
-          "@type": "SanctionEffect",
-          "effectType": "travel_ban",
-          "scope": "full"
-        }
-      ],
-      "status": "active"
-    }
-  ]
-}
-----
-
-== Entity Types
-
-The Russian sanctions lists contain the following entity types:
-
-Person:: Individual persons subject to sanctions
-Organization:: Legal entities, companies, and organizations
-
-== Knowledge Graph Integration
-
-This repository's YAML data feeds into the Ammitto knowledge graph.
-
-== Related Repositories
-
-* https://github.com/ammitto/ammitto[ammitto] - Main Ruby gem with harmonization
-* https://github.com/ammitto/data[data] - Harmonized knowledge graph output
-* https://github.com/ammitto/ammitto.github.io[ammitto.github.io] - Website with search
+Replace `YYYYMMDD.md` with the saved statement's filename. The explicit
+input path selects the reference copy; `--output-dir` places the generated
+YAML in the source corpus. `--validate` checks that output, and the final
+command checks the source files against link:schemas/[schemas/]. Parser and
+validator changes belong in this repository's link:lib/ammitto-data-ru/[lib/]
+and link:scripts/[scripts/].
 
 == License
 
 Data in this repository is sourced from official Russian government
 announcements. The data processing code is part of the Ammitto project.
+
+== Related
+
+* https://www.ammitto.org[ammitto.org]: search across all sources
+* https://github.com/ammitto/ammitto[ammitto]: the Ruby gem behind ammitto.org
