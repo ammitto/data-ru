@@ -61,6 +61,58 @@ Each entry in `sanction_details.entities`:
 | `measures` | list | The measure, in Russian and English, with a `type`, which is itself a list of codes, such as `[entry_ban]`
 |===
 
+== Harmonized field mapping
+
+These rows document existing https://github.com/ammitto/ammitto/blob/74491e856c1e68aea52c0cf0e34061d48429d359/lib/ammitto/sources/ru/announcement_transformer.rb[announcement-transformer] capability, not publication of this corpus. RU remains unpublished; issue 181 is open. The https://github.com/ammitto/ammitto/blob/74491e856c1e68aea52c0cf0e34061d48429d359/lib/ammitto/sources/ru/transformer.rb[per-entity transformer] is a separate supported input path. Entity paths below are relative to `sanction_details.entities[]`.
+
+Targets below use canonical Ruby fields. Entity classes are under
+`Ammitto::Ontology::Entities`; `SanctionEntry`, `OfficialAnnouncement`,
+`SanctionReason` and `SanctionPeriodModification` are under
+`Ammitto::Ontology::Sanction`; other target classes are under
+`Ammitto::Ontology::ValueObjects`. JSON-LD uses the serializer's wire keys:
+`SourceReference.fetched_at`, for example, is published as `retrievedAt`.
+
+[cols="2,3,4",options="header"]
+|===
+| Input field | Canonical target | Transformation
+
+| `name.en`, `name.ru`
+| `Entity.names` → `NameVariant.full_name`, `script`, `is_primary`
+| Trims names, detects script from the text, and prefers a nonblank English-field name as primary.
+
+| `type`
+| `PersonEntity` or `OrganizationEntity`
+| Requires a readable party type; an unreadable type is rejected rather than guessed.
+
+| `nationality`
+| `PersonEntity.nationalities`
+| Retains stated nationality for persons.
+
+| `announcement.document_id`, entity names
+| `Entity.id`; `SanctionEntry.id`, `reference_number`
+| Builds notice-and-party references, disambiguating collisions within a notice.
+
+| `measures[].type`, localized measure text
+| `SanctionEffect.effect_type`, `localized_descriptions`
+| Keeps every stated type; description-only measures keep their text without inventing a type. No measures yields no effects on this path.
+
+| `reason[]`
+| `SanctionEntry.reason_details` → `SanctionReason.localized_descriptions`
+| Retains nonblank Russian and English reasons with language/script metadata.
+
+| `effective_date`
+| `TemporalPeriod.effective_date`, `is_indefinite`
+| Parses the party’s effective date into an indefinite period; publication time remains announcement metadata.
+
+| `announcement.title`, `url`, `publish_date`, `publish_time`, `document_id`, `content`
+| `OfficialAnnouncement` fields of the same names
+| Title prefers nonblank Russian, then English; content prefers the declared language, then Russian/English. Publication date and time stay separate.
+
+| `sanction_details.instruments[]`
+| `LegalCitation`
+| Uses supplied legal-instrument identifiers, falling back to the cited law when needed.
+|===
+
 == Using the data
 
 Clone or download this repository and run either example from its root
