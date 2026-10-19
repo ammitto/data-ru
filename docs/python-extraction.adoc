@@ -1,0 +1,64 @@
+= Experimental Python extraction
+
+The existing YAML contains missing and malformed parties. These Python tools
+explore extraction from saved source statements and HTML tables. They produce
+`REVIEW-CANDIDATE` JSON with `publication_ready: false`; they do not replace the
+Ruby parser, update the source corpus, or enable RU publication.
+
+== Run locally
+
+Python 3.10 or newer is sufficient for extraction and tests. PyYAML is optional:
+when installed, the corpus trial also reports existing YAML record counts for
+comparison. Those counts are not an extraction oracle.
+
+Run from the repository root. Keep output outside the checkout:
+
+[source,shell]
+----
+python3 -m unittest discover -s tests -v
+python3 scripts/extract_review_candidates.py --source-root . --output-dir /tmp/ammitto-ru-review
+----
+
+The output directory contains one JSON document per saved announcement and a
+`summary.json`. Each candidate retains its source file hash, line span, raw
+names and title text. Latin spellings are source-provided forms, not generated
+translations. Mixed scripts, malformed rows, count differences and unclassified
+continuations are flagged. No nationality, reason, effective date, translation
+or identity merge is inferred.
+
+== Optional access and HTML diagnostics
+
+The access probe requests two representative official pages and records HTTP
+results or connection errors. HTTP 200 with HTML does not establish that the
+body contains an announcement. It does not discover new announcements or save
+an approved dataset. The probe uses the network; unit tests do not.
+
+[source,shell]
+----
+python3 scripts/probe_announcement_access.py --output /tmp/ammitto-ru-access.json
+python3 scripts/inspect_announcement_tables.py /path/to/saved-announcement.html --output /tmp/ammitto-ru-table-review.json
+----
+
+The table diagnostic returns raw cell text only. It does not interpret names
+or roles, support nested tables, or establish completeness. A successful local
+sample retrieved the official April 2024 statement and found 235 table rows;
+a second official page disconnected. Reliable recurring access is unproven.
+
+== Current limits
+
+At input revision `68a0d699cfdd6ea98edac1d3ec6d65bfc55db928`, the saved-reference
+trial processed 21 documents and produced 2,894 candidates, including 91 with
+mixed-script warnings. Eighteen documents had flags and three layouts were
+unsupported. These overlapping diagnostic counts are not verified identities.
+
+The unsupported saved layouts are `20220628.md`, `20220905.md` and
+`20240417.md`. Six further rows in otherwise supported layouts remain omitted
+and explicitly flagged. Same-line title continuations are flagged rather than
+silently joined. Only the Russian source section is parsed; translated or
+conflicting English sections are not aligned by row number. Publication dates
+are recorded as raw source evidence, not derived from filenames.
+
+Before production use, support and verify all layouts, resolve source conflicts
+and ambiguous names, document correction provenance, strengthen publication
+guards, and review the whole corpus. See
+https://github.com/ammitto/ammitto/issues/181[the RU publication requirements].
