@@ -5,6 +5,11 @@ on:
     paths:
       - 'scripts/**'
       - 'tests/**'
+      - 'processed/**'
+      - 'schemas/**'
+      - 'lib/**'
+      - 'spec/**'
+      - 'Gemfile'
       - 'sources/announcements/**'
       - 'reference-docs/announcements/**'
       - '.github/workflows/python-prototype.yml'
@@ -13,6 +18,11 @@ on:
     paths:
       - 'scripts/**'
       - 'tests/**'
+      - 'processed/**'
+      - 'schemas/**'
+      - 'lib/**'
+      - 'spec/**'
+      - 'Gemfile'
       - 'sources/announcements/**'
       - 'reference-docs/announcements/**'
       - '.github/workflows/python-prototype.yml'
@@ -37,3 +47,30 @@ jobs:
         run: python3 scripts/check_source_updates.py --source-root . --offline --output-dir "${{ runner.temp }}/ru-source-check"
       - name: Preserve manual data in a complete review bundle
         run: python3 scripts/prepare_import_review.py --source-root . --candidates-dir "${{ runner.temp }}/ru-review-candidates" --state-file "${{ runner.temp }}/ru-source-check/check-manifest.json" --output-dir "${{ runner.temp }}/ru-import-review"
+      - name: Verify the published conversion matches its saved sources
+        shell: bash
+        run: |
+          python3 scripts/convert_reviewed_candidates.py --source-root . --output-dir "$RUNNER_TEMP/ru-processed"
+          diff -ru --exclude=.gitkeep processed "$RUNNER_TEMP/ru-processed"
+
+  processed-schema:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Run the Ruby specs
+        run: bundle exec rspec
+      - name: Validate every published announcement
+        run: |
+          bundle exec ruby -Ilib -rammitto-data-ru/schema_validator -e '
+            files = Dir["processed/*.yml"].sort
+            abort "Expected 21 processed source notices" unless files.length == 21
+            validator = AmmittoDataRU::SchemaValidator.new
+            results = files.map { |file| validator.validate_file(file) }
+            puts results.map(&:report)
+            abort "Published source schema validation failed" unless results.all?(&:valid)
+          '
