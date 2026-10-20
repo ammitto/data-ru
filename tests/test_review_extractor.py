@@ -38,8 +38,9 @@ class ExtractionTests(unittest.TestCase):
         doc=e.parse_document(SOURCE/'20220407.md')
         self.assertEqual(doc['parties'][0]['names'][1]['raw'],'Scott Morrison')
         self.assertEqual(doc['parties'][0]['provenance']['line_start'],19)
-        self.assertEqual(len(doc['parties']),227)
-        self.assertIn('unparsed_parenthesized_line',[i['code'] for i in doc['issues']])
+        self.assertEqual(len(doc['parties']),228)
+        self.assertTrue(doc['extraction_complete'])
+        self.assertIn('Concetta\n\nFierravanti-Wells', [p['names'][1]['raw'] for p in doc['parties']])
 
     def test_20250820_keeps_only_named_people(self):
         doc=e.parse_document(SOURCE/'20250820.md')
@@ -54,10 +55,11 @@ class ExtractionTests(unittest.TestCase):
         self.assertEqual(doc['parties'][0]['provenance']['line_start'],22)
         self.assertEqual(len(doc['parties']),39)
 
-    def test_irregular_layout_explicitly_unsupported(self):
+    def test_irregular_layout_source_rows_extracted(self):
         doc=e.parse_document(SOURCE/'20240417.md')
-        self.assertEqual(doc['support'],'unsupported')
-        self.assertEqual(doc['parties'],[])
+        self.assertTrue(doc['extraction_complete'])
+        self.assertEqual(len(doc['parties']),235)
+        self.assertEqual(doc['parties'][0]['names'][1]['raw'],'Juliana Addison')
         self.assertIn(235,[x['value'] for x in doc['claimed_counts']])
 
     def test_translated_header_ends_russian_section(self):
@@ -84,10 +86,11 @@ class ExtractionTests(unittest.TestCase):
             p=Path(tmp)/'test.md'
             p.write_text('## Russian\nНиже перечень граждан:\nДжон Смит (John Smith – министр;\nИван Иванов (Ivan Ivanov) – советник;\n')
             doc=e.parse_document(p)
-            self.assertEqual(len(doc['parties']),1)
-            self.assertEqual(doc['support'],'partial')
-            self.assertTrue(any(i['code']=='unparsed_parenthesized_line' and i['line']==3
-                                for i in doc['issues']))
+            self.assertEqual(len(doc['parties']),2)
+            self.assertTrue(doc['extraction_complete'])
+            self.assertEqual(doc['parties'][0]['names'][1]['raw'],'John Smith')
+            self.assertTrue(any(i['code']=='missing_name_closing_parenthesis' and i['line']==3
+                                for i in doc['source_warnings']))
 
     def test_filename_not_used_as_publication_date(self):
         doc=e.parse_document(SOURCE/'20260109.md')
@@ -116,12 +119,15 @@ class ExtractionTests(unittest.TestCase):
             with self.subTest(source=path.name):
                 doc=e.parse_document(path)
                 self.assertFalse(doc['publication_ready'])
+                self.assertTrue(doc['extraction_complete'])
+                self.assertEqual(doc['extraction_errors'], [])
                 self.assertEqual(doc['status'],'REVIEW-CANDIDATE')
                 self.assertEqual(doc['source_sha256'],hashlib.sha256(path.read_bytes()).hexdigest())
                 lines=path.read_text().splitlines()
                 for party in doc['parties']:
                     proof=party['provenance']
                     self.assertEqual(proof['raw_lines'],lines[proof['line_start']-1:proof['line_end']])
+                    self.assertIn(party['raw_title'], '\n'.join(proof['raw_lines']))
                     raw=' '.join(' '.join(proof['raw_lines']).split())
                     for name in party['names']:
                         self.assertIn(' '.join(name['raw'].split()),raw)

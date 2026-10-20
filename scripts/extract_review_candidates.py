@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local feasibility extractor. Output is evidence for review, never publishable data.
+"""Extract saved source evidence into nonpublishable review candidates.
 
 Only a Russian section is parsed. Latin names there are source-provided forms,
 not translations. English sections are intentionally not joined by row number.
@@ -9,38 +9,13 @@ import hashlib
 import json
 from pathlib import Path
 import re
-import unicodedata
 
 STATUS = 'REVIEW-CANDIDATE'
-UNSUPPORTED = {'20220628': 'unnumbered multiline dash table',
-               '20220905': 'unnumbered multiline dash table',
-               '20240417': 'irregular mixed tab/vertical table with missing row markers'}
-CYR = re.compile('[А-Яа-яЁё]')
-LAT = re.compile('[A-Za-z]')
-NUMBER = re.compile(r'^(\d+)\.?$')
-
-
-def script(value):
-    scripts = set()
-    for c in value:
-        if c.isalpha():
-            n = unicodedata.name(c, '')
-            scripts.add('Cyrl' if 'CYRILLIC' in n else 'Latn' if 'LATIN' in n else 'Other')
-    return next(iter(scripts)) if len(scripts) == 1 else 'Mixed' if scripts else 'Unknown'
-
-
-def valid_name(value, expected):
-    """Deliberately restrictive: no dates, digits, prose clauses or parentheses."""
-    if not 2 <= len(value.split()) <= 12 or len(value) > 160:
-        return False
-    if any(not (c.isalpha() or c.isspace() or c in ".,‘’'`\"“”«»-‐‑–") for c in value):
-        return False
-    words = re.findall(r'[^\W\d_]+', value, re.UNICODE)
-    particles = {'van', 'von', 'de', 'der', 'den', 'da', 'del', 'di', 'of', 'the', 'ван', 'де'}
-    tokens = [w.strip(".,‘’'`\"“”«»") for w in value.split()]
-    if len(words) < 2 or not all(w and (w[0].isupper() or w in particles) for w in tokens):
-        return False
-    return bool(CYR.search(value)) if expected == 'Cyrl' else bool(LAT.search(value))
+# Importable both as a CLI and through importlib in the repository tests.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from ru_extraction.rows import script, valid_name, paired_line
+from ru_extraction.layouts import extract
 
 
 def issue(code, line=None, detail=None):
@@ -48,21 +23,6 @@ def issue(code, line=None, detail=None):
     if line is not None: result['line'] = line
     if detail is not None: result['detail'] = detail
     return result
-
-
-def paired_line(value):
-    """Parse exactly the first name parenthesis, never title organisation parentheses."""
-    value = re.sub(r'^\d+[.)]?\s+', '', value.strip())
-    if '(' not in value or ')' not in value:
-        return None
-    before, rest = value.split('(', 1)
-    latin, title = rest.split(')', 1)
-    ru = before.strip()
-    if not valid_name(ru, 'Cyrl') or not valid_name(latin, 'Latn'):
-        return None
-    if title.strip() and title.lstrip()[0] not in '–—-,;.' and not title[0].isspace():
-        return None
-    return ru, latin, title
 
 
 def names(ru, latin):
@@ -109,8 +69,10 @@ def declaration_evidence(lines, start, end):
     return None
 
 
-def parse_document(path):
-    raw = path.read_bytes()
+def parse_document(path, raw=None):
+    # Callers validating a snapshot can supply exactly the bytes they preserved.
+    if raw is None:
+        raw = path.read_bytes()
     lines = raw.decode('utf-8').splitlines()
     result = {'status': STATUS, 'publication_ready': False, 'source_file': str(path),
               'source_sha256': hashlib.sha256(raw).hexdigest(),
@@ -120,10 +82,11 @@ def parse_document(path):
                                    for i, line in enumerate(lines)
                                    if line.startswith('## ') and line.strip() != '## Russian'],
               'limitations': ['No identity reconciliation, deduplication, translation or English-section alignment.',
-                              'Same-line raw_title ends on that source line; separate continuation text is flagged, not silently attached.']}
+                              'Only explicitly bounded source rows are extracted; source inconsistencies remain review warnings.']}
     bounds = russian_range(lines)
     if bounds is None:
-        result.update(support='unsupported', extraction_family=None)
+        result.update(support='unsupported', extraction_family=None, extraction_complete=False,
+                      extraction_errors=[issue('missing_or_duplicate_russian_section')], source_warnings=[])
         result['issues'].append(issue('missing_or_duplicate_russian_section'))
         return result
     start, end = bounds
@@ -132,87 +95,52 @@ def parse_document(path):
         if re.fullmatch(r'\d{2}\.\d{2}\.\d{4} \d{2}:\d{2}', lines[i].strip())), None)
     result['source_title'] = next(({'raw': lines[i], 'line': i+1} for i in range(start, end)
                                    if lines[i].startswith(('Заявление', 'Граждане'))), None)
+    result['as_of_date_evidence'] = next(({'raw': lines[i], 'line': i+1}
+        for i in range(start, end) if lines[i].startswith('По состоянию на ')), None)
+    result['document_id_evidence'] = next(({'raw': lines[i], 'line': i+1}
+        for i in range(start, min(start+12, end))
+        if re.fullmatch(r'\d+-\d{2}-\d{2}-\d{4}', lines[i].strip())), None)
     decl = declaration_evidence(lines, start, end)
-    first = None
-    if path.stem in UNSUPPORTED:
-        result.update(support='unsupported', extraction_family=None)
-        result['issues'].append(issue('unsupported_layout', detail=UNSUPPORTED[path.stem]))
-    elif any('№ п/п' in line for line in lines[start:end]):
-        result['extraction_family'] = 'numbered_vertical_cells'
-        header = next(i for i in range(start, end) if '№ п/п' in lines[i])
-        markers = [(i, int(lines[i].strip().rstrip('.'))) for i in range(header+1, end)
-                   if NUMBER.fullmatch(lines[i].strip())]
-        if not markers: result['issues'].append(issue('no_numbered_rows'))
-        for pos, (i, ordinal) in enumerate(markers):
-            stop = markers[pos+1][0] if pos+1 < len(markers) else end
-            if ordinal != pos+1:
-                result['issues'].append(issue('nonconsecutive_row_number', i+1, {'actual': ordinal, 'expected': pos+1}))
-            # Blank-separated cells preserve multiline cell boundaries.
-            groups=[]; current=[]
-            for j in range(i+1, stop):
-                if lines[j].strip(): current.append(j)
-                elif current: groups.append(current); current=[]
-            if current: groups.append(current)
-            # Known closing prose is not the final person's title.
-            prose = next((k for k, group in enumerate(groups)
-                          if lines[group[0]].startswith(('В условиях,', 'С учетом того,', 'Работа над'))), None)
-            if prose is not None:
-                result['issues'].append(issue('closing_prose_excluded', groups[prose][0]+1))
-                groups = groups[:prose]
-            if len(groups) < 3:
-                result['issues'].append(issue('malformed_vertical_row', i+1)); continue
-            latin='\n'.join(lines[j].strip() for j in groups[0])
-            ru='\n'.join(lines[j].strip() for j in groups[1])
-            if not valid_name(latin, 'Latn') or not valid_name(ru, 'Cyrl'):
-                result['issues'].append(issue('ambiguous_vertical_name_cells', i+1)); continue
-            title='\n'.join(lines[j] for group in groups[2:] for j in group)
-            last=groups[-1][-1]+1
-            result['parties'].append(party(ru,latin,title,i+1,last,lines,'numbered_vertical_cells',decl))
-            result['parties'][-1]['source_ordinal']=ordinal
-            first=first or i+1
-        result['support']='partial' if result['issues'] else 'supported_pattern'
-    else:
-        result['extraction_family']='same_line_name_pair'
-        begun=False
-        for i in range(start,end):
-            text=lines[i].strip()
-            preceding='\n'.join(lines[start:i])
-            list_boundary = ('Ниже' in preceding or 'переч' in preceding or
-                             (path.stem=='20220801' and 'По состоянию на ' in preceding))
-            found=paired_line(text)
-            if found:
-                # No broad free text matching before a source list announcement.
-                if not list_boundary:
-                    result['issues'].append(issue('unestablished_list_boundary',i+1));continue
-                begun=True;first=first or i+1
-                result['parties'].append(party(*found,i+1,i+1,lines,'same_line_name_pair',decl))
-            elif (begun or list_boundary) and '(' in text and not text.startswith(('С учетом','Работа','С полным')):
-                result['issues'].append(issue('unparsed_parenthesized_line',i+1,text))
-            elif (begun or list_boundary) and re.match(r'^\d+[.)]\s',text):
-                result['issues'].append(issue('unparsed_numbered_row',i+1,text))
-            elif (begun or list_boundary) and text:
-                result['issues'].append(issue('unclassified_list_continuation_or_prose',i+1,text))
-        result['support']='partial' if result['issues'] else 'supported_pattern'
-        if not result['parties']:
-            result['support']='unsupported'
-            result['issues'].append(issue('no_supported_name_pairs'))
+    family, rows, errors, warnings = extract(lines, start, end)
+    result['extraction_family'] = family
+    result['extraction_errors'] = errors
+    result['source_warnings'] = warnings
+    result['source_url'] = next((line.strip() for line in lines[:start]
+                                 if re.fullmatch(r'https?://\S+', line.strip())), None)
+    first = rows[0]['start'] + 1 if rows else None
+    for index, row in enumerate(rows, 1):
+        item = party(row['ru'], row['latin'], row['title'], row['start'] + 1,
+                     row['end'], lines, family, decl)
+        item['source_ordinal'] = row['ordinal']
+        item['source_row_index'] = index
+        item['flags'].extend(row['warnings'])
+        item['support'] = 'flagged' if item['flags'] else 'supported_pattern'
+        if row.get('group_evidence'):
+            item['group_evidence'] = row['group_evidence']
+        item['provenance'].update(source_url=result['source_url'],
+                                  source_sha256=result['source_sha256'])
+        result['parties'].append(item)
+    if not rows:
+        errors.append(issue('no_supported_name_pairs'))
+    result['support'] = 'partial' if errors and rows else 'unsupported' if errors else 'supported_pattern'
+    result['issues'] = [*errors, *warnings]
     result['claimed_counts']=count_claims(lines,start,end,first)
     for claim in result['claimed_counts']:
         if claim['value']!=len(result['parties']):
-            result['issues'].append(issue('claimed_count_mismatch',claim['line'],
+            result['source_warnings'].append(issue('claimed_count_mismatch',claim['line'],
                                           {'claimed':claim['value'],'extracted':len(result['parties'])}))
     duplicates={}
     for p in result['parties']:
         key=tuple(n['raw'] for n in p['names'])
         duplicates.setdefault(key,[]).append(p['provenance']['line_start'])
     for key, row_lines in duplicates.items():
-        if len(row_lines)>1:result['issues'].append(issue('duplicate_raw_name_pair',detail={'names':key,'lines':row_lines}))
+        if len(row_lines)>1:result['source_warnings'].append(issue('duplicate_raw_name_pair',detail={'names':key,'lines':row_lines}))
     # Publicly unnamed representatives cannot be recovered as identities.
     for i in range(start,end):
         if lines[i].startswith('Также в список внесен'):
-            result['issues'].append(issue('unnamed_parties_declared',i+1,lines[i]))
-    if result['issues'] and result['support'] != 'unsupported':
-        result['support'] = 'partial'
+            result['source_warnings'].append(issue('unnamed_parties_declared',i+1,lines[i]))
+    result['issues'] = [*result['extraction_errors'], *result['source_warnings']]
+    result['extraction_complete'] = not result['extraction_errors']
     result['counts']={'extracted':len(result['parties']),
                        'flagged_parties':sum(bool(p['flags']) for p in result['parties']),
                        'issues':len(result['issues'])}
@@ -237,14 +165,19 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source-root', type=Path, required=True)
     parser.add_argument('--output-dir', type=Path, required=True)
+    parser.add_argument('--allow-partial', action='store_true',
+                        help='diagnostic mode: write partial evidence without a failing exit status')
     args=parser.parse_args()
     root=args.source_root.resolve(); output=args.output_dir.resolve()
     if output==root or root in output.parents:
         parser.error('output-dir must be outside the frozen source root')
     sources=sorted((root/'reference-docs'/'announcements').glob('*.md'))
     if not sources:parser.error('no announcement markdown inputs found')
-    output.mkdir(parents=True,exist_ok=True)
-    summary={'status':STATUS,'publication_ready':False,'source_root':str(root),'documents':[],
+    try:
+        output.mkdir(parents=True, exist_ok=False)
+    except FileExistsError:
+        parser.error('output-dir must be new; existing extraction evidence is preserved')
+    summary={'status':STATUS,'publication_ready':False,'extraction_complete':True,'source_root':str(root),'documents':[],
              'limitations':['Extracted means pattern-supported candidates; it does not establish identity correctness.',
                             'Flagged means document has issues or flagged names; unsupported has no extracted candidates.',
                             'Counts in the title or body and current YAML are comparison evidence only.']}
@@ -254,11 +187,13 @@ def main():
         destination=output/(path.stem+'.review-candidates.json')
         destination.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n')
         summary['documents'].append({'file':path.name,'support':doc['support'],
+                                    'extraction_complete':doc['extraction_complete'],
                                     **doc.get('counts',{'extracted':0,'flagged_parties':0,'issues':len(doc['issues'])}),
                                     'claimed_counts':[x['value'] for x in doc.get('claimed_counts',[])],
                                     'existing_corpus_comparison':doc['existing_corpus_comparison'],
                                     'output':str(destination)})
     docs=summary['documents']
+    summary['extraction_complete'] = all(d['extraction_complete'] for d in docs)
     summary['totals']={'documents':len(docs),'extracted_parties':sum(d['extracted'] for d in docs),
                        'flagged_parties':sum(d['flagged_parties'] for d in docs),
                        'flagged_documents':sum(bool(d['issues'] or d['flagged_parties']) for d in docs),
@@ -266,5 +201,6 @@ def main():
                        'document_issues':sum(d['issues'] for d in docs)}
     (output/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(summary['totals'],ensure_ascii=False))
+    return 0 if summary['extraction_complete'] or args.allow_partial else 1
 
-if __name__=='__main__':main()
+if __name__=='__main__':raise SystemExit(main())

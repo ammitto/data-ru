@@ -176,8 +176,10 @@ command checks the source files against link:schemas/[schemas/]. Parser and
 validator changes belong in this repository's link:lib/ammitto-data-ru/[lib/]
 and link:scripts/[scripts/].
 
-For a separate experimental Python extraction check that writes review candidates,
-see link:docs/python-extraction.adoc[Python extraction prototype].
+For source-preserving Python extraction, official-page change checks and a
+complete import-review bundle, see
+link:docs/python-extraction.adoc[RU extraction and import review].
+These tools do not overwrite the manual corpus or enable RU publication.
 
 == License
 
