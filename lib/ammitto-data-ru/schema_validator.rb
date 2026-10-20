@@ -21,6 +21,7 @@ module AmmittoDataRU
     # Maps source directories/patterns to schema files
     SCHEMA_MAP = {
       'sources/announcements' => 'schemas/announcement-schema.yml',
+      'processed' => 'schemas/announcement-schema.yml',
       'sources/legal-instruments' => 'schemas/legal-instrument-schema.yml',
       'sources/supporting/document-types.yml' => 'schemas/document-types-schema.yml',
       'sources/supporting/organizations.yml' => 'schemas/organizations-schema.yml',
@@ -131,15 +132,19 @@ module AmmittoDataRU
       )
     end
 
-    # Get list of all YAML files in sources directory
+    # Discover preserved source YAML and canonical processed announcement YAML.
     # @return [Array<Pathname>] List of YAML file paths
     def yaml_files
       files = []
-      sources_dir.find do |path|
-        next unless path.file?
-        next unless path.extname == '.yml' || path.extname == '.yaml'
+      [sources_dir, root_dir.join('processed')].each do |directory|
+        next unless directory.directory?
 
-        files << path
+        directory.find do |path|
+          next unless path.file?
+          next unless path.extname == '.yml' || path.extname == '.yaml'
+
+          files << path
+        end
       end
       files.sort
     end

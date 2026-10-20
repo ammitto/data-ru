@@ -2,14 +2,12 @@
 # JSON Schema Draft-07 for Russian Sanctions Announcement format
 # Russian Ministry of Foreign Affairs sanctions announcements
 #
-# Changes from v0.1.0:
-# - Made title.en required non-empty
-# - Added version field
-# - Added country_code to entities
+# Source-only records may omit unstated dates, translations, legal citations
+# and sanction details. Supplied values still follow their field schemas.
 
 $schema: "http://json-schema.org/draft-07/schema#"
 title: "Russian Sanctions Announcement"
-version: "1.0.0"
+version: "1.1.0"
 description: |
   Schema for Russian Ministry of Foreign Affairs sanctions announcements.
   Contains two primary sections: announcement metadata/content and sanction details.
@@ -25,29 +23,24 @@ properties:
     type: string
     pattern: "^[0-9]+\\.[0-9]+\\.[0-9]+$"
     description: "Schema version (semver)"
-    default: "1.0.0"
+    default: "1.1.0"
 
   announcement:
     type: object
-    description: "Document metadata and bilingual content"
+    description: "Source metadata and content in the supplied languages"
     required:
       - title
       - url
       - lang
       - publish_date
       - publish_time
-      - authority
-      - publisher
-      - type
-      - document_id
-      - signatory
       - content
     additionalProperties: false
     properties:
       title:
         type: object
-        description: "Bilingual announcement title"
-        required: [ru, en]
+        description: "Announcement title in supplied languages"
+        required: [ru]
         properties:
           ru:
             type: string
@@ -108,8 +101,8 @@ properties:
 
       content:
         type: object
-        description: "Bilingual body content (YAML literal block scalar)"
-        required: [ru, en]
+        description: "Body content in supplied languages"
+        required: [ru]
         properties:
           ru:
             type: string
@@ -122,7 +115,6 @@ properties:
     type: object
     description: "Structured sanctions data"
     required:
-      - instruments
       - entities
     additionalProperties: false
     properties:
@@ -149,17 +141,12 @@ properties:
           required:
             - name
             - type
-            - title
-            - effective_date
-            - sanction_list
-            - reason
-            - measures
           additionalProperties: false
           properties:
             name:
               type: object
-              description: "Bilingual name"
-              required: [ru, en]
+              description: "Name in supplied source forms"
+              required: [ru]
               properties:
                 ru:
                   type: string
@@ -168,7 +155,7 @@ properties:
                 en:
                   type: string
                   minLength: 1
-                  description: "Name in English (Latin script)"
+                  description: "Source-provided Latin name form; language may be undetermined"
 
             type:
               type: string
@@ -177,8 +164,8 @@ properties:
 
             title:
               type: object
-              description: "Bilingual title/position/affiliation"
-              required: [ru, en]
+              description: "Title/position/affiliation in supplied languages"
+              required: [ru]
               properties:
                 ru:
                   type: string
@@ -210,11 +197,11 @@ properties:
 
             reason:
               type: array
-              description: "Bilingual justification for sanctions"
+              description: "Source justification in supplied languages"
               minItems: 1
               items:
                 type: object
-                required: [ru, en]
+                required: [ru]
                 properties:
                   ru:
                     type: string
