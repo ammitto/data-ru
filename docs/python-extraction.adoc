@@ -1,0 +1,115 @@
+= RU extraction and import review
+
+The Python workflow extracts saved statements into source-linked review
+candidates, checks official pages for changes, and preserves the manual YAML
+in a separate review bundle. It does not replace the Ruby parser, modify the
+source corpus, stamp an import date, or enable RU publication.
+
+== Run locally
+
+Python 3.10 or newer is sufficient; extraction, tests, source checks and review
+bundles use the standard library. PyYAML is optional for reporting existing
+YAML counts, which are not an extraction oracle.
+
+Run from the repository root. Each output directory must be new; keep it
+outside the checkout:
+
+[source,shell]
+----
+python3 -m unittest discover -s tests -v
+python3 scripts/extract_review_candidates.py --source-root . --output-dir /tmp/ru-candidates
+python3 scripts/check_source_updates.py --source-root . --offline --output-dir /tmp/ru-source-check
+python3 scripts/prepare_import_review.py --source-root . --candidates-dir /tmp/ru-candidates --state-file /tmp/ru-source-check/check-manifest.json --output-dir /tmp/ru-import-review
+----
+
+Extraction produces one `*.review-candidates.json` per saved reference and a
+`summary.json`. Raw names, roles, line spans, source hashes, URLs, publication
+timestamps and snapshot dates retain their source evidence. Latin forms are
+source-provided, not generated translations. Missing source ordinals remain
+null. Unknown or incomplete layouts fail the command; `--allow-partial` is
+only for diagnosis and its incomplete outputs are refused by the bundle step.
+
+The acceptance fixture independently records the source hashes, row spans and
+critical name anchors for all 21 tracked references: 3,185 named source-row
+occurrences. These are not distinct identities. The extractor reads the primary
+Russian section; translated or conflicting English sections are not aligned
+by ordinal. Mixed scripts, an unnamed group and malformed parentheses are
+flagged for review; disagreements between language sections are not resolved.
+Extraction completeness does not approve
+identity, nationality, reason, effective date or translation.
+
+== Check official sources and dates
+
+Remove `--offline` to check the tracked official announcement URLs. Requests
+are bounded by timeout, response size and redirects to official HTTPS hosts.
+An HTML 200 response alone is insufficient: an announcement body and matching
+article ID must be present. Captchas, errors and missing articles fail the
+check and produce a nonzero exit status, while preserving prior verified state.
+
+[source,shell]
+----
+python3 scripts/check_source_updates.py --source-root . --output-dir /tmp/ru-online-check --state-file /path/to/prior-check-manifest.json --timeout 15
+----
+
+The optional `--index-url https://mid.ru/...` captures a bounded queue of links
+for human review. It does not establish complete discovery or decide whether
+a new announcement belongs in this corpus. Do not treat this as a fully
+automatic import or a proof that all current official announcements are covered.
+
+`check-manifest.json` distinguishes:
+
+* `published_at`: explicit source publication evidence, with its origin.
+* `official_updated_at`: an explicit official modification date, otherwise null.
+* `last_source_checked_at`: the last confirmed announcement check; failed and
+  offline attempts retain the previous value rather than making it fresh.
+* `last_imported_at`: copied from a supplied ledger, otherwise null. A source
+  check or extraction never counts as an import.
+* `content_status`: first check, unchanged, changed or unknown. The hash covers
+  the article-specific title and body, excluding navigation. A change needs review.
+
+The saved-reference publication date, the source's snapshot/as-of date, the
+last check and the last import are different facts. Filenames do not supply
+publication dates. `latest_included_publication_date` describes only the saved
+references; `site_freshness` remains unknown. Offline mode makes no official
+network-check claim. Keep the manifest and captured HTML/text with the review.
+
+== Review before importing
+
+`prepare_import_review.py` requires complete candidates for exactly every
+tracked reference and verifies their source hashes, line spans and raw names.
+It copies references, candidates and original manual YAML byte-for-byte into a
+new bundle. `manifest.json` is written last; a folder without that manifest is
+incomplete and must be rejected. Input changes during preparation also fail.
+
+Each entry records hashes, source warnings and date evidence, retains the
+supplied source-check state, and starts with `review_status: pending`.
+Every candidate and bundle has `publication_ready: false`. Existing output
+folders, source files and ledger files are never replaced.
+
+For each announcement, a maintainer must compare names and roles with the
+preserved source, resolve or explicitly retain source ambiguities, and review
+the proposed correction against the preserved YAML. Record the approved
+correction, its source evidence and the actual import event in the maintained
+ledger. This workflow deliberately supplies no automatic corpus writer:
+preparing or approving a bundle does not apply it. Corpus correction,
+publication guards and end-to-end publication verification remain separate
+requirements of https://github.com/ammitto/ammitto/issues/181[issue 181].
+
+== Optional access and HTML diagnostics
+
+The access probe requests two representative official pages and records HTTP
+results or connection errors. HTTP 200 with HTML does not establish that the
+body contains an announcement. It does not discover new announcements or save
+an approved dataset. The probe uses the network; unit tests do not.
+
+[source,shell]
+----
+python3 scripts/probe_announcement_access.py --output /tmp/ammitto-ru-access.json
+python3 scripts/inspect_announcement_tables.py /path/to/saved-announcement.html --output /tmp/ammitto-ru-table-review.json
+----
+
+The table diagnostic returns raw cell text only. It does not interpret names
+or roles, support nested tables, or establish completeness. A successful local
+sample retrieved the official April 2024 statement and found 235 table rows;
+a second official page disconnected. That historical diagnostic is not a guarantee
+of recurring access; use the source checker for explicit current attempt results.

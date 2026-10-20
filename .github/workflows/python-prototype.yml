@@ -1,0 +1,39 @@
+name: RU extraction and import review
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'sources/announcements/**'
+      - 'reference-docs/announcements/**'
+      - '.github/workflows/python-prototype.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'sources/announcements/**'
+      - 'reference-docs/announcements/**'
+      - '.github/workflows/python-prototype.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test review-candidate extraction
+        run: python3 -m unittest discover -s tests -v
+      - name: Exercise the saved reference corpus
+        run: python3 scripts/extract_review_candidates.py --source-root . --output-dir "${{ runner.temp }}/ru-review-candidates"
+      - name: Inventory source dates without network access
+        run: python3 scripts/check_source_updates.py --source-root . --offline --output-dir "${{ runner.temp }}/ru-source-check"
+      - name: Preserve manual data in a complete review bundle
+        run: python3 scripts/prepare_import_review.py --source-root . --candidates-dir "${{ runner.temp }}/ru-review-candidates" --state-file "${{ runner.temp }}/ru-source-check/check-manifest.json" --output-dir "${{ runner.temp }}/ru-import-review"
